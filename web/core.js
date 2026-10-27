@@ -41,7 +41,7 @@ export function parseSequence(text) {
   const invalid = [...new Set(sequence.replace(/[ACDEFGHIKLMNPQRSTVWYX]/g, ''))];
   if (invalid.length) throw new Error(`Unsupported sequence character(s): ${invalid.join(', ')}. Use amino-acid letters; remove gaps and stop symbols.`);
   if (sequence.length < 3 || sequence.length > 1022) {
-    throw new Error(`This sequence has ${sequence.length.toLocaleString('en-US')} residues. Vermeer accepts 3–1,022 residues. The sequence will not be truncated.`);
+    throw new Error(`This sequence has ${sequence.length.toLocaleString('en-US')} residues. This web application accepts 3–1,022 residues. The sequence will not be truncated.`);
   }
   return { sequence, name: header || 'unnamed_protein' };
 }

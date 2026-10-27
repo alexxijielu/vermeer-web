@@ -65,7 +65,7 @@ test('UniProt distinguishes a retrieved but overlength protein from a failed loo
   await assert.rejects(lookupUniProt('TITIN_HUMAN', async () => new Response(fasta)), error => {
     assert.match(error.message, /UniProt entry found/);
     assert.match(error.message, /34,350 residues/);
-    assert.match(error.message, /3–1,022 residues/);
+    assert.match(error.message, /This web application accepts 3–1,022 residues/);
     assert.match(error.message, /will not be truncated/);
     return true;
   });
