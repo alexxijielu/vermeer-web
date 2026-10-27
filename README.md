@@ -75,7 +75,7 @@ After setup, enter a sequence, choose a reference field, then choose **Predict p
 
 ### Local reference images
 
-The reference collection covers all 41 cell lines / cell types in the pinned HPA metadata, with ten distinct fields each (410 total). Every model download includes all 2,051 reference PNG/JSON assets, totaling 91,174,738 bytes (91.2 MB). Reference images and VQ-token JSONs live in the `references` subfolder; the small `references.json` catalog sits beside the model files at the selected folder's root. No raw TIFFs are saved.
+The reference collection covers all 41 cell lines / cell types in the pinned HPA metadata, with ten distinct fields each (410 total). The app offers 39 selectable lines: Sperm and hTERT-RPE1 (serum starved) are excluded, while regular hTERT-RPE1 remains available. The underlying reference pack is unchanged for compatibility with existing local folders; this selector change does not require a re-download. Every model download includes all 2,051 reference PNG/JSON assets, totaling 91,174,738 bytes (91.2 MB). Reference images and VQ-token JSONs live in the `references` subfolder; the small `references.json` catalog sits beside the model files at the selected folder's root. No raw TIFFs are saved.
 
 Choosing the existing local data folder also loads its reference catalog and preview. The app reads and verifies only the selected field's JSON and four PNGs directly from disk, without network fallback or Cache Storage copies. No reference images are fetched before selecting a folder.
 

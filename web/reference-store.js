@@ -3,6 +3,10 @@ import { ModelStore, FolderModelStore, downloadFolderFiles } from './model-store
 const options = { basePath: './assets/', label: 'reference' };
 const imageNames = ['reference.png', 'landmark-nucleus.png', 'landmark-microtubules.png', 'landmark-er.png'];
 
+export function selectableCellLines(catalog) {
+  return Object.keys(catalog.cellLines).filter(name => name !== 'Sperm' && name !== 'hTERT-RPE1 (serum starved)');
+}
+
 export function referenceFiles(manifest) {
   if (manifest.version !== 1 || !Array.isArray(manifest.browserFiles) || !manifest.browserFiles.includes('references.json')) {
     throw new Error('Invalid reference manifest. Prepare the reference collection again.');

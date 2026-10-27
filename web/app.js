@@ -1,5 +1,5 @@
 import { EXAMPLE_SEQUENCE, parseSequence, normalizePixels, lookupUniProt } from './core.js';
-import { ReferenceStore } from './reference-store.js';
+import { ReferenceStore, selectableCellLines } from './reference-store.js';
 import { downloadLocalBundle } from './local-bundle.js';
 
 const $ = id => document.getElementById(id);
@@ -129,11 +129,13 @@ async function initializeReferences() {
     const store = new ReferenceStore(manifest, modelDirectory);
     const catalog = await store.catalog(signal);
     if (version !== referenceVersion) return;
+    const cellLines = selectableCellLines(catalog);
+    if (!cellLines.length) throw new Error('The local reference catalog has no supported cell lines.');
     referenceStore = store;
     referenceCatalog = catalog;
-    $('cell-line').replaceChildren(...Object.keys(referenceCatalog.cellLines).map(name => new Option(name, name)));
-    if (referenceCatalog.cellLines[previousLine]) $('cell-line').value = previousLine;
-    else if (referenceCatalog.cellLines.Rh30) $('cell-line').value = 'Rh30';
+    $('cell-line').replaceChildren(...cellLines.map(name => new Option(name, name)));
+    if (cellLines.includes(previousLine)) $('cell-line').value = previousLine;
+    else if (cellLines.includes('Rh30')) $('cell-line').value = 'Rh30';
     populateFields();
     if (referenceCatalog.cellLines[$('cell-line').value].some(entry => String(entry.index) === previousField)) {
       $('reference-field').value = previousField;

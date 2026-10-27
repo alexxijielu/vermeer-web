@@ -1,8 +1,21 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { ReferenceStore, downloadReferenceFolder, referenceFiles } from '../web/reference-store.js';
+import { readFile } from 'node:fs/promises';
+import { ReferenceStore, downloadReferenceFolder, referenceFiles, selectableCellLines } from '../web/reference-store.js';
 import { MemoryDirectory } from './memory-directory.mjs';
 import { downloadLocalBundle } from '../web/local-bundle.js';
+
+test('the selector excludes only Sperm and serum-starved RPE1 without changing the compatible reference pack', async () => {
+  const catalog = JSON.parse(await readFile(new URL('../web/assets/references.json', import.meta.url), 'utf8'));
+  const original = Object.keys(catalog.cellLines);
+  const selected = selectableCellLines(catalog);
+  assert.equal(selected.length, 39);
+  assert.ok(selected.includes('hTERT-RPE1'));
+  assert.deepEqual(original.filter(name => !selected.includes(name)), ['hTERT-RPE1 (serum starved)', 'Sperm']);
+  assert.deepEqual(Object.keys(catalog.cellLines), original);
+  assert.deepEqual(selectableCellLines({ cellLines: { Rh30: [], 'hTERT-RPE1': [] } }), ['Rh30', 'hTERT-RPE1']);
+  assert.deepEqual(selectableCellLines({ cellLines: { Sperm: [], 'hTERT-RPE1 (serum starved)': [] } }), []);
+});
 
 async function fixture() {
   const catalog = { version: 2, fieldsPerCellLine: 10, cellLines: {} };
