@@ -1,5 +1,5 @@
 import * as ort from './runtime/ort.webgpu.min.mjs';
-import { randomGenerator, sampleToken, variantFiles } from './core.js';
+import { randomGenerator, sampleProteinToken, variantFiles } from './core.js';
 import { FolderModelStore } from './model-store.js';
 
 ort.env.wasm.wasmPaths = new URL('./runtime/', import.meta.url).href;
@@ -185,7 +185,7 @@ export class VermeerInference {
         past = past.map((_, index) => output[`present_${index}`]);
         let token;
         try {
-          token = sampleToken(output.logits.data, temperature, random);
+          token = sampleProteinToken(output.logits.data, step, temperature, random);
         } finally {
           output.logits.dispose();
         }
@@ -203,11 +203,11 @@ export class VermeerInference {
     this.checkCancellation();
     const imageCodes = generated.slice(1, 257);
     if (imageCodes.length !== 256 || imageCodes.some(token => token < 0 || token >= 16384)) {
-      throw new Error('The model sampled a channel-boundary token inside the image. No image was fabricated; try a different seed or lower temperature.');
+      throw new Error('The generated protein channel contains invalid image tokens. Prediction stopped.');
     }
     const expected = [16387, 16391, 16392];
     if (generated[0] !== expected[0] || generated[257] !== expected[1] || generated[258] !== expected[2]) {
-      throw new Error('The generated channel has invalid start/end tokens. Try a different seed or lower temperature.');
+      throw new Error('The generated protein channel has invalid boundary tokens. Prediction stopped.');
     }
     this.update('Decoding the predicted protein image…');
     const decoder = await this.loadModel('decoder.onnx');

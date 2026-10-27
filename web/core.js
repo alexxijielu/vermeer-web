@@ -72,6 +72,16 @@ export function sampleToken(logits, temperature, random, topK = 2000) {
   return choices.at(-1).index;
 }
 
+export function sampleProteinToken(logits, step, temperature, random, topK = 2000) {
+  if (!Number.isInteger(step) || step < 0 || step > 258) throw new Error('Invalid protein-channel token position.');
+  if (logits.length !== 16393) throw new Error('Model returned an unexpected token vocabulary; prediction stopped.');
+  if (logits.some(value => !Number.isFinite(value))) throw new Error('Model returned non-finite logits; prediction stopped.');
+  const start = step === 0 ? 16387 : step === 257 ? 16391 : step === 258 ? 16392 : 0;
+  const end = step === 0 || step >= 257 ? start + 1 : 16384;
+  // Restrict the vocabulary before top-k; singleton boundaries still consume one seeded draw.
+  return start + sampleToken(logits.slice(start, end), temperature, random, topK);
+}
+
 export function normalizePixels(values) {
   if (values.length !== 256 * 256) throw new Error('Expected a 256 × 256 protein channel.');
   let min = Infinity;
