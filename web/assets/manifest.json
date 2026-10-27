@@ -1,0 +1,2860 @@
+{
+  "version": 2,
+  "variants": {
+    "B": {
+      "name": "Vermeer-B",
+      "graph": "vermeer-b.onnx",
+      "externalData": [
+        "vermeer-b-weights/000.bin",
+        "vermeer-b-weights/001.bin",
+        "vermeer-b-weights/002.bin",
+        "vermeer-b-weights/003.bin",
+        "vermeer-b-weights/004.bin",
+        "vermeer-b-weights/005.bin",
+        "vermeer-b-weights/006.bin",
+        "vermeer-b-weights/007.bin",
+        "vermeer-b-weights/008.bin",
+        "vermeer-b-weights/009.bin",
+        "vermeer-b-weights/010.bin",
+        "vermeer-b-weights/011.bin",
+        "vermeer-b-weights/012.bin",
+        "vermeer-b-weights/013.bin",
+        "vermeer-b-weights/014.bin",
+        "vermeer-b-weights/015.bin",
+        "vermeer-b-weights/016.bin",
+        "vermeer-b-weights/017.bin",
+        "vermeer-b-weights/018.bin",
+        "vermeer-b-weights/019.bin",
+        "vermeer-b-weights/020.bin",
+        "vermeer-b-weights/021.bin",
+        "vermeer-b-weights/022.bin",
+        "vermeer-b-weights/023.bin",
+        "vermeer-b-weights/024.bin",
+        "vermeer-b-weights/025.bin",
+        "vermeer-b-weights/026.bin",
+        "vermeer-b-weights/027.bin",
+        "vermeer-b-weights/028.bin",
+        "vermeer-b-weights/029.bin",
+        "vermeer-b-weights/030.bin",
+        "vermeer-b-weights/031.bin",
+        "vermeer-b-weights/032.bin",
+        "vermeer-b-weights/033.bin",
+        "vermeer-b-weights/034.bin",
+        "vermeer-b-weights/035.bin",
+        "vermeer-b-weights/036.bin",
+        "vermeer-b-weights/037.bin",
+        "vermeer-b-weights/038.bin",
+        "vermeer-b-weights/039.bin",
+        "vermeer-b-weights/040.bin",
+        "vermeer-b-weights/041.bin",
+        "vermeer-b-weights/042.bin",
+        "vermeer-b-weights/043.bin",
+        "vermeer-b-weights/044.bin",
+        "vermeer-b-weights/045.bin",
+        "vermeer-b-weights/046.bin",
+        "vermeer-b-weights/047.bin",
+        "vermeer-b-weights/048.bin",
+        "vermeer-b-weights/049.bin",
+        "vermeer-b-weights/050.bin",
+        "vermeer-b-weights/051.bin",
+        "vermeer-b-weights/052.bin",
+        "vermeer-b-weights/053.bin",
+        "vermeer-b-weights/054.bin",
+        "vermeer-b-weights/055.bin",
+        "vermeer-b-weights/056.bin",
+        "vermeer-b-weights/057.bin",
+        "vermeer-b-weights/058.bin",
+        "vermeer-b-weights/059.bin",
+        "vermeer-b-weights/060.bin",
+        "vermeer-b-weights/061.bin",
+        "vermeer-b-weights/062.bin",
+        "vermeer-b-weights/063.bin",
+        "vermeer-b-weights/064.bin",
+        "vermeer-b-weights/065.bin",
+        "vermeer-b-weights/066.bin",
+        "vermeer-b-weights/067.bin",
+        "vermeer-b-weights/068.bin",
+        "vermeer-b-weights/069.bin",
+        "vermeer-b-weights/070.bin",
+        "vermeer-b-weights/071.bin",
+        "vermeer-b-weights/072.bin",
+        "vermeer-b-weights/073.bin",
+        "vermeer-b-weights/074.bin",
+        "vermeer-b-weights/075.bin",
+        "vermeer-b-weights/076.bin",
+        "vermeer-b-weights/077.bin",
+        "vermeer-b-weights/078.bin",
+        "vermeer-b-weights/079.bin",
+        "vermeer-b-weights/080.bin",
+        "vermeer-b-weights/081.bin",
+        "vermeer-b-weights/082.bin",
+        "vermeer-b-weights/083.bin",
+        "vermeer-b-weights/084.bin",
+        "vermeer-b-weights/085.bin",
+        "vermeer-b-weights/086.bin",
+        "vermeer-b-weights/087.bin",
+        "vermeer-b-weights/088.bin",
+        "vermeer-b-weights/089.bin"
+      ],
+      "layers": 12,
+      "heads": 12,
+      "headDim": 64,
+      "paramsMillion": 112
+    },
+    "L": {
+      "name": "Vermeer-L",
+      "graph": "vermeer-l.onnx",
+      "externalData": [
+        "vermeer-l-weights/000.bin",
+        "vermeer-l-weights/001.bin",
+        "vermeer-l-weights/002.bin",
+        "vermeer-l-weights/003.bin",
+        "vermeer-l-weights/004.bin",
+        "vermeer-l-weights/005.bin",
+        "vermeer-l-weights/006.bin",
+        "vermeer-l-weights/007.bin",
+        "vermeer-l-weights/008.bin",
+        "vermeer-l-weights/009.bin",
+        "vermeer-l-weights/010.bin",
+        "vermeer-l-weights/011.bin",
+        "vermeer-l-weights/012.bin",
+        "vermeer-l-weights/013.bin",
+        "vermeer-l-weights/014.bin",
+        "vermeer-l-weights/015.bin",
+        "vermeer-l-weights/016.bin",
+        "vermeer-l-weights/017.bin",
+        "vermeer-l-weights/018.bin",
+        "vermeer-l-weights/019.bin",
+        "vermeer-l-weights/020.bin",
+        "vermeer-l-weights/021.bin",
+        "vermeer-l-weights/022.bin",
+        "vermeer-l-weights/023.bin",
+        "vermeer-l-weights/024.bin",
+        "vermeer-l-weights/025.bin",
+        "vermeer-l-weights/026.bin",
+        "vermeer-l-weights/027.bin",
+        "vermeer-l-weights/028.bin",
+        "vermeer-l-weights/029.bin",
+        "vermeer-l-weights/030.bin",
+        "vermeer-l-weights/031.bin",
+        "vermeer-l-weights/032.bin",
+        "vermeer-l-weights/033.bin",
+        "vermeer-l-weights/034.bin",
+        "vermeer-l-weights/035.bin",
+        "vermeer-l-weights/036.bin",
+        "vermeer-l-weights/037.bin",
+        "vermeer-l-weights/038.bin",
+        "vermeer-l-weights/039.bin",
+        "vermeer-l-weights/040.bin",
+        "vermeer-l-weights/041.bin",
+        "vermeer-l-weights/042.bin",
+        "vermeer-l-weights/043.bin",
+        "vermeer-l-weights/044.bin",
+        "vermeer-l-weights/045.bin",
+        "vermeer-l-weights/046.bin",
+        "vermeer-l-weights/047.bin",
+        "vermeer-l-weights/048.bin",
+        "vermeer-l-weights/049.bin",
+        "vermeer-l-weights/050.bin",
+        "vermeer-l-weights/051.bin",
+        "vermeer-l-weights/052.bin",
+        "vermeer-l-weights/053.bin",
+        "vermeer-l-weights/054.bin",
+        "vermeer-l-weights/055.bin",
+        "vermeer-l-weights/056.bin",
+        "vermeer-l-weights/057.bin",
+        "vermeer-l-weights/058.bin",
+        "vermeer-l-weights/059.bin",
+        "vermeer-l-weights/060.bin",
+        "vermeer-l-weights/061.bin",
+        "vermeer-l-weights/062.bin",
+        "vermeer-l-weights/063.bin",
+        "vermeer-l-weights/064.bin",
+        "vermeer-l-weights/065.bin",
+        "vermeer-l-weights/066.bin",
+        "vermeer-l-weights/067.bin",
+        "vermeer-l-weights/068.bin",
+        "vermeer-l-weights/069.bin",
+        "vermeer-l-weights/070.bin",
+        "vermeer-l-weights/071.bin",
+        "vermeer-l-weights/072.bin",
+        "vermeer-l-weights/073.bin",
+        "vermeer-l-weights/074.bin",
+        "vermeer-l-weights/075.bin",
+        "vermeer-l-weights/076.bin",
+        "vermeer-l-weights/077.bin",
+        "vermeer-l-weights/078.bin",
+        "vermeer-l-weights/079.bin",
+        "vermeer-l-weights/080.bin",
+        "vermeer-l-weights/081.bin",
+        "vermeer-l-weights/082.bin",
+        "vermeer-l-weights/083.bin",
+        "vermeer-l-weights/084.bin",
+        "vermeer-l-weights/085.bin",
+        "vermeer-l-weights/086.bin",
+        "vermeer-l-weights/087.bin",
+        "vermeer-l-weights/088.bin",
+        "vermeer-l-weights/089.bin",
+        "vermeer-l-weights/090.bin",
+        "vermeer-l-weights/091.bin",
+        "vermeer-l-weights/092.bin",
+        "vermeer-l-weights/093.bin",
+        "vermeer-l-weights/094.bin",
+        "vermeer-l-weights/095.bin",
+        "vermeer-l-weights/096.bin",
+        "vermeer-l-weights/097.bin",
+        "vermeer-l-weights/098.bin",
+        "vermeer-l-weights/099.bin",
+        "vermeer-l-weights/100.bin",
+        "vermeer-l-weights/101.bin",
+        "vermeer-l-weights/102.bin",
+        "vermeer-l-weights/103.bin",
+        "vermeer-l-weights/104.bin",
+        "vermeer-l-weights/105.bin",
+        "vermeer-l-weights/106.bin",
+        "vermeer-l-weights/107.bin",
+        "vermeer-l-weights/108.bin",
+        "vermeer-l-weights/109.bin",
+        "vermeer-l-weights/110.bin",
+        "vermeer-l-weights/111.bin",
+        "vermeer-l-weights/112.bin",
+        "vermeer-l-weights/113.bin",
+        "vermeer-l-weights/114.bin",
+        "vermeer-l-weights/115.bin",
+        "vermeer-l-weights/116.bin",
+        "vermeer-l-weights/117.bin",
+        "vermeer-l-weights/118.bin",
+        "vermeer-l-weights/119.bin",
+        "vermeer-l-weights/120.bin",
+        "vermeer-l-weights/121.bin",
+        "vermeer-l-weights/122.bin",
+        "vermeer-l-weights/123.bin",
+        "vermeer-l-weights/124.bin",
+        "vermeer-l-weights/125.bin",
+        "vermeer-l-weights/126.bin",
+        "vermeer-l-weights/127.bin",
+        "vermeer-l-weights/128.bin",
+        "vermeer-l-weights/129.bin",
+        "vermeer-l-weights/130.bin",
+        "vermeer-l-weights/131.bin",
+        "vermeer-l-weights/132.bin",
+        "vermeer-l-weights/133.bin",
+        "vermeer-l-weights/134.bin",
+        "vermeer-l-weights/135.bin",
+        "vermeer-l-weights/136.bin",
+        "vermeer-l-weights/137.bin",
+        "vermeer-l-weights/138.bin",
+        "vermeer-l-weights/139.bin",
+        "vermeer-l-weights/140.bin",
+        "vermeer-l-weights/141.bin",
+        "vermeer-l-weights/142.bin",
+        "vermeer-l-weights/143.bin",
+        "vermeer-l-weights/144.bin",
+        "vermeer-l-weights/145.bin",
+        "vermeer-l-weights/146.bin",
+        "vermeer-l-weights/147.bin",
+        "vermeer-l-weights/148.bin",
+        "vermeer-l-weights/149.bin",
+        "vermeer-l-weights/150.bin",
+        "vermeer-l-weights/151.bin",
+        "vermeer-l-weights/152.bin",
+        "vermeer-l-weights/153.bin",
+        "vermeer-l-weights/154.bin",
+        "vermeer-l-weights/155.bin",
+        "vermeer-l-weights/156.bin",
+        "vermeer-l-weights/157.bin",
+        "vermeer-l-weights/158.bin",
+        "vermeer-l-weights/159.bin",
+        "vermeer-l-weights/160.bin",
+        "vermeer-l-weights/161.bin",
+        "vermeer-l-weights/162.bin",
+        "vermeer-l-weights/163.bin",
+        "vermeer-l-weights/164.bin",
+        "vermeer-l-weights/165.bin",
+        "vermeer-l-weights/166.bin",
+        "vermeer-l-weights/167.bin",
+        "vermeer-l-weights/168.bin",
+        "vermeer-l-weights/169.bin",
+        "vermeer-l-weights/170.bin",
+        "vermeer-l-weights/171.bin",
+        "vermeer-l-weights/172.bin",
+        "vermeer-l-weights/173.bin"
+      ],
+      "layers": 24,
+      "heads": 16,
+      "headDim": 64,
+      "paramsMillion": 344
+    },
+    "XL": {
+      "name": "Vermeer-XL",
+      "graph": "vermeer-xl.onnx",
+      "externalData": [
+        "vermeer-xl-weights/000.bin",
+        "vermeer-xl-weights/001.bin",
+        "vermeer-xl-weights/002.bin",
+        "vermeer-xl-weights/003.bin",
+        "vermeer-xl-weights/004.bin",
+        "vermeer-xl-weights/005.bin",
+        "vermeer-xl-weights/006.bin",
+        "vermeer-xl-weights/007.bin",
+        "vermeer-xl-weights/008.bin",
+        "vermeer-xl-weights/009.bin",
+        "vermeer-xl-weights/010.bin",
+        "vermeer-xl-weights/011.bin",
+        "vermeer-xl-weights/012.bin",
+        "vermeer-xl-weights/013.bin",
+        "vermeer-xl-weights/014.bin",
+        "vermeer-xl-weights/015.bin",
+        "vermeer-xl-weights/016.bin",
+        "vermeer-xl-weights/017.bin",
+        "vermeer-xl-weights/018.bin",
+        "vermeer-xl-weights/019.bin",
+        "vermeer-xl-weights/020.bin",
+        "vermeer-xl-weights/021.bin",
+        "vermeer-xl-weights/022.bin",
+        "vermeer-xl-weights/023.bin",
+        "vermeer-xl-weights/024.bin",
+        "vermeer-xl-weights/025.bin",
+        "vermeer-xl-weights/026.bin",
+        "vermeer-xl-weights/027.bin",
+        "vermeer-xl-weights/028.bin",
+        "vermeer-xl-weights/029.bin",
+        "vermeer-xl-weights/030.bin",
+        "vermeer-xl-weights/031.bin",
+        "vermeer-xl-weights/032.bin",
+        "vermeer-xl-weights/033.bin",
+        "vermeer-xl-weights/034.bin",
+        "vermeer-xl-weights/035.bin",
+        "vermeer-xl-weights/036.bin",
+        "vermeer-xl-weights/037.bin",
+        "vermeer-xl-weights/038.bin",
+        "vermeer-xl-weights/039.bin",
+        "vermeer-xl-weights/040.bin",
+        "vermeer-xl-weights/041.bin",
+        "vermeer-xl-weights/042.bin",
+        "vermeer-xl-weights/043.bin",
+        "vermeer-xl-weights/044.bin",
+        "vermeer-xl-weights/045.bin",
+        "vermeer-xl-weights/046.bin",
+        "vermeer-xl-weights/047.bin",
+        "vermeer-xl-weights/048.bin",
+        "vermeer-xl-weights/049.bin",
+        "vermeer-xl-weights/050.bin",
+        "vermeer-xl-weights/051.bin",
+        "vermeer-xl-weights/052.bin",
+        "vermeer-xl-weights/053.bin",
+        "vermeer-xl-weights/054.bin",
+        "vermeer-xl-weights/055.bin",
+        "vermeer-xl-weights/056.bin",
+        "vermeer-xl-weights/057.bin",
+        "vermeer-xl-weights/058.bin",
+        "vermeer-xl-weights/059.bin",
+        "vermeer-xl-weights/060.bin",
+        "vermeer-xl-weights/061.bin",
+        "vermeer-xl-weights/062.bin",
+        "vermeer-xl-weights/063.bin",
+        "vermeer-xl-weights/064.bin",
+        "vermeer-xl-weights/065.bin",
+        "vermeer-xl-weights/066.bin",
+        "vermeer-xl-weights/067.bin",
+        "vermeer-xl-weights/068.bin",
+        "vermeer-xl-weights/069.bin",
+        "vermeer-xl-weights/070.bin",
+        "vermeer-xl-weights/071.bin",
+        "vermeer-xl-weights/072.bin",
+        "vermeer-xl-weights/073.bin",
+        "vermeer-xl-weights/074.bin",
+        "vermeer-xl-weights/075.bin",
+        "vermeer-xl-weights/076.bin",
+        "vermeer-xl-weights/077.bin",
+        "vermeer-xl-weights/078.bin",
+        "vermeer-xl-weights/079.bin",
+        "vermeer-xl-weights/080.bin",
+        "vermeer-xl-weights/081.bin",
+        "vermeer-xl-weights/082.bin",
+        "vermeer-xl-weights/083.bin",
+        "vermeer-xl-weights/084.bin",
+        "vermeer-xl-weights/085.bin",
+        "vermeer-xl-weights/086.bin",
+        "vermeer-xl-weights/087.bin",
+        "vermeer-xl-weights/088.bin",
+        "vermeer-xl-weights/089.bin",
+        "vermeer-xl-weights/090.bin",
+        "vermeer-xl-weights/091.bin",
+        "vermeer-xl-weights/092.bin",
+        "vermeer-xl-weights/093.bin",
+        "vermeer-xl-weights/094.bin",
+        "vermeer-xl-weights/095.bin",
+        "vermeer-xl-weights/096.bin",
+        "vermeer-xl-weights/097.bin",
+        "vermeer-xl-weights/098.bin",
+        "vermeer-xl-weights/099.bin",
+        "vermeer-xl-weights/100.bin",
+        "vermeer-xl-weights/101.bin",
+        "vermeer-xl-weights/102.bin",
+        "vermeer-xl-weights/103.bin",
+        "vermeer-xl-weights/104.bin",
+        "vermeer-xl-weights/105.bin",
+        "vermeer-xl-weights/106.bin",
+        "vermeer-xl-weights/107.bin",
+        "vermeer-xl-weights/108.bin",
+        "vermeer-xl-weights/109.bin",
+        "vermeer-xl-weights/110.bin",
+        "vermeer-xl-weights/111.bin",
+        "vermeer-xl-weights/112.bin",
+        "vermeer-xl-weights/113.bin",
+        "vermeer-xl-weights/114.bin",
+        "vermeer-xl-weights/115.bin",
+        "vermeer-xl-weights/116.bin",
+        "vermeer-xl-weights/117.bin",
+        "vermeer-xl-weights/118.bin",
+        "vermeer-xl-weights/119.bin",
+        "vermeer-xl-weights/120.bin",
+        "vermeer-xl-weights/121.bin",
+        "vermeer-xl-weights/122.bin",
+        "vermeer-xl-weights/123.bin",
+        "vermeer-xl-weights/124.bin",
+        "vermeer-xl-weights/125.bin",
+        "vermeer-xl-weights/126.bin",
+        "vermeer-xl-weights/127.bin",
+        "vermeer-xl-weights/128.bin",
+        "vermeer-xl-weights/129.bin",
+        "vermeer-xl-weights/130.bin",
+        "vermeer-xl-weights/131.bin",
+        "vermeer-xl-weights/132.bin",
+        "vermeer-xl-weights/133.bin",
+        "vermeer-xl-weights/134.bin",
+        "vermeer-xl-weights/135.bin",
+        "vermeer-xl-weights/136.bin",
+        "vermeer-xl-weights/137.bin",
+        "vermeer-xl-weights/138.bin",
+        "vermeer-xl-weights/139.bin",
+        "vermeer-xl-weights/140.bin",
+        "vermeer-xl-weights/141.bin",
+        "vermeer-xl-weights/142.bin",
+        "vermeer-xl-weights/143.bin",
+        "vermeer-xl-weights/144.bin",
+        "vermeer-xl-weights/145.bin",
+        "vermeer-xl-weights/146.bin",
+        "vermeer-xl-weights/147.bin",
+        "vermeer-xl-weights/148.bin",
+        "vermeer-xl-weights/149.bin",
+        "vermeer-xl-weights/150.bin",
+        "vermeer-xl-weights/151.bin",
+        "vermeer-xl-weights/152.bin",
+        "vermeer-xl-weights/153.bin",
+        "vermeer-xl-weights/154.bin",
+        "vermeer-xl-weights/155.bin",
+        "vermeer-xl-weights/156.bin",
+        "vermeer-xl-weights/157.bin",
+        "vermeer-xl-weights/158.bin",
+        "vermeer-xl-weights/159.bin",
+        "vermeer-xl-weights/160.bin",
+        "vermeer-xl-weights/161.bin",
+        "vermeer-xl-weights/162.bin",
+        "vermeer-xl-weights/163.bin",
+        "vermeer-xl-weights/164.bin",
+        "vermeer-xl-weights/165.bin",
+        "vermeer-xl-weights/166.bin",
+        "vermeer-xl-weights/167.bin",
+        "vermeer-xl-weights/168.bin",
+        "vermeer-xl-weights/169.bin",
+        "vermeer-xl-weights/170.bin",
+        "vermeer-xl-weights/171.bin",
+        "vermeer-xl-weights/172.bin",
+        "vermeer-xl-weights/173.bin",
+        "vermeer-xl-weights/174.bin",
+        "vermeer-xl-weights/175.bin",
+        "vermeer-xl-weights/176.bin",
+        "vermeer-xl-weights/177.bin",
+        "vermeer-xl-weights/178.bin",
+        "vermeer-xl-weights/179.bin",
+        "vermeer-xl-weights/180.bin",
+        "vermeer-xl-weights/181.bin",
+        "vermeer-xl-weights/182.bin",
+        "vermeer-xl-weights/183.bin",
+        "vermeer-xl-weights/184.bin",
+        "vermeer-xl-weights/185.bin",
+        "vermeer-xl-weights/186.bin",
+        "vermeer-xl-weights/187.bin",
+        "vermeer-xl-weights/188.bin",
+        "vermeer-xl-weights/189.bin",
+        "vermeer-xl-weights/190.bin",
+        "vermeer-xl-weights/191.bin",
+        "vermeer-xl-weights/192.bin",
+        "vermeer-xl-weights/193.bin",
+        "vermeer-xl-weights/194.bin",
+        "vermeer-xl-weights/195.bin",
+        "vermeer-xl-weights/196.bin",
+        "vermeer-xl-weights/197.bin",
+        "vermeer-xl-weights/198.bin",
+        "vermeer-xl-weights/199.bin",
+        "vermeer-xl-weights/200.bin",
+        "vermeer-xl-weights/201.bin",
+        "vermeer-xl-weights/202.bin",
+        "vermeer-xl-weights/203.bin",
+        "vermeer-xl-weights/204.bin",
+        "vermeer-xl-weights/205.bin",
+        "vermeer-xl-weights/206.bin",
+        "vermeer-xl-weights/207.bin",
+        "vermeer-xl-weights/208.bin",
+        "vermeer-xl-weights/209.bin",
+        "vermeer-xl-weights/210.bin",
+        "vermeer-xl-weights/211.bin",
+        "vermeer-xl-weights/212.bin",
+        "vermeer-xl-weights/213.bin",
+        "vermeer-xl-weights/214.bin",
+        "vermeer-xl-weights/215.bin",
+        "vermeer-xl-weights/216.bin",
+        "vermeer-xl-weights/217.bin",
+        "vermeer-xl-weights/218.bin",
+        "vermeer-xl-weights/219.bin",
+        "vermeer-xl-weights/220.bin",
+        "vermeer-xl-weights/221.bin",
+        "vermeer-xl-weights/222.bin",
+        "vermeer-xl-weights/223.bin",
+        "vermeer-xl-weights/224.bin",
+        "vermeer-xl-weights/225.bin",
+        "vermeer-xl-weights/226.bin",
+        "vermeer-xl-weights/227.bin",
+        "vermeer-xl-weights/228.bin",
+        "vermeer-xl-weights/229.bin",
+        "vermeer-xl-weights/230.bin",
+        "vermeer-xl-weights/231.bin",
+        "vermeer-xl-weights/232.bin",
+        "vermeer-xl-weights/233.bin",
+        "vermeer-xl-weights/234.bin",
+        "vermeer-xl-weights/235.bin",
+        "vermeer-xl-weights/236.bin",
+        "vermeer-xl-weights/237.bin",
+        "vermeer-xl-weights/238.bin",
+        "vermeer-xl-weights/239.bin",
+        "vermeer-xl-weights/240.bin",
+        "vermeer-xl-weights/241.bin",
+        "vermeer-xl-weights/242.bin",
+        "vermeer-xl-weights/243.bin",
+        "vermeer-xl-weights/244.bin",
+        "vermeer-xl-weights/245.bin",
+        "vermeer-xl-weights/246.bin",
+        "vermeer-xl-weights/247.bin",
+        "vermeer-xl-weights/248.bin",
+        "vermeer-xl-weights/249.bin",
+        "vermeer-xl-weights/250.bin",
+        "vermeer-xl-weights/251.bin",
+        "vermeer-xl-weights/252.bin",
+        "vermeer-xl-weights/253.bin",
+        "vermeer-xl-weights/254.bin",
+        "vermeer-xl-weights/255.bin",
+        "vermeer-xl-weights/256.bin",
+        "vermeer-xl-weights/257.bin"
+      ],
+      "layers": 36,
+      "heads": 20,
+      "headDim": 64,
+      "paramsMillion": 777
+    }
+  },
+  "precision": "FP32",
+  "commonModels": [
+    "decoder.onnx",
+    "esm-start.onnx",
+    "esm-end.onnx",
+    "esm-layer-00.onnx",
+    "esm-layer-01.onnx",
+    "esm-layer-02.onnx",
+    "esm-layer-03.onnx",
+    "esm-layer-04.onnx",
+    "esm-layer-05.onnx",
+    "esm-layer-06.onnx",
+    "esm-layer-07.onnx",
+    "esm-layer-08.onnx",
+    "esm-layer-09.onnx",
+    "esm-layer-10.onnx",
+    "esm-layer-11.onnx",
+    "esm-layer-12.onnx",
+    "esm-layer-13.onnx",
+    "esm-layer-14.onnx",
+    "esm-layer-15.onnx",
+    "esm-layer-16.onnx",
+    "esm-layer-17.onnx",
+    "esm-layer-18.onnx",
+    "esm-layer-19.onnx",
+    "esm-layer-20.onnx",
+    "esm-layer-21.onnx",
+    "esm-layer-22.onnx",
+    "esm-layer-23.onnx",
+    "esm-layer-24.onnx",
+    "esm-layer-25.onnx",
+    "esm-layer-26.onnx",
+    "esm-layer-27.onnx",
+    "esm-layer-28.onnx",
+    "esm-layer-29.onnx",
+    "esm-layer-30.onnx",
+    "esm-layer-31.onnx",
+    "esm-layer-32.onnx",
+    "esm-layer-33.onnx",
+    "esm-layer-34.onnx",
+    "esm-layer-35.onnx"
+  ],
+  "vermeerRevision": "5c4ac7f1eeb722f1a8fe68c48743dc6a197806bf",
+  "esmRevision": "fcc9d36f5fff97d9bb69a36e3252de61cc78c968",
+  "pooling": "legacy-double-trim",
+  "files": {
+    "decoder.onnx": {
+      "bytes": 170442224,
+      "sha256": "280d5f7c94599197dfb03cf9ad8c7363912df99cb286b4da847132c479eb77e7"
+    },
+    "esm-start.onnx": {
+      "bytes": 295116,
+      "sha256": "58884cf108b9147e724579c3fd6b100528e73f0532cb83edbebfa7f81d90c5c2"
+    },
+    "esm-end.onnx": {
+      "bytes": 10374,
+      "sha256": "e2fc1579556fe4b150aa60b6c4d7bfb03d3c0a4e902cbd27eb209eba17ebb1a6"
+    },
+    "esm-layer-00.onnx": {
+      "bytes": 63757058,
+      "sha256": "e138fc969fb83a81db23b4c99846efbfcb779e78280ee945518ee7b43db9c281"
+    },
+    "esm-layer-01.onnx": {
+      "bytes": 63757058,
+      "sha256": "0efacb1a3ed9ef117091ebab3c186a12dc052c33e108c46250c922238553e509"
+    },
+    "esm-layer-02.onnx": {
+      "bytes": 63757058,
+      "sha256": "cac9acdde1ba62928e93a7d471c6237f29686deea0fd3da99b6f9453c7b296fa"
+    },
+    "esm-layer-03.onnx": {
+      "bytes": 63757058,
+      "sha256": "a0947b26c829ff4f914a63cc798af7ca958ced07bf5bb0062be6018e48a7e786"
+    },
+    "esm-layer-04.onnx": {
+      "bytes": 63757058,
+      "sha256": "4120c2e04f7307096c0f4996b0f3b8e495b7a6498e213927692fd525f9d7a409"
+    },
+    "esm-layer-05.onnx": {
+      "bytes": 63757058,
+      "sha256": "0cccca7780ca4ebada259868e444f9f73168c7fbc904549d5dd4b2fe6bd8e0c8"
+    },
+    "esm-layer-06.onnx": {
+      "bytes": 63757058,
+      "sha256": "8529a001438be0c7e133ba11c123066de06da1045e5c1e1d14048bb2f1fb824c"
+    },
+    "esm-layer-07.onnx": {
+      "bytes": 63757058,
+      "sha256": "79abd29877f7fb977412b2b98154cd8298b36f7b021e12569c6e6828c2adb10f"
+    },
+    "esm-layer-08.onnx": {
+      "bytes": 63757058,
+      "sha256": "eed9c1b92019186a31ef1a5f4b0e32df1b5f404322cca5440419f1fca35dd87b"
+    },
+    "esm-layer-09.onnx": {
+      "bytes": 63757058,
+      "sha256": "748bfef75e7a783d9ce1c9f004269fe74bb0f046a568aa442db311fc7c69d0a2"
+    },
+    "esm-layer-10.onnx": {
+      "bytes": 63757058,
+      "sha256": "432436a96a6f71ce4ccde50d72ff67049454ddcaff72cbcbd62ed4ca3835cc43"
+    },
+    "esm-layer-11.onnx": {
+      "bytes": 63757058,
+      "sha256": "af358f7789db81c4993e5d62ec4d3828ce761ede289d8a5b06b303ccdda2bbc6"
+    },
+    "esm-layer-12.onnx": {
+      "bytes": 63757058,
+      "sha256": "beb28f649c8fab51c04274a499d03f1154fc4769db95f7b2979d1ef1fac9436c"
+    },
+    "esm-layer-13.onnx": {
+      "bytes": 63757058,
+      "sha256": "33193fc208643cebb982b5e068b098da122c320866eeb92bbc55ae3f314f84d1"
+    },
+    "esm-layer-14.onnx": {
+      "bytes": 63757058,
+      "sha256": "b91ce75c552fa87cf617c8a46ee16564085b747fc733a514a83c1ad2bbe8b338"
+    },
+    "esm-layer-15.onnx": {
+      "bytes": 63757058,
+      "sha256": "b3aa7304a0e3625dc5b8c1152a0243e3f7050aa5c878f04ec22dd16f26ab4ea1"
+    },
+    "esm-layer-16.onnx": {
+      "bytes": 63757058,
+      "sha256": "f48ef31b7254d539a3e39f3b651c022229926b86218cb60dce9ffd2edf8a6eeb"
+    },
+    "esm-layer-17.onnx": {
+      "bytes": 63757058,
+      "sha256": "d1f6226704c0a3fb923c1a3f745e98355708c488358083f911e74364d882c58d"
+    },
+    "esm-layer-18.onnx": {
+      "bytes": 63757058,
+      "sha256": "f36677283bd109808350dd181f815f3fc5337c0849c06b8876ffc240dd55fd27"
+    },
+    "esm-layer-19.onnx": {
+      "bytes": 63757058,
+      "sha256": "ce243a4cbe1797ed71194a500e8f6006f41c9549486db9ec2689ff23a05b9f17"
+    },
+    "esm-layer-20.onnx": {
+      "bytes": 63757058,
+      "sha256": "adab30297e15687e3d0b44135247ad80b898d5d33c581f004c8752d101baf60e"
+    },
+    "esm-layer-21.onnx": {
+      "bytes": 63757058,
+      "sha256": "b87a8ac5477be8729c2fe48a9a08b16b583d06b770903119b31c86c8e4587afa"
+    },
+    "esm-layer-22.onnx": {
+      "bytes": 63757058,
+      "sha256": "b82b029d2dbfdec4f72b283487db93cd19f65f7db0fa11a725c94001cca46ca5"
+    },
+    "esm-layer-23.onnx": {
+      "bytes": 63757058,
+      "sha256": "7991de7072224090fd3bce619b07358b08e0b8184880a4a23bdcabb1a5516a9e"
+    },
+    "esm-layer-24.onnx": {
+      "bytes": 63757058,
+      "sha256": "a40f7ec5ec04a238494d8ef9652b1515a28833563a4030f0514bd45b40faeaef"
+    },
+    "esm-layer-25.onnx": {
+      "bytes": 63757058,
+      "sha256": "46c3351e5beae107dbc66c9c53f1e308c4655872c43b28e2323dc7f974b283ab"
+    },
+    "esm-layer-26.onnx": {
+      "bytes": 63757058,
+      "sha256": "6e29c45e6542af764db2f98d26f507bd4c95de0e9b25f79671aa841d2312eaef"
+    },
+    "esm-layer-27.onnx": {
+      "bytes": 63757058,
+      "sha256": "ea4821c314f811cbda952535fa5c8f1a1af1061cfe171cc2e27158343be1323c"
+    },
+    "esm-layer-28.onnx": {
+      "bytes": 63757058,
+      "sha256": "3b99347a4fdcc259a0d948b17ff93cd0baaca5b131f6766c0359df870291a74e"
+    },
+    "esm-layer-29.onnx": {
+      "bytes": 63757058,
+      "sha256": "2c08cd9390e7f4cd698084914566a2137a533739b71b38970c5903bdef1ed7dc"
+    },
+    "esm-layer-30.onnx": {
+      "bytes": 63757058,
+      "sha256": "fbc38e2769d0d493307a52b50ea3ebac92c41cb2f0e11ed54bfcadd343e0802e"
+    },
+    "esm-layer-31.onnx": {
+      "bytes": 63757058,
+      "sha256": "17af25e37b6cef9d586a83caa34a6edd820899cc4df8ea1051b3006a848c9244"
+    },
+    "esm-layer-32.onnx": {
+      "bytes": 63757058,
+      "sha256": "f927c0b06a88f0884b7cc8248f74f2a110b85df2adb7f9a4b494552069511f56"
+    },
+    "esm-layer-33.onnx": {
+      "bytes": 63757058,
+      "sha256": "e121fd03c0ef56b28207c21432573e296dcc57e7e373ce779bed3e0bfcf89bc5"
+    },
+    "esm-layer-34.onnx": {
+      "bytes": 63757058,
+      "sha256": "fa8c3c1b0bf6970cb050e2e4a48a46e0c79d8c32475ab30d43cebc0047c5e606"
+    },
+    "esm-layer-35.onnx": {
+      "bytes": 63757058,
+      "sha256": "01e345878176e228d2dc3546f0a2aba41002e01efa179e5461df86987cb99041"
+    },
+    "vermeer-b.onnx": {
+      "bytes": 294519,
+      "sha256": "c6da1f4f3fe1cfec7b23095c7c2ca95c063ffc8a10a49d5ddbb2198808f9b976"
+    },
+    "vermeer-b-weights/000.bin": {
+      "bytes": 264448,
+      "sha256": "573ac923b9db78d29537a59a4cb27dd90ca667490fd288f409e7223d61674403"
+    },
+    "vermeer-b-weights/001.bin": {
+      "bytes": 3538944,
+      "sha256": "024ab97b1d972a88746b754eb0633eeecd59454cfd58d26c8720c32b1f3dbe15"
+    },
+    "vermeer-b-weights/002.bin": {
+      "bytes": 2359296,
+      "sha256": "abedd8e10a2558302be12fcc748957be55108a4bb45ef2a0c49e073bcbbde191"
+    },
+    "vermeer-b-weights/003.bin": {
+      "bytes": 50359296,
+      "sha256": "7b657c2f4571f7b10f2e8428f98fe45f055eb9951c7bbc3fab49556568e82bc7"
+    },
+    "vermeer-b-weights/004.bin": {
+      "bytes": 7077888,
+      "sha256": "a222b49b49110d4af81e6a74036852287dccdb8809f512cde0eef39687d2eeaa"
+    },
+    "vermeer-b-weights/005.bin": {
+      "bytes": 2359296,
+      "sha256": "7866a2ac40fa2f5f2eb82e972f7f575293328cca3d2dd0f1792667cb5c8e67c7"
+    },
+    "vermeer-b-weights/006.bin": {
+      "bytes": 6291456,
+      "sha256": "291b5044ad958a3635b9af33687074082427c98ee6b200e3926cfc0759315288"
+    },
+    "vermeer-b-weights/007.bin": {
+      "bytes": 6291456,
+      "sha256": "e74d75334015b430dd3b9519dd93919e0bfc80ee4668a2394c6534889d18d05f"
+    },
+    "vermeer-b-weights/008.bin": {
+      "bytes": 6291456,
+      "sha256": "d4b6e2621588c9a1b5d50adc6a3ea7ef95969249d4a57d09f0c7e64e130ff4e3"
+    },
+    "vermeer-b-weights/009.bin": {
+      "bytes": 3072,
+      "sha256": "44597f94b26ce9789a41c64ee1e1589bd39e20022bd4ad126fa3bfe750b5b662"
+    },
+    "vermeer-b-weights/010.bin": {
+      "bytes": 3072,
+      "sha256": "3a79c2fcc3d622628db4042e886293a2a1a7e48ee9fd7d918cceeb7c7608a348"
+    },
+    "vermeer-b-weights/011.bin": {
+      "bytes": 7077888,
+      "sha256": "1439dff6c95b97a812ab002a0896f04ab4d757c9c08420e92c6e482e9037c00c"
+    },
+    "vermeer-b-weights/012.bin": {
+      "bytes": 2359296,
+      "sha256": "100306e27dd058517e5b02b51da00af6e7a6fc4a6032594f84db48079fae2e8d"
+    },
+    "vermeer-b-weights/013.bin": {
+      "bytes": 6291456,
+      "sha256": "db825f4010c7d2a7dd8ad7e86f1c54c1b64be1070d80f9d196cee3708a478fea"
+    },
+    "vermeer-b-weights/014.bin": {
+      "bytes": 6291456,
+      "sha256": "0bea9510b04a42d0e907314f8be0fad4951d1ea0df8d0f73401f2df9fc64a291"
+    },
+    "vermeer-b-weights/015.bin": {
+      "bytes": 6291456,
+      "sha256": "616e9742af68e61fc02f2d31f870716d18d91da3e7c57a9ada49d6119ef6c9b5"
+    },
+    "vermeer-b-weights/016.bin": {
+      "bytes": 3072,
+      "sha256": "2310bc89ee86edd09745eee5133b8d92f5cc989e4f64926b66206f3d0464c668"
+    },
+    "vermeer-b-weights/017.bin": {
+      "bytes": 3072,
+      "sha256": "b981174b8992a2cf8465ca15a4e83b80ed2a5f99545988731743237eb164eb36"
+    },
+    "vermeer-b-weights/018.bin": {
+      "bytes": 7077888,
+      "sha256": "c8f8cf0a97c995e760ec6b46cd47b2851cc7fa68fde4632b9268866ae444499f"
+    },
+    "vermeer-b-weights/019.bin": {
+      "bytes": 2359296,
+      "sha256": "2c64cc53755a15bbb5f66def106073e6d50c17c899a966da2d7a643d44284395"
+    },
+    "vermeer-b-weights/020.bin": {
+      "bytes": 6291456,
+      "sha256": "99cd131a23fb16645a034a75cf2fea8cc5b2aaf6ed1b1869a65386f1e7019f4d"
+    },
+    "vermeer-b-weights/021.bin": {
+      "bytes": 6291456,
+      "sha256": "2129e2bf892cac54e5b6646c2e06390f857ecf9bf9f8608890e721c2acb6d2e9"
+    },
+    "vermeer-b-weights/022.bin": {
+      "bytes": 6291456,
+      "sha256": "ba83ab1a6ee50bef36992ad727f4a49537d9c4b8c4a344ee810061873708983c"
+    },
+    "vermeer-b-weights/023.bin": {
+      "bytes": 3072,
+      "sha256": "d6091b1e531fa3a631118cb2061000c381699e05d6bce8be89b54060b7c11812"
+    },
+    "vermeer-b-weights/024.bin": {
+      "bytes": 3072,
+      "sha256": "35b70da90d2db1c37633af8be7e536d48e744ed216cc39a32b7f659f7982f563"
+    },
+    "vermeer-b-weights/025.bin": {
+      "bytes": 7077888,
+      "sha256": "8f59c909866b6ef0abe19236df2232418d47fc21b68296aae336d9d9fa44b985"
+    },
+    "vermeer-b-weights/026.bin": {
+      "bytes": 2359296,
+      "sha256": "356d52cfc87efe5164c2888b62adf0771ee9f1055f7075dc71af5282cf3ea7f8"
+    },
+    "vermeer-b-weights/027.bin": {
+      "bytes": 6291456,
+      "sha256": "76b5adc93ae974ebe6b87f7c6610cd4a6289b436212b0a611bffdd5cef047f61"
+    },
+    "vermeer-b-weights/028.bin": {
+      "bytes": 6291456,
+      "sha256": "6c8bf721900c1dc26f51a239f96e1daa8d305ba23ceba8dfbe27ec5a24344de6"
+    },
+    "vermeer-b-weights/029.bin": {
+      "bytes": 6291456,
+      "sha256": "25502fe6d59ec3578507febf49bad5b2446c6728f3ebbf6922491bd65892d23e"
+    },
+    "vermeer-b-weights/030.bin": {
+      "bytes": 3072,
+      "sha256": "4b42b37d8b22aefa869427c50acddad36229fb2e6b6b172d3f10cf98f1be0417"
+    },
+    "vermeer-b-weights/031.bin": {
+      "bytes": 3072,
+      "sha256": "25f4e11162ede986adf7beff57f6fd1461d13e91aa730ae6dbe9d6cdd35cf1fb"
+    },
+    "vermeer-b-weights/032.bin": {
+      "bytes": 7077888,
+      "sha256": "8546c6fe47d609181a8107365946039d0a38341531b7976fd0fdf092fb1e7207"
+    },
+    "vermeer-b-weights/033.bin": {
+      "bytes": 2359296,
+      "sha256": "9992c92a429a2c6c61895ea18b9afee8fba5d943f2185d77a94c23b646bac8bf"
+    },
+    "vermeer-b-weights/034.bin": {
+      "bytes": 6291456,
+      "sha256": "bf4ea756d325e4a0e2c6221ab7eb11688250ee3b4a0dc24647737c3a2b8cd4dd"
+    },
+    "vermeer-b-weights/035.bin": {
+      "bytes": 6291456,
+      "sha256": "e0dd83ffd4582b68d9e5b1d632e34ac65191162625f879adfdc50efa0299c66c"
+    },
+    "vermeer-b-weights/036.bin": {
+      "bytes": 6291456,
+      "sha256": "317790c9a7fa2982f66878d03e461062fe1298caa0231f341f7152c667876cd7"
+    },
+    "vermeer-b-weights/037.bin": {
+      "bytes": 3072,
+      "sha256": "997df5b04fe32d7a23c0ac315f6482590df4c6bb3e00ae163daf7831846120e7"
+    },
+    "vermeer-b-weights/038.bin": {
+      "bytes": 3072,
+      "sha256": "ac22369b43eb10ba9ae0a19b0972d05cc3a78027de7e6a605e774d14f98e35b2"
+    },
+    "vermeer-b-weights/039.bin": {
+      "bytes": 7077888,
+      "sha256": "ee7e78f79774e76c0657a9e5eff11e4d0532f0eef521cb7e1f3c3391471600ba"
+    },
+    "vermeer-b-weights/040.bin": {
+      "bytes": 2359296,
+      "sha256": "dbd8fedd50be333d08e21ab3f2bb8cf77725f80a8b32f1b7141253175889234f"
+    },
+    "vermeer-b-weights/041.bin": {
+      "bytes": 6291456,
+      "sha256": "313122182cf94e737e63594e6ba026f9698e4255fd4b64b5b1a35747c3046936"
+    },
+    "vermeer-b-weights/042.bin": {
+      "bytes": 6291456,
+      "sha256": "efc3595289c083bf48fb3d63d786aa4509faa76afaaf17419672d9fb1ab1ed4b"
+    },
+    "vermeer-b-weights/043.bin": {
+      "bytes": 6291456,
+      "sha256": "3f9f43c13324183ae8a16d18259b1ba7caa09db3d10a2fdb9fd296315796c216"
+    },
+    "vermeer-b-weights/044.bin": {
+      "bytes": 3072,
+      "sha256": "2b96e0a3deb9b2d33b907160cd8eb2283bd54a94086128c6ae31ba1f0022ee74"
+    },
+    "vermeer-b-weights/045.bin": {
+      "bytes": 3072,
+      "sha256": "51966f65225d19d9473615f30154cd8efbd17cae9b69256eb9c0d940cf97ef09"
+    },
+    "vermeer-b-weights/046.bin": {
+      "bytes": 7077888,
+      "sha256": "da0660003c9ebc01d9829c02e8d390c11d5c676031b5827f5c133eb27abe18a9"
+    },
+    "vermeer-b-weights/047.bin": {
+      "bytes": 2359296,
+      "sha256": "625e8423b5cfad73eec113defb5e2f8d6f6df7d970c46dd8023e5ab439807fba"
+    },
+    "vermeer-b-weights/048.bin": {
+      "bytes": 6291456,
+      "sha256": "836bb16388df27be23d88cf1bba5ffe6d4b660fef39ded19051cae58859241b2"
+    },
+    "vermeer-b-weights/049.bin": {
+      "bytes": 6291456,
+      "sha256": "641bc602686a559b3d9db26b1d21e02961270ac69d00911c929491e6ff2c6627"
+    },
+    "vermeer-b-weights/050.bin": {
+      "bytes": 6291456,
+      "sha256": "b2b4e45d842d63e0796d7cf728f26bcdbd3058fae3d2f368f6633feba4485d9c"
+    },
+    "vermeer-b-weights/051.bin": {
+      "bytes": 3072,
+      "sha256": "6d9e5a8d793ef6065e228a20d64b7b08882d42434b07eae3cebf8637e000837e"
+    },
+    "vermeer-b-weights/052.bin": {
+      "bytes": 3072,
+      "sha256": "0f4779a13c20fc40c76e0531bbc06ad277f26e762f0284a101bd9f0e8d34fcec"
+    },
+    "vermeer-b-weights/053.bin": {
+      "bytes": 7077888,
+      "sha256": "d989f247f44a599aff47c1155078971f76b2f9db38c29da21eacf20354e1f55c"
+    },
+    "vermeer-b-weights/054.bin": {
+      "bytes": 2359296,
+      "sha256": "6dc848c98fa76a10077a5fc7175e74cbcbd5913ce511b3ac6c294d9dbaf8779b"
+    },
+    "vermeer-b-weights/055.bin": {
+      "bytes": 6291456,
+      "sha256": "db41c2b7fb7c3004bec0196a302d136cf3533081ca40da844d3ce7b9b9f6860d"
+    },
+    "vermeer-b-weights/056.bin": {
+      "bytes": 6291456,
+      "sha256": "ff3a648537234df2cbadb8831306bf03d2e3287d99a7fe1f3756b844fe3de26a"
+    },
+    "vermeer-b-weights/057.bin": {
+      "bytes": 6291456,
+      "sha256": "4e8377ef05c74e9fc40b6cd38a91431ce915cd16709ad2708fed64b40c9fe5f6"
+    },
+    "vermeer-b-weights/058.bin": {
+      "bytes": 3072,
+      "sha256": "889a5a4a9b3280747396dcad53f527f811de38ab0e29c95d7e30399144f57be5"
+    },
+    "vermeer-b-weights/059.bin": {
+      "bytes": 3072,
+      "sha256": "3824f93ef2d0cda4b55c419bb6a1cd080b64da92e3524e26366ce36802e9988c"
+    },
+    "vermeer-b-weights/060.bin": {
+      "bytes": 7077888,
+      "sha256": "400bbdc4312514b6d6f134b1b128a63c5dd1c02fb469e10db875220cf124617c"
+    },
+    "vermeer-b-weights/061.bin": {
+      "bytes": 2359296,
+      "sha256": "64b838dce8b754b6b144aa853d877135a3e6ee3c116ad99baa6fdc854fd8e273"
+    },
+    "vermeer-b-weights/062.bin": {
+      "bytes": 6291456,
+      "sha256": "8a11502f8c8b0120a53d89d82e79f5cc6af6867c00da575abcd1fb02a144ebcc"
+    },
+    "vermeer-b-weights/063.bin": {
+      "bytes": 6291456,
+      "sha256": "48b7aaa37b2b932b6562a8e69ce2454f38c40de74181b6a205f6a0588a0220ec"
+    },
+    "vermeer-b-weights/064.bin": {
+      "bytes": 6291456,
+      "sha256": "01f11ed6e2513b38823dfe848f8482a0ca36c8e20c02e02a35089b0e966a0b23"
+    },
+    "vermeer-b-weights/065.bin": {
+      "bytes": 3072,
+      "sha256": "5aab4b93bdf0dde1cc7fe2f1516fdad1acf2d32ffecaf39fdd42cf4a097441d2"
+    },
+    "vermeer-b-weights/066.bin": {
+      "bytes": 3072,
+      "sha256": "e4d8c52aab42e5ef7973b1455147b12271421d1d887b8622db23bf5751df4851"
+    },
+    "vermeer-b-weights/067.bin": {
+      "bytes": 7077888,
+      "sha256": "14ca94a1b23d3665cc17d58f8c0130999696ce80ab0ef0e30fc65f42846d4a23"
+    },
+    "vermeer-b-weights/068.bin": {
+      "bytes": 2359296,
+      "sha256": "3a9c84339236266bf46c2db0231598f7341a3affb9c01dd1eb84c7cea290750d"
+    },
+    "vermeer-b-weights/069.bin": {
+      "bytes": 6291456,
+      "sha256": "eaddf5a71274753c1c6d73270c882f59f0a9b3287343f2cde24cf94058e94eea"
+    },
+    "vermeer-b-weights/070.bin": {
+      "bytes": 6291456,
+      "sha256": "c16ef26c4858df663aa66bbec69c9964072cb99bea07a335b7522afbd6c7cea0"
+    },
+    "vermeer-b-weights/071.bin": {
+      "bytes": 6291456,
+      "sha256": "cc709ef1582cf4471c2ee8dfcc1a8ab740bffcb37a16a275ff7522d3d73f7711"
+    },
+    "vermeer-b-weights/072.bin": {
+      "bytes": 3072,
+      "sha256": "33d589254b03090eaa226611c7b0b78051286bd3693a100895a7d13a3bf88342"
+    },
+    "vermeer-b-weights/073.bin": {
+      "bytes": 3072,
+      "sha256": "f181286ae4bc21d68f2dde2614166d874d107adf5630b68a8e08baace98d8ba4"
+    },
+    "vermeer-b-weights/074.bin": {
+      "bytes": 7077888,
+      "sha256": "346f0fc05f3600ba7266275c9331143abf1b04404e684616d0f18cfca8dc616e"
+    },
+    "vermeer-b-weights/075.bin": {
+      "bytes": 2359296,
+      "sha256": "aa12dc97d3ab2831f874b46c1669342550ee842a1c928306ecce6aaff1d70b83"
+    },
+    "vermeer-b-weights/076.bin": {
+      "bytes": 6291456,
+      "sha256": "ddc2036f7e5d276a16198ea67408489a124488a2a62d1c5cc7a4746c608729a0"
+    },
+    "vermeer-b-weights/077.bin": {
+      "bytes": 6291456,
+      "sha256": "50aebbf2c147e576c62906f1f655df5ea52a96bb04eabf6bbb751e22f7d11dad"
+    },
+    "vermeer-b-weights/078.bin": {
+      "bytes": 6291456,
+      "sha256": "34f1a09b46ca8747a02d198dbfeedb58bcdb57d5fe3f2b28a27c61840b2f845f"
+    },
+    "vermeer-b-weights/079.bin": {
+      "bytes": 3072,
+      "sha256": "0f5c07551a03f299d5402d99d41e2202b64e575974dda84ba5d76f69cc3046c6"
+    },
+    "vermeer-b-weights/080.bin": {
+      "bytes": 3072,
+      "sha256": "6af46745df4c7646b5b62395b7769e33dcbab4420063ea9b190870d03097ece4"
+    },
+    "vermeer-b-weights/081.bin": {
+      "bytes": 7077888,
+      "sha256": "9a7319d8c107ec45e21ea2f8ba6b26608f5c08362e43bb8f06ba80ad29f63b7b"
+    },
+    "vermeer-b-weights/082.bin": {
+      "bytes": 2359296,
+      "sha256": "e86ca741910f36de0a4005a8ce0ad184ffccbd50d24e584ceda0fc591f90355d"
+    },
+    "vermeer-b-weights/083.bin": {
+      "bytes": 6291456,
+      "sha256": "ea3c2e446d0befb15f74c36adddabaeb4366435129bb07a728bbbce9a9337e7c"
+    },
+    "vermeer-b-weights/084.bin": {
+      "bytes": 6291456,
+      "sha256": "6f3ec1407286f24ee05bf678b888d7a2c4cbb215f8af36f37521eea7fb7fb848"
+    },
+    "vermeer-b-weights/085.bin": {
+      "bytes": 6291456,
+      "sha256": "327cd0557c2daa1360fe5170938533915d29395ee1155ea3944d70b04efe5083"
+    },
+    "vermeer-b-weights/086.bin": {
+      "bytes": 3072,
+      "sha256": "94183bda571cda0bee206b95114f4c253655f8a0173f2e43b6319cb77bffd254"
+    },
+    "vermeer-b-weights/087.bin": {
+      "bytes": 3072,
+      "sha256": "fe5b30b867fe1184926e56bd0fcf6e9ea49a0d6e62282f9a91823bdeed4a047f"
+    },
+    "vermeer-b-weights/088.bin": {
+      "bytes": 3072,
+      "sha256": "36897e8f8b213fa4b9113022496cf2e029e379cd573496bb4b7519acc2fe5f35"
+    },
+    "vermeer-b-weights/089.bin": {
+      "bytes": 50359296,
+      "sha256": "f412ef7bee8a1191a1239cdd276bfd1b203f303c297d596b6a51760a679047cc"
+    },
+    "vermeer-l.onnx": {
+      "bytes": 586707,
+      "sha256": "fb48ab9300c0c4d15bbc8ce3051777db2d8dbce18eb5cc42ff12becb7db80a5c"
+    },
+    "vermeer-l-weights/000.bin": {
+      "bytes": 264448,
+      "sha256": "573ac923b9db78d29537a59a4cb27dd90ca667490fd288f409e7223d61674403"
+    },
+    "vermeer-l-weights/001.bin": {
+      "bytes": 4718592,
+      "sha256": "34d8b3658278366a3d5caab5b6e208425a25f38adfcc8f73daf47a2bd8030471"
+    },
+    "vermeer-l-weights/002.bin": {
+      "bytes": 4194304,
+      "sha256": "3a09bbb570d1fc6b1e72a7d2ed66e0df41e700ba752b5103f04d3753022ae83a"
+    },
+    "vermeer-l-weights/003.bin": {
+      "bytes": 67145728,
+      "sha256": "ceb62b3536c44964ed16b79f98bf4ef7d50fd00b46822e224320699d4e5ad4ce"
+    },
+    "vermeer-l-weights/004.bin": {
+      "bytes": 12582912,
+      "sha256": "3ebe93eb1a2c12ee78456a910a4d95bfe237e4f5e7b09f20964e67f4fc23f934"
+    },
+    "vermeer-l-weights/005.bin": {
+      "bytes": 4194304,
+      "sha256": "dae0e6e7aa2104054fb220a00cf1ae92e07b2aa65a567ade11ef77aebdea06a4"
+    },
+    "vermeer-l-weights/006.bin": {
+      "bytes": 11534336,
+      "sha256": "b69640c1d4c92ac5848cb06bf852e224430dd9140582a999d24da349c1e25401"
+    },
+    "vermeer-l-weights/007.bin": {
+      "bytes": 11534336,
+      "sha256": "4d5da050f3ed76196f878b6aacc583dda878293543acf822df602a6cfbfb8690"
+    },
+    "vermeer-l-weights/008.bin": {
+      "bytes": 11534336,
+      "sha256": "caf51832a5dfc751cc534b9316eada7736b49c4da6ef92b179737d8a2a0867b9"
+    },
+    "vermeer-l-weights/009.bin": {
+      "bytes": 4096,
+      "sha256": "3442fecff8a0c7fe49a46082453134ff12eab651850b0ca2ff40eb8d09858b4c"
+    },
+    "vermeer-l-weights/010.bin": {
+      "bytes": 4096,
+      "sha256": "e9ba9dce30dda70963603074fb1eec44c3522d245e7b0067b7a26348d08f27fd"
+    },
+    "vermeer-l-weights/011.bin": {
+      "bytes": 12582912,
+      "sha256": "1d07ee47d917c30886d7a0e64eb0c72506deee9e827f26b4560d2012940a012f"
+    },
+    "vermeer-l-weights/012.bin": {
+      "bytes": 4194304,
+      "sha256": "73a672df6afa573948f0b3b7f741b3a77e05acac285b2b41b98213ceab81f9eb"
+    },
+    "vermeer-l-weights/013.bin": {
+      "bytes": 11534336,
+      "sha256": "510230819458f0f4a7ddb15192e4dfb0e63449d759862550391f290ecd6665ef"
+    },
+    "vermeer-l-weights/014.bin": {
+      "bytes": 11534336,
+      "sha256": "93693f0bbcbc7f90e065267ab7883bcc0820c2917bb13bc97e1d4555c236f149"
+    },
+    "vermeer-l-weights/015.bin": {
+      "bytes": 11534336,
+      "sha256": "ba1ec3a0aeb9d3dd9176110dd148c76a7cfafdbf70e476c9904b7557aa6dde72"
+    },
+    "vermeer-l-weights/016.bin": {
+      "bytes": 4096,
+      "sha256": "6b98899db8bd789f92a41faa3fc110cbfbcf548f1f0063c90dc77b7ffab2677c"
+    },
+    "vermeer-l-weights/017.bin": {
+      "bytes": 4096,
+      "sha256": "264519565841b8cc380c008e2a8e1f49ca7f0d6fceafd9b895c1c4da02372bc6"
+    },
+    "vermeer-l-weights/018.bin": {
+      "bytes": 12582912,
+      "sha256": "60bc807fe9b83a2b266d7ff3a06903614f47846e0f33baba88d9d3438442318e"
+    },
+    "vermeer-l-weights/019.bin": {
+      "bytes": 4194304,
+      "sha256": "edb6a9e2ce31909eb48185cc2e07755b319643bd8c5572cd25beaf6a8937aa9a"
+    },
+    "vermeer-l-weights/020.bin": {
+      "bytes": 11534336,
+      "sha256": "ce060fd005ce80c60e523d2a6d24f4e97025dd5dd7cf74d6daaad3acb16cacd1"
+    },
+    "vermeer-l-weights/021.bin": {
+      "bytes": 11534336,
+      "sha256": "1b996a17a76bfae4a15345455dfd0f94d57c80951fcf2ff1b89f931237a74728"
+    },
+    "vermeer-l-weights/022.bin": {
+      "bytes": 11534336,
+      "sha256": "2f7237915b48e4882b3ecdf2cc2dbeacd40c24cd184ba74bed0f0483a198f8b1"
+    },
+    "vermeer-l-weights/023.bin": {
+      "bytes": 4096,
+      "sha256": "e59535183d7ea69ebee46a4afbc9309af370a338476f6290c693e1cbf37a6667"
+    },
+    "vermeer-l-weights/024.bin": {
+      "bytes": 4096,
+      "sha256": "09c185f8caa57251e2c62c63edc480c03b89b9b9aeea9e629935c609aea01410"
+    },
+    "vermeer-l-weights/025.bin": {
+      "bytes": 12582912,
+      "sha256": "ebcd054bb32b054d28b4bbc1fce2f0f10b83601621beba179e0f322b6670f574"
+    },
+    "vermeer-l-weights/026.bin": {
+      "bytes": 4194304,
+      "sha256": "c8b7eda143f2c87aed60856a57a20872b4627aaad7cc448151c6b4298b34f8d9"
+    },
+    "vermeer-l-weights/027.bin": {
+      "bytes": 11534336,
+      "sha256": "19c96a77346ba43762d3c0cde47c5b30c70e0cdd0bfaafecf24960b7dd9f6d5a"
+    },
+    "vermeer-l-weights/028.bin": {
+      "bytes": 11534336,
+      "sha256": "e81113c5547b2e468a9d279818952bb1de647b02ff371db2ded540f639ec7b50"
+    },
+    "vermeer-l-weights/029.bin": {
+      "bytes": 11534336,
+      "sha256": "9197023185b20e30c2bfeb08c170bcaf0c5f82b93ba3c5ae02f251d491190643"
+    },
+    "vermeer-l-weights/030.bin": {
+      "bytes": 4096,
+      "sha256": "65bc7b662654f141f2bd22416d41bc9c284d79f1e8108729e8c135e845f3e469"
+    },
+    "vermeer-l-weights/031.bin": {
+      "bytes": 4096,
+      "sha256": "47152e2b3089bc11085b25f537e20a634b88a3c6ddac58ea0a41426e20c068e6"
+    },
+    "vermeer-l-weights/032.bin": {
+      "bytes": 12582912,
+      "sha256": "ee5fd0b6fc9355fbe18070fb7cf243c9be5aee2207b7b47743a734e20091ff79"
+    },
+    "vermeer-l-weights/033.bin": {
+      "bytes": 4194304,
+      "sha256": "b3a6a039227a7e4a17970e7f8025ab6e674fbfedda683ab220b75e5b2c1a8935"
+    },
+    "vermeer-l-weights/034.bin": {
+      "bytes": 11534336,
+      "sha256": "4f81eaed15773d33800268436f5b6c940191d8523cee9a78e0184aa2cce63170"
+    },
+    "vermeer-l-weights/035.bin": {
+      "bytes": 11534336,
+      "sha256": "b1be1c02f12ce53865389ad55818e7bf18e2c35eae0193b42504b74e64e59d3d"
+    },
+    "vermeer-l-weights/036.bin": {
+      "bytes": 11534336,
+      "sha256": "cdb7ae9c5a060e07dc316e60278c60666bd927eeb96bdd44f5e6a4268d69ac60"
+    },
+    "vermeer-l-weights/037.bin": {
+      "bytes": 4096,
+      "sha256": "04b5957e0b223c4618b991825f8fe2a09a629f25533d1acf4d151de702e0ed7d"
+    },
+    "vermeer-l-weights/038.bin": {
+      "bytes": 4096,
+      "sha256": "ebb18303f1ebf20461d6b3d4d7cc54326b3aeafc3b334f081601d734d4d2f3e9"
+    },
+    "vermeer-l-weights/039.bin": {
+      "bytes": 12582912,
+      "sha256": "ff203a41234f629b75edbbb6b1a40cad0e9e38a45d80084b51f5a1ca318ecb00"
+    },
+    "vermeer-l-weights/040.bin": {
+      "bytes": 4194304,
+      "sha256": "6dddc85d92c2aae7b58f3b6d37e5e7a89b5ed42bfd85f198d5bda4a7eb285376"
+    },
+    "vermeer-l-weights/041.bin": {
+      "bytes": 11534336,
+      "sha256": "ac76933f79e6468dc656df79ad612b57fd7d9ba2d43e535f498c5e761f12dff7"
+    },
+    "vermeer-l-weights/042.bin": {
+      "bytes": 11534336,
+      "sha256": "9d525443a8ace6b77f10e13d65f0d6c948c3a20613e94f24ecfa857629cb8c02"
+    },
+    "vermeer-l-weights/043.bin": {
+      "bytes": 11534336,
+      "sha256": "9885fec81754d7520b77579d647899fd6f92034d73ce9d97bb34a0bb8e98e4d2"
+    },
+    "vermeer-l-weights/044.bin": {
+      "bytes": 4096,
+      "sha256": "16204d565fe1ed34600e95c798bd834a4499ac0254e05ff3b5bec639eb5eccf1"
+    },
+    "vermeer-l-weights/045.bin": {
+      "bytes": 4096,
+      "sha256": "efb71edc802b10326efb788c9a4bacab6823ab9765823b597948a379e6cbdb7b"
+    },
+    "vermeer-l-weights/046.bin": {
+      "bytes": 12582912,
+      "sha256": "2b7726938ca5d4c7c3f10bd87c4dbf331c6b8a1bf587596d4b886dde1c95df9a"
+    },
+    "vermeer-l-weights/047.bin": {
+      "bytes": 4194304,
+      "sha256": "7ff0719a9619aada423c563761ecf1ba73e7200b214f7c376aaefa2127d0087f"
+    },
+    "vermeer-l-weights/048.bin": {
+      "bytes": 11534336,
+      "sha256": "7db10953cd701a0db218c40a817de6a63ad37faef504fc21ca252eb903229154"
+    },
+    "vermeer-l-weights/049.bin": {
+      "bytes": 11534336,
+      "sha256": "0b21e29d8dfae631986aff55b2bcc505f6d58120a679cb8f40955e3b81b32fe9"
+    },
+    "vermeer-l-weights/050.bin": {
+      "bytes": 11534336,
+      "sha256": "10ab5b8fbd18544e478c1886432881b701f70b575543ac1a6e6fcee2f625eb96"
+    },
+    "vermeer-l-weights/051.bin": {
+      "bytes": 4096,
+      "sha256": "91849f239023a92f214dd09be67af94dcb74205f246eb451bfce66f49d30b531"
+    },
+    "vermeer-l-weights/052.bin": {
+      "bytes": 4096,
+      "sha256": "a028039849467cf8ffaf5f6f7350dcafedad8511699fee16d41c7d09967d10ee"
+    },
+    "vermeer-l-weights/053.bin": {
+      "bytes": 12582912,
+      "sha256": "0788c4a3c40fd8701646ef5ed4b8c3ea41605116a2c1664b0dbc0e23008a126a"
+    },
+    "vermeer-l-weights/054.bin": {
+      "bytes": 4194304,
+      "sha256": "65dcf1dab17e2045cc982d60c1b217ed7b7296ab0d9a4651fb88a3671f89e55f"
+    },
+    "vermeer-l-weights/055.bin": {
+      "bytes": 11534336,
+      "sha256": "722ca60e19033378f7a8f0ccb6fcf8227065e04c2ae4893481fc22bdd29ca04f"
+    },
+    "vermeer-l-weights/056.bin": {
+      "bytes": 11534336,
+      "sha256": "a55baefb32a39f70fad865142c161c7e936eeb2c9e1bacb537801ac857e0a01c"
+    },
+    "vermeer-l-weights/057.bin": {
+      "bytes": 11534336,
+      "sha256": "cd8fdbcd587a7cb331a23d88abd45d60282e622abdebe43516da3f660bb26f79"
+    },
+    "vermeer-l-weights/058.bin": {
+      "bytes": 4096,
+      "sha256": "b9967a001cdadee914e7157e3589861af46f3edde24bf978ae8032fe756ba1c1"
+    },
+    "vermeer-l-weights/059.bin": {
+      "bytes": 4096,
+      "sha256": "f5f61be6a0f4d0ff51ec9814f58b90c429b0baf97661879a93fe7318610fd5c6"
+    },
+    "vermeer-l-weights/060.bin": {
+      "bytes": 12582912,
+      "sha256": "ebbbee0dbd757397449cc372ac487322fdcaca17049a66a4ef1cc4020ec042c3"
+    },
+    "vermeer-l-weights/061.bin": {
+      "bytes": 4194304,
+      "sha256": "05997e0488f882d7ceee107c335c57df3cb4ce96ae9124cb7a6df0f64fa55e52"
+    },
+    "vermeer-l-weights/062.bin": {
+      "bytes": 11534336,
+      "sha256": "7ac12add8c624bd30077b6b20676b6fe04e1f4f3159bb3d9287fbe3844dd7b3a"
+    },
+    "vermeer-l-weights/063.bin": {
+      "bytes": 11534336,
+      "sha256": "2ad98b1e6ee602fe68ece3b8d677c9cac678a489b95fc23f7283061afdb9c56e"
+    },
+    "vermeer-l-weights/064.bin": {
+      "bytes": 11534336,
+      "sha256": "d2bb6edc62aee7a8d21f561b9ce09d908f219be002e8df10eaa59fa934bb9b04"
+    },
+    "vermeer-l-weights/065.bin": {
+      "bytes": 4096,
+      "sha256": "6980de974dcb59341a1fe58e8f6b14896ad81f791be62d5e23857ef78bc36d17"
+    },
+    "vermeer-l-weights/066.bin": {
+      "bytes": 4096,
+      "sha256": "b3679a0f5a953a2c367dbfc11ebc227142dc3598ade42f3063ff50b47388db81"
+    },
+    "vermeer-l-weights/067.bin": {
+      "bytes": 12582912,
+      "sha256": "e9cb59adc22736ed794ee6afbf77b4d4861a88610426cf0b1111f8c918ea840e"
+    },
+    "vermeer-l-weights/068.bin": {
+      "bytes": 4194304,
+      "sha256": "f69ca7355c11087fc7efcee1e2f5263d39a4aea51af53acf1d015daeddb99a15"
+    },
+    "vermeer-l-weights/069.bin": {
+      "bytes": 11534336,
+      "sha256": "f57117920c21d13491a427217e7135b8b8af5ddddc51c63e4bc9e26bb2f5002f"
+    },
+    "vermeer-l-weights/070.bin": {
+      "bytes": 11534336,
+      "sha256": "1107fcd7b0ae1d43f72b17f1b95a3159a26bd80e584bdd228cf32bb7248439aa"
+    },
+    "vermeer-l-weights/071.bin": {
+      "bytes": 11534336,
+      "sha256": "1598913659206bf34658643caaf3aae0e93b97ff5fa3384834e5d1fedc7b2347"
+    },
+    "vermeer-l-weights/072.bin": {
+      "bytes": 4096,
+      "sha256": "defe0794a54d76f800bd9cb43d71ba8ee515e1f36260449f1c46c7a1124d743c"
+    },
+    "vermeer-l-weights/073.bin": {
+      "bytes": 4096,
+      "sha256": "0f799bf895209cf0d45fa358f61e654a4cae1fdf88493521db9924676aaadf26"
+    },
+    "vermeer-l-weights/074.bin": {
+      "bytes": 12582912,
+      "sha256": "e657b37d50dd5a2c03c72943f45857f10751a3b3dfb6d15a955b51c1e1229412"
+    },
+    "vermeer-l-weights/075.bin": {
+      "bytes": 4194304,
+      "sha256": "a3f271c446292a3a92ec48f149c98840408a4dd10fe84ce465ccd01f02c00ac7"
+    },
+    "vermeer-l-weights/076.bin": {
+      "bytes": 11534336,
+      "sha256": "9fb24323621fa8b0e5ab4e50fbd923f57b4da23b3f1d8e17bdaa88ee312ad07f"
+    },
+    "vermeer-l-weights/077.bin": {
+      "bytes": 11534336,
+      "sha256": "f0fe525b5b1c40a01f0275cf002fdf575a02b931651e81ec8f12c9b8e50bb753"
+    },
+    "vermeer-l-weights/078.bin": {
+      "bytes": 11534336,
+      "sha256": "9689f08594058f85219b1f1dc5e767f4ee0075e779b8ced22c07710afb9673c3"
+    },
+    "vermeer-l-weights/079.bin": {
+      "bytes": 4096,
+      "sha256": "bbc0ade50be8ef580a37aed33aa9562e6bd1c8496ca1f5509012684cc7fb7e12"
+    },
+    "vermeer-l-weights/080.bin": {
+      "bytes": 4096,
+      "sha256": "23b126b5d07a9efbc2a6eaa9f184df1e29debf916b3df40535186c17db0fd23d"
+    },
+    "vermeer-l-weights/081.bin": {
+      "bytes": 12582912,
+      "sha256": "204a3de3a843d720ac0080a260da990642db611993b0867aa95294317e674f2f"
+    },
+    "vermeer-l-weights/082.bin": {
+      "bytes": 4194304,
+      "sha256": "bff4369499fd54936faccca5d21a77410f2f97666c5ab3608747c821c6a6ea4f"
+    },
+    "vermeer-l-weights/083.bin": {
+      "bytes": 11534336,
+      "sha256": "c69ada1bc7b92c8381dc8fb7d0b616b855c8053f724a2423532ec5ba0b40bf2a"
+    },
+    "vermeer-l-weights/084.bin": {
+      "bytes": 11534336,
+      "sha256": "f5ca0531f0e8b66a4c7638dd69015246f9776480239029bf81ac3f8b68be105d"
+    },
+    "vermeer-l-weights/085.bin": {
+      "bytes": 11534336,
+      "sha256": "1246f0080e5383714c5817ee63e74f126153ed0096c2d2de4a71169210db6a84"
+    },
+    "vermeer-l-weights/086.bin": {
+      "bytes": 4096,
+      "sha256": "fe40d952465220c04692e9b3981d11bf4d733e92f8366700c2faae4ff2b85420"
+    },
+    "vermeer-l-weights/087.bin": {
+      "bytes": 4096,
+      "sha256": "3c43bf4f8bdd424d852c0ec5e9e2f3ffadec7e20b732a1f3abebdc81cf7633ac"
+    },
+    "vermeer-l-weights/088.bin": {
+      "bytes": 12582912,
+      "sha256": "b7b34013cba8772f7f76c1e7fd1f785e65d414c10a11950638ce157714139436"
+    },
+    "vermeer-l-weights/089.bin": {
+      "bytes": 4194304,
+      "sha256": "8d12ce1248ee04670efbecf947c682c29a37265016137ad8d0d00abba9e8ab41"
+    },
+    "vermeer-l-weights/090.bin": {
+      "bytes": 11534336,
+      "sha256": "4577b910239c6951926b9df4ad84729dea026f7aefd307ff2e62af07b0c7a8a1"
+    },
+    "vermeer-l-weights/091.bin": {
+      "bytes": 11534336,
+      "sha256": "14510fd5a3e334cdbb3378e5ea5beeb8f638c326f0fbc28877821ed674ff1a33"
+    },
+    "vermeer-l-weights/092.bin": {
+      "bytes": 11534336,
+      "sha256": "d72a95a7663b51e67eca76fdf0b3f31d97b07f4b2f264b0006b8f68c082d2846"
+    },
+    "vermeer-l-weights/093.bin": {
+      "bytes": 4096,
+      "sha256": "252287d8d1afb978a03d554b29ca6ebc1c92c657d0e2ed59b9d0abd0b566b8fb"
+    },
+    "vermeer-l-weights/094.bin": {
+      "bytes": 4096,
+      "sha256": "8f328b26fca9a7bfd8add1a4b2dcb148fc8f250e9aa4dbad316789e0513a16e1"
+    },
+    "vermeer-l-weights/095.bin": {
+      "bytes": 12582912,
+      "sha256": "07d61e83db3bc4b432f68f896120b27efb37325af47b66d884e0b3ef7d953c65"
+    },
+    "vermeer-l-weights/096.bin": {
+      "bytes": 4194304,
+      "sha256": "8daa9fd62f05bec37849a8e60e5150f83ce08d7dd8ca41a3a4b2e5ebcbb1fb84"
+    },
+    "vermeer-l-weights/097.bin": {
+      "bytes": 11534336,
+      "sha256": "a35b60465ce357d138ff53b3102ff32cfd15f910f599b73cfbd29bd56ea4b19d"
+    },
+    "vermeer-l-weights/098.bin": {
+      "bytes": 11534336,
+      "sha256": "0644a7980e2fce5a55662624bace4c916e690e3d71ce472217334cc37b6281eb"
+    },
+    "vermeer-l-weights/099.bin": {
+      "bytes": 11534336,
+      "sha256": "7b259df0fffbbecc91d5713bd6931b55364785fd54a72fe92ca75a78123c098b"
+    },
+    "vermeer-l-weights/100.bin": {
+      "bytes": 4096,
+      "sha256": "180cd651c109100dd1d4048fff2354a3fcfe7925cc80c2ad350d709e0c40b334"
+    },
+    "vermeer-l-weights/101.bin": {
+      "bytes": 4096,
+      "sha256": "02ebf57e6c21bcb7bccb0a3e2ae3368056c36331167f336b006369ba5a7bc642"
+    },
+    "vermeer-l-weights/102.bin": {
+      "bytes": 12582912,
+      "sha256": "e550029d861736c5442c59f02bc0702ddeb868f5faedb4f91890870500be421e"
+    },
+    "vermeer-l-weights/103.bin": {
+      "bytes": 4194304,
+      "sha256": "4c0e8b7e61552fb940dd61b9c5c88c1122779c4ba77bf0569edaf5b81b5d90cf"
+    },
+    "vermeer-l-weights/104.bin": {
+      "bytes": 11534336,
+      "sha256": "5dba3efde5b744aff506678355d8e9583febaad963baaa1b73ef285090633716"
+    },
+    "vermeer-l-weights/105.bin": {
+      "bytes": 11534336,
+      "sha256": "1ef9098e5c7a5e4aea6d52a9b1c62556d5ab1271e94d458eb2fd77c931dbb0c9"
+    },
+    "vermeer-l-weights/106.bin": {
+      "bytes": 11534336,
+      "sha256": "749108be168323fdf0880664f5de1894fc68c4ec2d80c67b9aeb6257f9754644"
+    },
+    "vermeer-l-weights/107.bin": {
+      "bytes": 4096,
+      "sha256": "e0cd786544c5d109aa3a97c714e61b54581ea6e832d953006efb8c8c93a36463"
+    },
+    "vermeer-l-weights/108.bin": {
+      "bytes": 4096,
+      "sha256": "9afce06f71018669d80c3f08d4623ebf0d917cca624be0b34cd57cf3ba85b157"
+    },
+    "vermeer-l-weights/109.bin": {
+      "bytes": 12582912,
+      "sha256": "6b08248963bc0692678c8cad7688486b7697ee95551ef6b1585daab8c9d0a604"
+    },
+    "vermeer-l-weights/110.bin": {
+      "bytes": 4194304,
+      "sha256": "ed09543ecc813730d8bc1ffffafa6a3f524bf907f96b56f81153ab355477a653"
+    },
+    "vermeer-l-weights/111.bin": {
+      "bytes": 11534336,
+      "sha256": "2a214ba44e740c5bb19c68639db8daca7d8dfd0f11ee64b5a4595c2731692b41"
+    },
+    "vermeer-l-weights/112.bin": {
+      "bytes": 11534336,
+      "sha256": "2aaca2ebfcf1ce8a6a94e6afba4ba5abfe206bfccd923a723ba772e9b9de580d"
+    },
+    "vermeer-l-weights/113.bin": {
+      "bytes": 11534336,
+      "sha256": "1413a651af62d191308d3a71907802ac3a35691c92ec3aa255d7e163dd618c0b"
+    },
+    "vermeer-l-weights/114.bin": {
+      "bytes": 4096,
+      "sha256": "a6afd78c5cd723a38bf2e80d6e3f2938a290f30f2631e9a1977ed53ffeb63a63"
+    },
+    "vermeer-l-weights/115.bin": {
+      "bytes": 4096,
+      "sha256": "0c8c62926ce7a3a798a30c6f9d3f5ee07c6ab5fdd1785613f8b71e329b8b2152"
+    },
+    "vermeer-l-weights/116.bin": {
+      "bytes": 12582912,
+      "sha256": "a7c4369e77475c7097ef79e9986d97decacde762f14262c5530d7688ec64a041"
+    },
+    "vermeer-l-weights/117.bin": {
+      "bytes": 4194304,
+      "sha256": "111cafc56e65c4b13f5b983f535f0b512512def19950c302bd7ef651aa567463"
+    },
+    "vermeer-l-weights/118.bin": {
+      "bytes": 11534336,
+      "sha256": "4271d49caaa12cdf83df709f18e228c04873877bc46586281bc0e0e34c5a2584"
+    },
+    "vermeer-l-weights/119.bin": {
+      "bytes": 11534336,
+      "sha256": "e5783758c74748eb613cbe923e34e799385c38d748ff208a12c062765f5d6769"
+    },
+    "vermeer-l-weights/120.bin": {
+      "bytes": 11534336,
+      "sha256": "1e14b977764e6061bd8b2b67f96d4f96b30f8c74000af01a5252e1d282db0dd8"
+    },
+    "vermeer-l-weights/121.bin": {
+      "bytes": 4096,
+      "sha256": "d2e0ba48f622e46d13e6ab33fcf8b6e1713ab6eac1096477b9ca1b7b180e4ab7"
+    },
+    "vermeer-l-weights/122.bin": {
+      "bytes": 4096,
+      "sha256": "1c1c66458f326cc355fcf06fc70be2d21b245959e1c3a6658c45fd30a49687b6"
+    },
+    "vermeer-l-weights/123.bin": {
+      "bytes": 12582912,
+      "sha256": "52e1e3e654e140be03ad6580aed1db2e69080e69b300596eecfa7d0a6aa56fcc"
+    },
+    "vermeer-l-weights/124.bin": {
+      "bytes": 4194304,
+      "sha256": "716454730eda11c9c8b99a2f3de7ef79727a6ad1cbef598717ea02319e07c5bd"
+    },
+    "vermeer-l-weights/125.bin": {
+      "bytes": 11534336,
+      "sha256": "4a370de13562e368fc0767f0996c308259ab6c4bc60710263b0fb9c00342f003"
+    },
+    "vermeer-l-weights/126.bin": {
+      "bytes": 11534336,
+      "sha256": "0834fb7b37e4d196ce3eae8ccd0dd7d85bd4d7c73e4db9e84de14d9490213cbf"
+    },
+    "vermeer-l-weights/127.bin": {
+      "bytes": 11534336,
+      "sha256": "3edf0a10db337e4abd61ffe7a5a625e8817e722cf46bbf63c6df7f32a079fc08"
+    },
+    "vermeer-l-weights/128.bin": {
+      "bytes": 4096,
+      "sha256": "246bd1f6aa9d1c7aa4a4729cbce9ee39ad36188f4a040f1e08e315a711429a56"
+    },
+    "vermeer-l-weights/129.bin": {
+      "bytes": 4096,
+      "sha256": "014e2caf2c5c7af5a15ed1e42c99e177a3a5c146735811f9750e37eefde52a58"
+    },
+    "vermeer-l-weights/130.bin": {
+      "bytes": 12582912,
+      "sha256": "8b977d7f48c2b327f1aab9ed326214f8b3ad8f11793dde1549d15a01f11a3ab5"
+    },
+    "vermeer-l-weights/131.bin": {
+      "bytes": 4194304,
+      "sha256": "364dc4e43fd66cb5715f5cc5d5f826e488dfd5204d32fc3855faed4cd7e2f057"
+    },
+    "vermeer-l-weights/132.bin": {
+      "bytes": 11534336,
+      "sha256": "60906ba56a14d6db5411d4d0054ea24fda00e84d2a98dd62435e2c041a7d1002"
+    },
+    "vermeer-l-weights/133.bin": {
+      "bytes": 11534336,
+      "sha256": "a5011c858d99aa065058dddc312f38433f4405d1ded84a2675a923d196603b6a"
+    },
+    "vermeer-l-weights/134.bin": {
+      "bytes": 11534336,
+      "sha256": "f7b74a00abedb74dd9544ffa49eb858affbad82f9868c9981660898181333d26"
+    },
+    "vermeer-l-weights/135.bin": {
+      "bytes": 4096,
+      "sha256": "17ce8969bdb212cd9a5895210007703ec2925a3ac5ac3f8f6f33edcf0066b44f"
+    },
+    "vermeer-l-weights/136.bin": {
+      "bytes": 4096,
+      "sha256": "68d36675e2c1de5ec4d9c871c019e5949744c3eb1b8b4409923e169b0c62de66"
+    },
+    "vermeer-l-weights/137.bin": {
+      "bytes": 12582912,
+      "sha256": "c13746fe611e0ec852d5f6baa10c1b3b2e7571437299c2e0409163bae36de97e"
+    },
+    "vermeer-l-weights/138.bin": {
+      "bytes": 4194304,
+      "sha256": "eddc7894e1115fd38f7bbf188e0945801c4ff526f678ba3c0f4e6010c3bb6f11"
+    },
+    "vermeer-l-weights/139.bin": {
+      "bytes": 11534336,
+      "sha256": "ca5c0452cf368dbb4affbaf6e4f13f8991148e8b5d223c53ab807d82c18a4493"
+    },
+    "vermeer-l-weights/140.bin": {
+      "bytes": 11534336,
+      "sha256": "76b9c04dd7b1b9acdf113c96edeb49105ef21adbd50b77969d7c48434d7ab183"
+    },
+    "vermeer-l-weights/141.bin": {
+      "bytes": 11534336,
+      "sha256": "2885af335101164b836741bbe59e432bd4c2509dabbbe1cc0e49bd7527122e29"
+    },
+    "vermeer-l-weights/142.bin": {
+      "bytes": 4096,
+      "sha256": "72c0b1a5d370ec787f44955caa345f5fe56815dc90c24f9e9a2d1a9341e86d4a"
+    },
+    "vermeer-l-weights/143.bin": {
+      "bytes": 4096,
+      "sha256": "834658839610de0a2ba0f3af0be27462ba7c00557a4a207c5a4f676f0a1c55d2"
+    },
+    "vermeer-l-weights/144.bin": {
+      "bytes": 12582912,
+      "sha256": "a951561c6c0649ff6208f68d230175860c4e8752022b978e8aa7d607f1c07560"
+    },
+    "vermeer-l-weights/145.bin": {
+      "bytes": 4194304,
+      "sha256": "03c82a1f1a036b7a1f9d8ecd2f4b1a36c21fe72207736671b7c5d5a003458da7"
+    },
+    "vermeer-l-weights/146.bin": {
+      "bytes": 11534336,
+      "sha256": "dd22e3ea76d48eff83a7f74be1b2eb7dd2c20d9a59fb84a8db915dbe05533642"
+    },
+    "vermeer-l-weights/147.bin": {
+      "bytes": 11534336,
+      "sha256": "3d864b2c00735cfed8804da274696351ae43269cc1a8bec428e348a8bc74347a"
+    },
+    "vermeer-l-weights/148.bin": {
+      "bytes": 11534336,
+      "sha256": "889e5ec4447647bc49efc4213033ff3e259019f6f3ae7e2cdfafed2c5474e3e1"
+    },
+    "vermeer-l-weights/149.bin": {
+      "bytes": 4096,
+      "sha256": "ac7e06e7286064a3779d9a1f4c5af3cab9b471b08aef1286929f5d58ed3d72b4"
+    },
+    "vermeer-l-weights/150.bin": {
+      "bytes": 4096,
+      "sha256": "07feacd81d0b39ec4815059738d46e0df35e0f1cc6223512203658fc2b434e63"
+    },
+    "vermeer-l-weights/151.bin": {
+      "bytes": 12582912,
+      "sha256": "314726603215712a3aced9b6acbb4728889472b4e4638215cebcf4344198f204"
+    },
+    "vermeer-l-weights/152.bin": {
+      "bytes": 4194304,
+      "sha256": "59ed35d381c1d08bcb54b56357d686762b1e2f34345a0b54d5e38d515b1a1109"
+    },
+    "vermeer-l-weights/153.bin": {
+      "bytes": 11534336,
+      "sha256": "a556670b73b6f15cfe9f9b6c16cab81390cd58d5fc504229b1d9ce44ae77256e"
+    },
+    "vermeer-l-weights/154.bin": {
+      "bytes": 11534336,
+      "sha256": "72c6fb8d1ab914f69f68041430693e847f2cf8c3f55f2a986ccbdb4e0830eb83"
+    },
+    "vermeer-l-weights/155.bin": {
+      "bytes": 11534336,
+      "sha256": "2b53859c52bcf49754b19f283a6e89b717d8a533db47fa64cbefe83bb981e653"
+    },
+    "vermeer-l-weights/156.bin": {
+      "bytes": 4096,
+      "sha256": "5b08679133147369bf6a9d826ae92ee0520dcc28843228a94382f54a4e1c5a01"
+    },
+    "vermeer-l-weights/157.bin": {
+      "bytes": 4096,
+      "sha256": "a5a5e1ac198eee78718c740ad8717e6fc1ee843b88894ce9a3116a617d3b9f2e"
+    },
+    "vermeer-l-weights/158.bin": {
+      "bytes": 12582912,
+      "sha256": "3adc50466f7563e142e5abc7f41f8866496fcd5a3d2559da65c15b0a4b729c64"
+    },
+    "vermeer-l-weights/159.bin": {
+      "bytes": 4194304,
+      "sha256": "f008cfece459f58d55532aff00fa043db006430c12c5bdb6a8e3e489671dc5a5"
+    },
+    "vermeer-l-weights/160.bin": {
+      "bytes": 11534336,
+      "sha256": "f72dfae922f698270a1c4eafcd6ac20bd31488d176f91cef6c518cf33e72d7d8"
+    },
+    "vermeer-l-weights/161.bin": {
+      "bytes": 11534336,
+      "sha256": "e29c8621cc431e2a2bf94e41e03fbd7af7450313047545977b2796d8718bf20d"
+    },
+    "vermeer-l-weights/162.bin": {
+      "bytes": 11534336,
+      "sha256": "ea1f19bb13b245e95fa9c05f43549e420078f3ce46fa089e6691e46ae1f659d5"
+    },
+    "vermeer-l-weights/163.bin": {
+      "bytes": 4096,
+      "sha256": "a9ef6f0c9ae42d12d28a2b6f11283a1ec2d0819c1132300948d194688f32bd35"
+    },
+    "vermeer-l-weights/164.bin": {
+      "bytes": 4096,
+      "sha256": "80c9c955ac0b42c8847e8c702f3230ed29fe710c02b25e42a828c6a7479c752c"
+    },
+    "vermeer-l-weights/165.bin": {
+      "bytes": 12582912,
+      "sha256": "8338f12eb3bf98e5090f60f5a7bd3c721b5fb3478dd64a1ba71baf344ee6148b"
+    },
+    "vermeer-l-weights/166.bin": {
+      "bytes": 4194304,
+      "sha256": "1232f843158a43c08787d2e83e44723e66ddde5cbba0ae69469202a7d11d2b37"
+    },
+    "vermeer-l-weights/167.bin": {
+      "bytes": 11534336,
+      "sha256": "2c6b4420c7ccb2951086917cbd943a2fef60bc43f3e979a47be34de1d10f84f4"
+    },
+    "vermeer-l-weights/168.bin": {
+      "bytes": 11534336,
+      "sha256": "4bde929935df4508f8204c77fef5574a44e422d506db2dfea98d9b0fa209ef71"
+    },
+    "vermeer-l-weights/169.bin": {
+      "bytes": 11534336,
+      "sha256": "79703c6491019e79d5611ffa776f671d41caa37b7b8f102b3115e710b04267d1"
+    },
+    "vermeer-l-weights/170.bin": {
+      "bytes": 4096,
+      "sha256": "96b085916cf5c793bbe956d2b5ea896156923b2a344d585ce71cbd05a009fb22"
+    },
+    "vermeer-l-weights/171.bin": {
+      "bytes": 4096,
+      "sha256": "7da240cf7ca76074d6f07f28a4bda868ee6337e04c813412c90f3f011d53ee79"
+    },
+    "vermeer-l-weights/172.bin": {
+      "bytes": 4096,
+      "sha256": "c181e76711abc893402784fa58b97491404b19327c53d724a61a2a4fbda7a839"
+    },
+    "vermeer-l-weights/173.bin": {
+      "bytes": 67145728,
+      "sha256": "87aecf01cf125c85aa965800dbd46b33214715f7f91b2301d101b872761693de"
+    },
+    "vermeer-xl.onnx": {
+      "bytes": 882756,
+      "sha256": "d553d3d34e5c9a94ac6c36fa0e759aa02197ab4e0d6e2d5132c60e0787538e06"
+    },
+    "vermeer-xl-weights/000.bin": {
+      "bytes": 264448,
+      "sha256": "573ac923b9db78d29537a59a4cb27dd90ca667490fd288f409e7223d61674403"
+    },
+    "vermeer-xl-weights/001.bin": {
+      "bytes": 5898240,
+      "sha256": "75d863aaf61aa659230c0ce831340a8c5fc74a9e0b6a83873b55203c8fb3b80b"
+    },
+    "vermeer-xl-weights/002.bin": {
+      "bytes": 6553600,
+      "sha256": "84336efbc9c42a842f2eaac4b6fe2524cfe34bc3820a6148220db45b98023600"
+    },
+    "vermeer-xl-weights/003.bin": {
+      "bytes": 83932160,
+      "sha256": "be31ce3771e1f9e8b3d3fc8f89e6fe6144cf90889ed6938f6b8b860a65e67b53"
+    },
+    "vermeer-xl-weights/004.bin": {
+      "bytes": 19660800,
+      "sha256": "4fafbbcce0e89edfbb6a63e98f54936752b2a8c49e40fee9339175cb2808d2b7"
+    },
+    "vermeer-xl-weights/005.bin": {
+      "bytes": 6553600,
+      "sha256": "9437f204a932711ebdfd728d1d28e743cb748cab389948da54d2101efc7f039f"
+    },
+    "vermeer-xl-weights/006.bin": {
+      "bytes": 18350080,
+      "sha256": "46993c31545a6276feaaa81830d6be9dcf9e821340eedb8764a30df44ea9675b"
+    },
+    "vermeer-xl-weights/007.bin": {
+      "bytes": 18350080,
+      "sha256": "8e0744691d0db5b49147f408e1d3bb16630630bd0ede9d12ca728dff298d7a76"
+    },
+    "vermeer-xl-weights/008.bin": {
+      "bytes": 18350080,
+      "sha256": "50c70d6117db45944c59ca13bf62735484b6de033f9f84e612ce323958662ad3"
+    },
+    "vermeer-xl-weights/009.bin": {
+      "bytes": 5120,
+      "sha256": "d5e2378e33cb1ee5f7e97de47e0094e009a6d2e32a203ca95ad2b67618a124f6"
+    },
+    "vermeer-xl-weights/010.bin": {
+      "bytes": 5120,
+      "sha256": "aaf3ad58d136247c82074d807e5584cd054d291e55e324b86b9e0e8ef8a4f69b"
+    },
+    "vermeer-xl-weights/011.bin": {
+      "bytes": 19660800,
+      "sha256": "9f8f28d9754d96fcf6d0167e2142c4d87eb0d021796f771f98df8c160bd5f474"
+    },
+    "vermeer-xl-weights/012.bin": {
+      "bytes": 6553600,
+      "sha256": "0081d2cfb031f8910f2edd5e70a6a62937e22740fa160a70ea89303cccce810f"
+    },
+    "vermeer-xl-weights/013.bin": {
+      "bytes": 18350080,
+      "sha256": "afbc26957d807cdf28e5deaabb4271a7f45f2cbe8bb535df45f4ae1e611e1800"
+    },
+    "vermeer-xl-weights/014.bin": {
+      "bytes": 18350080,
+      "sha256": "a719004e31a4929789b49ddf877fa0513bd3dc07d7731712268e849c3fd4f501"
+    },
+    "vermeer-xl-weights/015.bin": {
+      "bytes": 18350080,
+      "sha256": "72a6309ae1dcd390d4b0a1052c47c9df3dea54ed60dcc204af7f1ea715ef98f6"
+    },
+    "vermeer-xl-weights/016.bin": {
+      "bytes": 5120,
+      "sha256": "9dbf1aa253e63b2b6e78b07c0710c2932f7ab612f440e0602f25f582099944f4"
+    },
+    "vermeer-xl-weights/017.bin": {
+      "bytes": 5120,
+      "sha256": "9c853b96470a4ecf03a4205e3ca9034c9775959e0d5eeb17b5845ea3a94b9a5c"
+    },
+    "vermeer-xl-weights/018.bin": {
+      "bytes": 19660800,
+      "sha256": "2177467d317527bd66bc3e3a3030007f1dcc6b73524e5bd25edd3797186b5a26"
+    },
+    "vermeer-xl-weights/019.bin": {
+      "bytes": 6553600,
+      "sha256": "22448042dcfb12e52202d403f044344a808a268f4b335c0b6e350618d24dae57"
+    },
+    "vermeer-xl-weights/020.bin": {
+      "bytes": 18350080,
+      "sha256": "21428c4554a6ddf9ae899371ca05de53f5a5aa278b2ce0608b0ad38ca8bbb404"
+    },
+    "vermeer-xl-weights/021.bin": {
+      "bytes": 18350080,
+      "sha256": "2d2a21974d64f9457290421be38b261f8746a4fd7f9fd7248f414e74cdfa86dc"
+    },
+    "vermeer-xl-weights/022.bin": {
+      "bytes": 18350080,
+      "sha256": "9fd96e0e9c0f1dff9566973319b50db82510fe84722ec60a55639cbf65a9ebc9"
+    },
+    "vermeer-xl-weights/023.bin": {
+      "bytes": 5120,
+      "sha256": "e631c79527acd05dcc74b10b49ff08b8a308ace70530f17faa07f04fa43bce15"
+    },
+    "vermeer-xl-weights/024.bin": {
+      "bytes": 5120,
+      "sha256": "543e5bafcd4750bb0e1620a8aaceb5d0237ab3d15b4d1e91365c08a13eb89875"
+    },
+    "vermeer-xl-weights/025.bin": {
+      "bytes": 19660800,
+      "sha256": "b68d6274b13e3a76ca14aaa2186032dd9f05327e8d7f7955ecaebbde7178e197"
+    },
+    "vermeer-xl-weights/026.bin": {
+      "bytes": 6553600,
+      "sha256": "349a78f8348fe6b87e396c23c3c3f8a434745ad17e942d537515d5402a1a9550"
+    },
+    "vermeer-xl-weights/027.bin": {
+      "bytes": 18350080,
+      "sha256": "3d3838d644551b22630f5088c76054c150f490d5412805df6f2bbbe6390ae185"
+    },
+    "vermeer-xl-weights/028.bin": {
+      "bytes": 18350080,
+      "sha256": "52657a416f994da5c178be10d9c9f6abf94a5bceb191244d65ff428abe7f2182"
+    },
+    "vermeer-xl-weights/029.bin": {
+      "bytes": 18350080,
+      "sha256": "e697b54517c58b4cd94beea380d694707ebb282c0839b33e545f54c15684bd77"
+    },
+    "vermeer-xl-weights/030.bin": {
+      "bytes": 5120,
+      "sha256": "cfb25fef4747954dff6e43fb9201e17cbba03e1f065555102835788460e068a1"
+    },
+    "vermeer-xl-weights/031.bin": {
+      "bytes": 5120,
+      "sha256": "d5495b4caa88ecefe5af7b1a84e03739cd1c831f45a67dfb4c9b793a0e044d0b"
+    },
+    "vermeer-xl-weights/032.bin": {
+      "bytes": 19660800,
+      "sha256": "57f89bc6058aa86ceb89bb373725b05edf3b40f7e730fe4a8b8f1f56f2b10295"
+    },
+    "vermeer-xl-weights/033.bin": {
+      "bytes": 6553600,
+      "sha256": "b0ccc5dd30182e9a28985ad1dc44c8fcd422f5d8ba486d4be542cd2b277b33da"
+    },
+    "vermeer-xl-weights/034.bin": {
+      "bytes": 18350080,
+      "sha256": "95c4d9e9821023ce701ef2f636d2fda15756cde7f1219d32897bb0fa4be0d5ff"
+    },
+    "vermeer-xl-weights/035.bin": {
+      "bytes": 18350080,
+      "sha256": "79f2ab8b4bbdc4420489c96c5ccddca9c6ad0b8ef3875eac1fb3e97c6022f111"
+    },
+    "vermeer-xl-weights/036.bin": {
+      "bytes": 18350080,
+      "sha256": "ca7d8ffe44764c40716d6e57ca0ed4800bf485ba99d2f82d3adde9a3f7d56d1d"
+    },
+    "vermeer-xl-weights/037.bin": {
+      "bytes": 5120,
+      "sha256": "beb9b0208ea74dd95f7b8341fc267b63c2d70f36996b7a8fb633b20074d2b620"
+    },
+    "vermeer-xl-weights/038.bin": {
+      "bytes": 5120,
+      "sha256": "29586f6c7913fac47a67cc31a9c8d7c4941a44be426c27f8f25f3e5c8a31e94b"
+    },
+    "vermeer-xl-weights/039.bin": {
+      "bytes": 19660800,
+      "sha256": "133e39981425333b0156c5a82377c85edbde485ed6f6263afbeeddba112b1ba4"
+    },
+    "vermeer-xl-weights/040.bin": {
+      "bytes": 6553600,
+      "sha256": "5e3c0dbbd78d36ee2b494ab1fae3571d5ef559216fdda58b9ebc7b5f09c757dc"
+    },
+    "vermeer-xl-weights/041.bin": {
+      "bytes": 18350080,
+      "sha256": "a707ee57276cfbe9154d4245857c3746ed06ce92e1e787e060484df90f451588"
+    },
+    "vermeer-xl-weights/042.bin": {
+      "bytes": 18350080,
+      "sha256": "aa13a3b5eb81b633ab9591a9138f067b4c83ed7e97b9c74ba7313722c23ad671"
+    },
+    "vermeer-xl-weights/043.bin": {
+      "bytes": 18350080,
+      "sha256": "933716d0529f296d0bd3708322ed9d9399dbf5fb6eeba664bc9f1a47202e11d6"
+    },
+    "vermeer-xl-weights/044.bin": {
+      "bytes": 5120,
+      "sha256": "34e2e8cdf991caf53d11601d94510702bb8e261be1c29f4f7c05d0c774876db3"
+    },
+    "vermeer-xl-weights/045.bin": {
+      "bytes": 5120,
+      "sha256": "e08469964dd22670e5ce6c0876a4609bda0c50a4e9d2589e85f4d1d1fce15dfa"
+    },
+    "vermeer-xl-weights/046.bin": {
+      "bytes": 19660800,
+      "sha256": "8389008e0895c3def1891212ecaec952db1f572cf1ea8aff7b25cbfb38951f80"
+    },
+    "vermeer-xl-weights/047.bin": {
+      "bytes": 6553600,
+      "sha256": "c6dcf45090b0d19283e0faa28d8feb78d42bbf807ee34005bcd77ed2912d9f74"
+    },
+    "vermeer-xl-weights/048.bin": {
+      "bytes": 18350080,
+      "sha256": "233f93067ab09c84fcd063707d41d45368ccdea3342dbe95dfd3977b85fa84f7"
+    },
+    "vermeer-xl-weights/049.bin": {
+      "bytes": 18350080,
+      "sha256": "e5877793816c05d46c81262678d7fe7f4a5de9a059d9bc271e89b221c78b48dc"
+    },
+    "vermeer-xl-weights/050.bin": {
+      "bytes": 18350080,
+      "sha256": "c9d21499e0fd991da313471804f4048929381b5b722591f5cc722b81876eec41"
+    },
+    "vermeer-xl-weights/051.bin": {
+      "bytes": 5120,
+      "sha256": "6da6ef1b6686074428a0e983d75d7080b203dabf431aa90721008a8fc85b338e"
+    },
+    "vermeer-xl-weights/052.bin": {
+      "bytes": 5120,
+      "sha256": "70f5860866f305b316410a5bc3cf6364647c29335ca1026f0afced569cef80f8"
+    },
+    "vermeer-xl-weights/053.bin": {
+      "bytes": 19660800,
+      "sha256": "68e19a48e9a61e644ec294c69f6685ebf85cb750bdb1c7877a63ef441147a90d"
+    },
+    "vermeer-xl-weights/054.bin": {
+      "bytes": 6553600,
+      "sha256": "4ad4eac475bb97b908ac9d2019b7878c4cf63a62fd2c3c0e1f9b99e34fb7f7db"
+    },
+    "vermeer-xl-weights/055.bin": {
+      "bytes": 18350080,
+      "sha256": "5924eb1b3069e587a8745cb72079d4d05405cfa0a1e97b75b8dd08e513fbdfe1"
+    },
+    "vermeer-xl-weights/056.bin": {
+      "bytes": 18350080,
+      "sha256": "0f0f434ef157a5f9b1ac0a6af721e541df2e280ae2f1367f81baaae7b4bcca27"
+    },
+    "vermeer-xl-weights/057.bin": {
+      "bytes": 18350080,
+      "sha256": "77d661f3c1d07663db41e001fcaaa61c6c737d7326c0c450f988801c5c7826d1"
+    },
+    "vermeer-xl-weights/058.bin": {
+      "bytes": 5120,
+      "sha256": "109cb8ed32a80f7025023227183188a430240d2034b487a111fbfd989e2deb14"
+    },
+    "vermeer-xl-weights/059.bin": {
+      "bytes": 5120,
+      "sha256": "dea42399b7b1428ed96863d2adac68200d16651f7dd8d7f89a968368911e00e0"
+    },
+    "vermeer-xl-weights/060.bin": {
+      "bytes": 19660800,
+      "sha256": "f0eaf9fdd8cbd2a8fc46d7177ae9d4533ad4b53d922d01e85abd4899e0371c28"
+    },
+    "vermeer-xl-weights/061.bin": {
+      "bytes": 6553600,
+      "sha256": "1f0094e790ce48fb45e7692b54ea21cdb72df56c22a9f4903b5427866294f23f"
+    },
+    "vermeer-xl-weights/062.bin": {
+      "bytes": 18350080,
+      "sha256": "121684488ef6f826d71181fe3fd63db9ded75c3fa11f5170eff0d2733113ba84"
+    },
+    "vermeer-xl-weights/063.bin": {
+      "bytes": 18350080,
+      "sha256": "7956736cec69f223b680cb995ad9037d9fc4b05fd705da1f9ca7ef4c6a2c6b38"
+    },
+    "vermeer-xl-weights/064.bin": {
+      "bytes": 18350080,
+      "sha256": "e3959dae08cfe2a46742bb96b0e89fec2d7ccaa55707a3d740761c222819dd02"
+    },
+    "vermeer-xl-weights/065.bin": {
+      "bytes": 5120,
+      "sha256": "ee18e9e7d925b33e002b02184a32e47fe3d7328b52e1414c8a356b4322d9aab6"
+    },
+    "vermeer-xl-weights/066.bin": {
+      "bytes": 5120,
+      "sha256": "abf35c081dcddbec03a98f55e86cf8edc97d68081dc7c9d5f614f5b2f915543b"
+    },
+    "vermeer-xl-weights/067.bin": {
+      "bytes": 19660800,
+      "sha256": "ae9b507c1607e95b5f0509888ac8460853925bac49ceaf93764f4e22d76a84b8"
+    },
+    "vermeer-xl-weights/068.bin": {
+      "bytes": 6553600,
+      "sha256": "7a4c1e32255df309c60724929f9c4ff66c83d67a0d659939af3028407189df8e"
+    },
+    "vermeer-xl-weights/069.bin": {
+      "bytes": 18350080,
+      "sha256": "c14cafb28b6f5ebe468acb63ff87fcece491480f4052ba42c4d46d16c7c4d6a1"
+    },
+    "vermeer-xl-weights/070.bin": {
+      "bytes": 18350080,
+      "sha256": "dcdc1bbdb5a131e74f677eb342cb94af24afc3300c98ac95b9258748c03567bb"
+    },
+    "vermeer-xl-weights/071.bin": {
+      "bytes": 18350080,
+      "sha256": "a2a2583f6f3692aed4aff617ebad9b69e9c5f65af8ea7822212d1221a8da4f6e"
+    },
+    "vermeer-xl-weights/072.bin": {
+      "bytes": 5120,
+      "sha256": "6c1ba33c03119c8f020fc5e4de3cb3f153914696218243683618d8106dc96f8f"
+    },
+    "vermeer-xl-weights/073.bin": {
+      "bytes": 5120,
+      "sha256": "fe8e2e963ebce28cf7167dc05b1c1b7a97b27b2891028c1f1ef2eab08ff7657c"
+    },
+    "vermeer-xl-weights/074.bin": {
+      "bytes": 19660800,
+      "sha256": "aedcafa2ab9e65e85714765b8336bd0551c2dce5c8bdba31e030c58bb7cffcc4"
+    },
+    "vermeer-xl-weights/075.bin": {
+      "bytes": 6553600,
+      "sha256": "9d485e3fb7f318ac2eb7b872df8de510d36e07d762a1783884911714fed08141"
+    },
+    "vermeer-xl-weights/076.bin": {
+      "bytes": 18350080,
+      "sha256": "ddb89506e500efe2695a9c08292ae14e00dd0595815be0e9af06c252ea1f8385"
+    },
+    "vermeer-xl-weights/077.bin": {
+      "bytes": 18350080,
+      "sha256": "41d8f013737e9c5459ed03a71ba6e51e9792b109ceee4b699a524e56caf65cbf"
+    },
+    "vermeer-xl-weights/078.bin": {
+      "bytes": 18350080,
+      "sha256": "0233123a30d0adc5c34bff78367c51378ea1b197068b7c60a19c995fcd29fd66"
+    },
+    "vermeer-xl-weights/079.bin": {
+      "bytes": 5120,
+      "sha256": "3c8e957f830fc05a6e6e932f9ee4e8274e686606930a7444a0020f79bed50dcb"
+    },
+    "vermeer-xl-weights/080.bin": {
+      "bytes": 5120,
+      "sha256": "80076a034048250bea416688cff6d2231c5c496c25a16c0ca620e14058f59646"
+    },
+    "vermeer-xl-weights/081.bin": {
+      "bytes": 19660800,
+      "sha256": "117246e7f75bf810e7e01b6813280668d3da9b9c80226439069a9f5dc0f18f10"
+    },
+    "vermeer-xl-weights/082.bin": {
+      "bytes": 6553600,
+      "sha256": "5b9dfaee5a15e9b973f2fb7cbbfec484334cbcd029552107b0eede0379b8d669"
+    },
+    "vermeer-xl-weights/083.bin": {
+      "bytes": 18350080,
+      "sha256": "d7e90c1bc3b52e59fcc6184771974585469543fdd9ba3afb94653444cd3bde0c"
+    },
+    "vermeer-xl-weights/084.bin": {
+      "bytes": 18350080,
+      "sha256": "5151a3b6afa83d805731b08c0c42c41d8be625c34fe961e48cd25ea87b6b7fe8"
+    },
+    "vermeer-xl-weights/085.bin": {
+      "bytes": 18350080,
+      "sha256": "34c08f460bf8711f790c79be3507643d46b009e146fac1237e818ea573813f8c"
+    },
+    "vermeer-xl-weights/086.bin": {
+      "bytes": 5120,
+      "sha256": "b517fac530d9c9025e59b8711acb519c8e76a01275ba230454d20569a47e6720"
+    },
+    "vermeer-xl-weights/087.bin": {
+      "bytes": 5120,
+      "sha256": "f6b2d4a154572848b0bf27259eaafd8446978c706e6ab9c05ca25a9ed939f15d"
+    },
+    "vermeer-xl-weights/088.bin": {
+      "bytes": 19660800,
+      "sha256": "f81470c660b62cbed87d4ad2ece8b7abe307850e079d9b089a5752c15d8fa5ec"
+    },
+    "vermeer-xl-weights/089.bin": {
+      "bytes": 6553600,
+      "sha256": "615f1d853d9a4d6e0b6d8b25055ffaf4d1f7e06bb0e340bb80ed8a210a05f8db"
+    },
+    "vermeer-xl-weights/090.bin": {
+      "bytes": 18350080,
+      "sha256": "2041db46868b99f964e780b33b444d47090ee6caa84d2ecc8148e31033e02c6f"
+    },
+    "vermeer-xl-weights/091.bin": {
+      "bytes": 18350080,
+      "sha256": "340d04e5a224435898e2a2545f2b36b3e8411d79bcc430d551c544901f863cad"
+    },
+    "vermeer-xl-weights/092.bin": {
+      "bytes": 18350080,
+      "sha256": "ad4896e62ea2073ead790edb8c44f3b226ba45fd2d1b023e6fd39f86403eea35"
+    },
+    "vermeer-xl-weights/093.bin": {
+      "bytes": 5120,
+      "sha256": "7309581d0e402ce3c01c5a4b318ebb73f7044ada70780b5650f4942d07488478"
+    },
+    "vermeer-xl-weights/094.bin": {
+      "bytes": 5120,
+      "sha256": "bcc40977da84ba5bebb46e68254eba76118b52294dc3872e078408623167b592"
+    },
+    "vermeer-xl-weights/095.bin": {
+      "bytes": 19660800,
+      "sha256": "cac25eba8184fc16613007de8bcb9382caaa007f66fc68f07366feb45ecc9ecb"
+    },
+    "vermeer-xl-weights/096.bin": {
+      "bytes": 6553600,
+      "sha256": "e5654db057f4be3c0af7ebdb2ab7bca7d6ad5807abcffd55448628e122e484fb"
+    },
+    "vermeer-xl-weights/097.bin": {
+      "bytes": 18350080,
+      "sha256": "5439a28ac07f75fc46f1e9b69b85172ec790a6204e4bb3e2a617fad45b9b9ddb"
+    },
+    "vermeer-xl-weights/098.bin": {
+      "bytes": 18350080,
+      "sha256": "e110c0e4a1803c55d433481a8da2b8b74dc6a653c769573b61176fb3475706ea"
+    },
+    "vermeer-xl-weights/099.bin": {
+      "bytes": 18350080,
+      "sha256": "69c6485387fa77af43c59d23669abcf796d442ba7093f4c41c45ee43d6f2012e"
+    },
+    "vermeer-xl-weights/100.bin": {
+      "bytes": 5120,
+      "sha256": "2a22217a51e8ce2b5a4d504c0b522bedf8c180ea77bd6e69dbb14a39c7e92095"
+    },
+    "vermeer-xl-weights/101.bin": {
+      "bytes": 5120,
+      "sha256": "006b75c3639e0272dea3e393c943b24e8461a2a1bd37f8bef51d2e1ef36f8e9e"
+    },
+    "vermeer-xl-weights/102.bin": {
+      "bytes": 19660800,
+      "sha256": "9536dc20dbb2234e20aa2ccabf7974800e6d7e7bed0ea2b5b33b9992b7870dfd"
+    },
+    "vermeer-xl-weights/103.bin": {
+      "bytes": 6553600,
+      "sha256": "e463c48d922392a315c7fe0d3655a23779da8273281bbff4dba65349430b8f55"
+    },
+    "vermeer-xl-weights/104.bin": {
+      "bytes": 18350080,
+      "sha256": "67c531e5dbddd8b9bfad3d8b0d823ec5c2444b789cddde093cbb0d9d4744a28f"
+    },
+    "vermeer-xl-weights/105.bin": {
+      "bytes": 18350080,
+      "sha256": "345c2118793e9bbc5f1fd409716ada192adbdeddb48a4cc7b15158f32d77eb52"
+    },
+    "vermeer-xl-weights/106.bin": {
+      "bytes": 18350080,
+      "sha256": "5255e602908aaac71ee3aac3a15f233d85ae8b56b17c50a97c507768fed939de"
+    },
+    "vermeer-xl-weights/107.bin": {
+      "bytes": 5120,
+      "sha256": "21bba203ce1740dc982c61e1c6b58e5a02fab121d465199e4984def1c140dcd9"
+    },
+    "vermeer-xl-weights/108.bin": {
+      "bytes": 5120,
+      "sha256": "658e8a887f5e9abdb98451849905fcdc36e916382a511ae5b3c73aeb2d2cc223"
+    },
+    "vermeer-xl-weights/109.bin": {
+      "bytes": 19660800,
+      "sha256": "59f0e5c2fba5fb62f4c937fe10b905cf64609385cd20c33fb22b76c72eeec8c0"
+    },
+    "vermeer-xl-weights/110.bin": {
+      "bytes": 6553600,
+      "sha256": "84b140c3cd5dbb28479b7a15b8c989c29c9753497e90fb20122893afeadde2eb"
+    },
+    "vermeer-xl-weights/111.bin": {
+      "bytes": 18350080,
+      "sha256": "cd80f672965ac98a0f7e56d0219000b7a41d20c34897c1dd94ceabfafd11ca22"
+    },
+    "vermeer-xl-weights/112.bin": {
+      "bytes": 18350080,
+      "sha256": "69fceb4e41bfe137cea07ccd6fd3f10a4da2a69e2c7628fe21b7f05f1d568ec5"
+    },
+    "vermeer-xl-weights/113.bin": {
+      "bytes": 18350080,
+      "sha256": "29edc8c48f0500a627eec9bc99b830baf370935885e2af9dc5770d4d980c4c6e"
+    },
+    "vermeer-xl-weights/114.bin": {
+      "bytes": 5120,
+      "sha256": "13dd52a13db7657a182785311eda394e7783f875a804bd3da4b732c0f9d7465b"
+    },
+    "vermeer-xl-weights/115.bin": {
+      "bytes": 5120,
+      "sha256": "a7f9d6cf868ae3f92f1d2cb603371e123a6b2afb5bc4c241efd7620e7c64effc"
+    },
+    "vermeer-xl-weights/116.bin": {
+      "bytes": 19660800,
+      "sha256": "1f26e91b08d6e76736ddc58f6703d7667d4cdd90b46afa71f8813bfd7f1d0087"
+    },
+    "vermeer-xl-weights/117.bin": {
+      "bytes": 6553600,
+      "sha256": "9063dccbe87086cfd33d8ec9972eb12ed300e0553736baa24e1c21544e592409"
+    },
+    "vermeer-xl-weights/118.bin": {
+      "bytes": 18350080,
+      "sha256": "f88789d6376335ae712545907085aacaf76316f42cd680598bd6af2d87263ca8"
+    },
+    "vermeer-xl-weights/119.bin": {
+      "bytes": 18350080,
+      "sha256": "d15dd94764feb4b9dcd7d00592cff01b2d79c41e67459d579658571851b69300"
+    },
+    "vermeer-xl-weights/120.bin": {
+      "bytes": 18350080,
+      "sha256": "af0e10fb1610f9299e3630971a99003396ff5151cd7cef67dd344329a41f1939"
+    },
+    "vermeer-xl-weights/121.bin": {
+      "bytes": 5120,
+      "sha256": "6b66ca18720c5e22708c41f8edca56613d7102d0f045e761ccbb09086b1707c5"
+    },
+    "vermeer-xl-weights/122.bin": {
+      "bytes": 5120,
+      "sha256": "4b581ac888f2275d374d9cc3d5f5d2bb8a17f98218c91afe372fae0597995cf0"
+    },
+    "vermeer-xl-weights/123.bin": {
+      "bytes": 19660800,
+      "sha256": "56de7dac3c8c073e13ad153a82fce07f85a8e3d9546c36dc7c813de31833a700"
+    },
+    "vermeer-xl-weights/124.bin": {
+      "bytes": 6553600,
+      "sha256": "d95dc1e53c4eb94537d09475cfcdd96dc419a358366316b5c6ecc21027378593"
+    },
+    "vermeer-xl-weights/125.bin": {
+      "bytes": 18350080,
+      "sha256": "fb660bd5963f236517bd15a82dda91540669351990a5c04c1e53d1c357ce7503"
+    },
+    "vermeer-xl-weights/126.bin": {
+      "bytes": 18350080,
+      "sha256": "efa19ac1d771694b5d7683349a87d5d763aa98da9a887b5fa8e66eb3cdaff2ed"
+    },
+    "vermeer-xl-weights/127.bin": {
+      "bytes": 18350080,
+      "sha256": "2a09d30edf24f1ca0ae7643d7101480a89b7423d947a020cac30876d146dcf20"
+    },
+    "vermeer-xl-weights/128.bin": {
+      "bytes": 5120,
+      "sha256": "f034b28eca8e115059fdc8e77c124aa90c08a609cca84f8638554d4acba1b59f"
+    },
+    "vermeer-xl-weights/129.bin": {
+      "bytes": 5120,
+      "sha256": "ff29149fbd5bb25fa22d65bd377422c06d9e924bfa1446e67be4bb85e2c2fee8"
+    },
+    "vermeer-xl-weights/130.bin": {
+      "bytes": 19660800,
+      "sha256": "c40b071553ba99a3d214af1ed5047ffe8d0bb8b1fb9b35a22c1acd9e6eec7315"
+    },
+    "vermeer-xl-weights/131.bin": {
+      "bytes": 6553600,
+      "sha256": "9a6cea1a82149bb4313ed63383be8d0ce806282d089de973ee9fae8697163ce7"
+    },
+    "vermeer-xl-weights/132.bin": {
+      "bytes": 18350080,
+      "sha256": "b95dcc414f61ee2abf0cc2724bdb6a9d593207c57adf548bed82032fd8312a81"
+    },
+    "vermeer-xl-weights/133.bin": {
+      "bytes": 18350080,
+      "sha256": "52872bc4f240e92bf34b283b30288d11d3a3aeb832cf97098b37968efc4a20c8"
+    },
+    "vermeer-xl-weights/134.bin": {
+      "bytes": 18350080,
+      "sha256": "f87b7a3a615d8660fb00beb4908771f4dc4e202f7e5c48df3105d35650781ed4"
+    },
+    "vermeer-xl-weights/135.bin": {
+      "bytes": 5120,
+      "sha256": "9b3c17e7aec80462035ee4e21ad214b897fb9defdc87b1ced33cfa43749d8c1d"
+    },
+    "vermeer-xl-weights/136.bin": {
+      "bytes": 5120,
+      "sha256": "e425428e8d479b6a55c61ecd0645c9dd3d85f84932b81630ae5f61e4e634849c"
+    },
+    "vermeer-xl-weights/137.bin": {
+      "bytes": 19660800,
+      "sha256": "f303a26379af2842b41414dc84fabce9d76aca34907c07bda00c32971c8f00f9"
+    },
+    "vermeer-xl-weights/138.bin": {
+      "bytes": 6553600,
+      "sha256": "d8f26ae65f9e2389f59f831630ad92814b962c1f4fb46509bd978786eb2672f5"
+    },
+    "vermeer-xl-weights/139.bin": {
+      "bytes": 18350080,
+      "sha256": "14d8d3c26211d1ab13fb1a44948d7ce423a3cfc1acb450e3de0d94c56cfc7cbf"
+    },
+    "vermeer-xl-weights/140.bin": {
+      "bytes": 18350080,
+      "sha256": "8da0977ef18a9577b4193ea2549c0cb370231de267dad489779d7d7ddd6a8bd9"
+    },
+    "vermeer-xl-weights/141.bin": {
+      "bytes": 18350080,
+      "sha256": "4247c0179c14600cad7f9a67d63776b1df5d1a0ebb28d02ab6fbb64d56a998e8"
+    },
+    "vermeer-xl-weights/142.bin": {
+      "bytes": 5120,
+      "sha256": "bac47f52c289f7ed9b86c2a51fce7c32263ec734a985b11b17a2c2f536c28e91"
+    },
+    "vermeer-xl-weights/143.bin": {
+      "bytes": 5120,
+      "sha256": "6dc97bd13b43001997726ffa471fbc493721b34b6be072c6c7122cc3abb66088"
+    },
+    "vermeer-xl-weights/144.bin": {
+      "bytes": 19660800,
+      "sha256": "65f5f37db0c5dfd521726a42b0935d28c67cde4a7fcdc5c86390acd1cdac8f2b"
+    },
+    "vermeer-xl-weights/145.bin": {
+      "bytes": 6553600,
+      "sha256": "cf1e04e9a1f0ff3184ec28cd9723b464d66498edf4a57b4313fdedecf883fc45"
+    },
+    "vermeer-xl-weights/146.bin": {
+      "bytes": 18350080,
+      "sha256": "712aea322e118d3e0f0b79917351668b3c0dc636244ff55245b9e2671d4fac7c"
+    },
+    "vermeer-xl-weights/147.bin": {
+      "bytes": 18350080,
+      "sha256": "4f2d3efa035ef4e3fc3b3c739b4b61d2d3a84be9e4f947fd486f6dcd609cb51a"
+    },
+    "vermeer-xl-weights/148.bin": {
+      "bytes": 18350080,
+      "sha256": "1040cdf280ba5004f609158e13918e863dceeaca5534edeedbfa98498a0abc6d"
+    },
+    "vermeer-xl-weights/149.bin": {
+      "bytes": 5120,
+      "sha256": "a1101b064e7f3f1aadd54591bda7898f26ab01d69a325c268c40eb367127a07c"
+    },
+    "vermeer-xl-weights/150.bin": {
+      "bytes": 5120,
+      "sha256": "76a9f2b691ce2b18eeff6d5aa08d5e720099d85493e7f1a4f3796731ae4f1adb"
+    },
+    "vermeer-xl-weights/151.bin": {
+      "bytes": 19660800,
+      "sha256": "03d12d7848503fc6ec668832ca181752c50ba1d5f4f760b247764e4fa3cef2cc"
+    },
+    "vermeer-xl-weights/152.bin": {
+      "bytes": 6553600,
+      "sha256": "0fe30e543b72a737efa794f693c6d11afe92d5e4b3766d0f2a8315379297aec6"
+    },
+    "vermeer-xl-weights/153.bin": {
+      "bytes": 18350080,
+      "sha256": "de001350e68deae1c44a847d05209fbb5af995bf4623050db5dca36cd9ee7fc5"
+    },
+    "vermeer-xl-weights/154.bin": {
+      "bytes": 18350080,
+      "sha256": "f83abe7cd86d4d4e5c78cca558a8de20cf39347c788648f0015186c83541af7f"
+    },
+    "vermeer-xl-weights/155.bin": {
+      "bytes": 18350080,
+      "sha256": "2629844e32a5a30be9e7ad18040973bb8fe12f2bb2946abd5a4a464a14966711"
+    },
+    "vermeer-xl-weights/156.bin": {
+      "bytes": 5120,
+      "sha256": "e3abbac4ca7236946235ecaa500a54b4ff5c16bc89b070e1289faebec7cb55fa"
+    },
+    "vermeer-xl-weights/157.bin": {
+      "bytes": 5120,
+      "sha256": "19a854f4c24b8bfc1e06aa88c5b2492798358e157e4693705cb72fac4e64c186"
+    },
+    "vermeer-xl-weights/158.bin": {
+      "bytes": 19660800,
+      "sha256": "2dac65608119334551218445892642995056167be0b39f52219b93b7751436af"
+    },
+    "vermeer-xl-weights/159.bin": {
+      "bytes": 6553600,
+      "sha256": "4962c955ddb9bbacaab1db951d025066a985c3bfcebb85fb78c37d7cacf7fc2c"
+    },
+    "vermeer-xl-weights/160.bin": {
+      "bytes": 18350080,
+      "sha256": "bf6efbb0d988aa8d3daa74bbf989f93b3112af07270009be81299ada094d2858"
+    },
+    "vermeer-xl-weights/161.bin": {
+      "bytes": 18350080,
+      "sha256": "2261c6844726fdb88a770644fa992914198dd755af981839ce8f1804315838f3"
+    },
+    "vermeer-xl-weights/162.bin": {
+      "bytes": 18350080,
+      "sha256": "dcfe5bc87ab0a2e4a03585356ef8dcd0b5c3fbc364082042a001280dbf675dce"
+    },
+    "vermeer-xl-weights/163.bin": {
+      "bytes": 5120,
+      "sha256": "c80ee266fe70757f34685c6acfde721e7d24f4f0a64a535dd8b13ace1262a9ed"
+    },
+    "vermeer-xl-weights/164.bin": {
+      "bytes": 5120,
+      "sha256": "d9dec8efe1cb679d6659192a6c21ceffae6dc221604baa52418480cf105eef6f"
+    },
+    "vermeer-xl-weights/165.bin": {
+      "bytes": 19660800,
+      "sha256": "d6cbdc8581bf9be2b9a7b9efa61fc4a84a1d51ae29b4f31d35de83f39128ced7"
+    },
+    "vermeer-xl-weights/166.bin": {
+      "bytes": 6553600,
+      "sha256": "a5a7cd8228fad879832f0fcfc03ff246b9303db53a2be492bc1b122274084d8f"
+    },
+    "vermeer-xl-weights/167.bin": {
+      "bytes": 18350080,
+      "sha256": "7edf3162f992ea101ef6c8095fd7cdc9048edb6be4445ab5247c331aafaf85e2"
+    },
+    "vermeer-xl-weights/168.bin": {
+      "bytes": 18350080,
+      "sha256": "b4bc0cf78bbfc6cb6e846102d0a500b682cbdd991ff998d87d265d0ff82e74de"
+    },
+    "vermeer-xl-weights/169.bin": {
+      "bytes": 18350080,
+      "sha256": "dce9619247050cc61090516735575f91c13f9ccd23859486aad105fc8af3a391"
+    },
+    "vermeer-xl-weights/170.bin": {
+      "bytes": 5120,
+      "sha256": "41a8e90d61aafd99fe8d54a225fe2e3fc3171ae9dabeb77b62bda0e82cf88bea"
+    },
+    "vermeer-xl-weights/171.bin": {
+      "bytes": 5120,
+      "sha256": "1dcd262263e203d3cf86fb0559dd000a17d28f7a71d1141a5ada963b1508cfc8"
+    },
+    "vermeer-xl-weights/172.bin": {
+      "bytes": 19660800,
+      "sha256": "a56f524cef16b8e2e9f406bdbc15c94e5cd3912254fc1d1acd42c02d5986c7bd"
+    },
+    "vermeer-xl-weights/173.bin": {
+      "bytes": 6553600,
+      "sha256": "f6dd6fa040d56d2249ba753d1ea4975179e4f0ed33480d9a8101f3d8d9076f62"
+    },
+    "vermeer-xl-weights/174.bin": {
+      "bytes": 18350080,
+      "sha256": "11908e52de1230f3bbc5aa7349bb698eafed92e53a9e2ddd2c50d42b2da0f169"
+    },
+    "vermeer-xl-weights/175.bin": {
+      "bytes": 18350080,
+      "sha256": "4c5c66723738228cc388b2bc4481d42db8fdb2bc2af9a6069e1fde95ee0bbadb"
+    },
+    "vermeer-xl-weights/176.bin": {
+      "bytes": 18350080,
+      "sha256": "42e993ab2ba728cd91b794dd1cdac83490d9def4498005e01d98c3020bc70a88"
+    },
+    "vermeer-xl-weights/177.bin": {
+      "bytes": 5120,
+      "sha256": "caa4d073599478cb21d1b145975551cdd8b9a6560c6ca240100e0c46e6c646ae"
+    },
+    "vermeer-xl-weights/178.bin": {
+      "bytes": 5120,
+      "sha256": "22ddee556c8fe64362e887c5050bde7aaf5cade719d731db7d843cb978479737"
+    },
+    "vermeer-xl-weights/179.bin": {
+      "bytes": 19660800,
+      "sha256": "ad443605ed99387030641ea16ae19f047afa3c6aac4ed980cb31bb32e8b66ea3"
+    },
+    "vermeer-xl-weights/180.bin": {
+      "bytes": 6553600,
+      "sha256": "1c11b80fe3790f1a458b0a3a834b53260cb42ff672f91e597df90e29abceedb6"
+    },
+    "vermeer-xl-weights/181.bin": {
+      "bytes": 18350080,
+      "sha256": "6db1c4b15e3756fa2304e3960856a655cdf40caa73936bce1d9d66c424a50041"
+    },
+    "vermeer-xl-weights/182.bin": {
+      "bytes": 18350080,
+      "sha256": "fb0f1f7628753b13883fd570b7485b1df6f6c1b3cbe00b66f614fd35f4acb720"
+    },
+    "vermeer-xl-weights/183.bin": {
+      "bytes": 18350080,
+      "sha256": "b1d1521b8c6005caa876a54e9fdeeb23c85e9a1f52ca05d0e875341065038c41"
+    },
+    "vermeer-xl-weights/184.bin": {
+      "bytes": 5120,
+      "sha256": "7769486863ddacd6909dc86a603c82ebaf5fab662cdb9abc47df2d47946a2909"
+    },
+    "vermeer-xl-weights/185.bin": {
+      "bytes": 5120,
+      "sha256": "08110ad6ee7670d38fa2104e46d86ba44672a20467c4bdc165d6391e5819cea2"
+    },
+    "vermeer-xl-weights/186.bin": {
+      "bytes": 19660800,
+      "sha256": "24ad90443086de6c446b57ea78a760f4fa02a5a096f20792ff27bbb3e28aca22"
+    },
+    "vermeer-xl-weights/187.bin": {
+      "bytes": 6553600,
+      "sha256": "90c4b0c18d7b10a74837ab7c48fffe8d13fae077085eb4a7fbb87ab85d4f1d68"
+    },
+    "vermeer-xl-weights/188.bin": {
+      "bytes": 18350080,
+      "sha256": "ec7bde45878bcd4ee9aa11fb09cede8e3c603e39747b1a8cf92cd71cf76145f6"
+    },
+    "vermeer-xl-weights/189.bin": {
+      "bytes": 18350080,
+      "sha256": "e2d0b2e0e924f993e3c18b952d6630c777040e8bcccf9c131ba3ba15dedfb99b"
+    },
+    "vermeer-xl-weights/190.bin": {
+      "bytes": 18350080,
+      "sha256": "fa202ecaadf3d23791323848e108cb71a5225790fa8804d25d07c2283e762ace"
+    },
+    "vermeer-xl-weights/191.bin": {
+      "bytes": 5120,
+      "sha256": "65fcad748b2c767be7dd7b9155ca3c13c204f31da5789308e14a0a6f9a95664f"
+    },
+    "vermeer-xl-weights/192.bin": {
+      "bytes": 5120,
+      "sha256": "432231433ffbc995591fbcb88a365d022e43ec3e60d2efdee5f7f8b7fe3cad69"
+    },
+    "vermeer-xl-weights/193.bin": {
+      "bytes": 19660800,
+      "sha256": "ab2f66bca8d13a528d7ebb1d182ba29b5f58ff76808a06ebbc10a2dce8779df9"
+    },
+    "vermeer-xl-weights/194.bin": {
+      "bytes": 6553600,
+      "sha256": "e2a6f49f59336ba88feedc9da8f907b2a1812b3d965f09e9a96f5967443d5bad"
+    },
+    "vermeer-xl-weights/195.bin": {
+      "bytes": 18350080,
+      "sha256": "3aa0480611350394ba869827d12d5ae3257481983248da59324ab166f76e9ddb"
+    },
+    "vermeer-xl-weights/196.bin": {
+      "bytes": 18350080,
+      "sha256": "abb3e8886a07d2a3c80c837adb83fc896905402915420776b9fd342aba2e85a7"
+    },
+    "vermeer-xl-weights/197.bin": {
+      "bytes": 18350080,
+      "sha256": "eeee6115832a65c8c450f5053b3ed6c2ad0489c2a9d38d276d21a918ca6ac3ec"
+    },
+    "vermeer-xl-weights/198.bin": {
+      "bytes": 5120,
+      "sha256": "439e9f94ea478032b0b8eecca54a7d5d17722b8541d35d5d700abf4aeb6dc008"
+    },
+    "vermeer-xl-weights/199.bin": {
+      "bytes": 5120,
+      "sha256": "b6289e0dc5703928eb60516ba53de5ae7dc37cd784957ed105d54b7941d4bdac"
+    },
+    "vermeer-xl-weights/200.bin": {
+      "bytes": 19660800,
+      "sha256": "d0325d38aefbc0aa89ff41a6777b63811a0abb15265ab6ae50c794ad31d3e73d"
+    },
+    "vermeer-xl-weights/201.bin": {
+      "bytes": 6553600,
+      "sha256": "73a292733355c9f5b4561fdad53e7e717f7324bcce508f854602a64597cf8b38"
+    },
+    "vermeer-xl-weights/202.bin": {
+      "bytes": 18350080,
+      "sha256": "3501a7e15c498f2d7ec5f8c1c43f0bca5e095bc697a00049744efd53b9242519"
+    },
+    "vermeer-xl-weights/203.bin": {
+      "bytes": 18350080,
+      "sha256": "da4ed38e772c834dda8f45ec95c58945139729e971f79a95eb7bca3e3ef63363"
+    },
+    "vermeer-xl-weights/204.bin": {
+      "bytes": 18350080,
+      "sha256": "85f34a0516ffad738486ee445397352ac04702680c9f35abc0dd0246e90af6dd"
+    },
+    "vermeer-xl-weights/205.bin": {
+      "bytes": 5120,
+      "sha256": "465a032bc71b505f961d92662832bfe92a315fa4be6ecd9b7afad52087e69414"
+    },
+    "vermeer-xl-weights/206.bin": {
+      "bytes": 5120,
+      "sha256": "c619f4cb3110aa365999fe3f1054e36c3335043b82bb9bbee9b0392cf5d0735b"
+    },
+    "vermeer-xl-weights/207.bin": {
+      "bytes": 19660800,
+      "sha256": "f9c8d14046c18777ca84544c613ebebbfacea7f55bce6410185b56aa1d797477"
+    },
+    "vermeer-xl-weights/208.bin": {
+      "bytes": 6553600,
+      "sha256": "2bf61e376fb4db29919038f727645f6bbfe1351e95732eda16cfd2587a780b9b"
+    },
+    "vermeer-xl-weights/209.bin": {
+      "bytes": 18350080,
+      "sha256": "ca6d671a7dfe94a6776dd412381266e309fa2becf49f428b46b59a42548c7e7f"
+    },
+    "vermeer-xl-weights/210.bin": {
+      "bytes": 18350080,
+      "sha256": "80c8d33cf4cb6466690b61956b1cc773e6bf3e5cfb2030e8ad31e5557361a794"
+    },
+    "vermeer-xl-weights/211.bin": {
+      "bytes": 18350080,
+      "sha256": "86eb42cb5622f2eec2ac7d1f5a282654b20c3bcb19b285b94ecbea32913fed68"
+    },
+    "vermeer-xl-weights/212.bin": {
+      "bytes": 5120,
+      "sha256": "ec929506e5497c4a8280c27b2aaa7b787bfcf34e219aa1edb479e92c0f36f94e"
+    },
+    "vermeer-xl-weights/213.bin": {
+      "bytes": 5120,
+      "sha256": "99d4c4bfcbf40cc9bd9650dac715da5f739b47a6f6c86c703a5b5403cd9d5400"
+    },
+    "vermeer-xl-weights/214.bin": {
+      "bytes": 19660800,
+      "sha256": "26b4524e40fde6383dc982d07fe7b424e7b612504638ccde79d20118f3c55b27"
+    },
+    "vermeer-xl-weights/215.bin": {
+      "bytes": 6553600,
+      "sha256": "86d4ae26d488b14417e55066ff8f4584cc8241ea41cfc0dc5ce44ac7eddc4c01"
+    },
+    "vermeer-xl-weights/216.bin": {
+      "bytes": 18350080,
+      "sha256": "3c749c814ad52c39baf14bc4924878ef238292b1eb237b35a12c2699fd5b2077"
+    },
+    "vermeer-xl-weights/217.bin": {
+      "bytes": 18350080,
+      "sha256": "5f91c8066a8a954ca949525537eb57e6eb1c474711ee15d95af1ec03c36fa48a"
+    },
+    "vermeer-xl-weights/218.bin": {
+      "bytes": 18350080,
+      "sha256": "6c0e6728cabe478ae8ca807fc2a56b0cb8b668e808407de37dce849fc633093c"
+    },
+    "vermeer-xl-weights/219.bin": {
+      "bytes": 5120,
+      "sha256": "6c888254f285ede7a6583cbbcb84a786f5fb44413e7ac36f923b2ff8f92097f0"
+    },
+    "vermeer-xl-weights/220.bin": {
+      "bytes": 5120,
+      "sha256": "ba20d50f994b2afce7ac92c8baabf666e9213288199fed8b2f7b81bc7cc4988b"
+    },
+    "vermeer-xl-weights/221.bin": {
+      "bytes": 19660800,
+      "sha256": "8115977e42b755a3331d0a2e0a4b894b103afb4aafcd4d86862c94e4d4b5bc38"
+    },
+    "vermeer-xl-weights/222.bin": {
+      "bytes": 6553600,
+      "sha256": "7410cb411892c12f29c8e40dd05ff45c04fa4c3beaaaa90ef47b0fa2d910a297"
+    },
+    "vermeer-xl-weights/223.bin": {
+      "bytes": 18350080,
+      "sha256": "90668523508f8cc749a004e241a1f82d4023b0d6035c0481f894ac03d8f1c709"
+    },
+    "vermeer-xl-weights/224.bin": {
+      "bytes": 18350080,
+      "sha256": "05995ed984e13eaa745a29d148acbae34af59f6bea16249eaabdb871cec5b263"
+    },
+    "vermeer-xl-weights/225.bin": {
+      "bytes": 18350080,
+      "sha256": "60bccfa22b4592b7b4362edf58e66303139e1106254e08cfb2da4f1f1631e481"
+    },
+    "vermeer-xl-weights/226.bin": {
+      "bytes": 5120,
+      "sha256": "3888fe6bd4ba01f80db3374f1c9248921696fb02b347ad91e8524dc8443c4598"
+    },
+    "vermeer-xl-weights/227.bin": {
+      "bytes": 5120,
+      "sha256": "122467647f356ec49b536210b56d34b159d82dddc1473b2c29a670a28e787aa4"
+    },
+    "vermeer-xl-weights/228.bin": {
+      "bytes": 19660800,
+      "sha256": "a513bb1ed7c0201d1931c61c0b0a9d30cbdff4a7e64857efafde3a7f5bdf0a28"
+    },
+    "vermeer-xl-weights/229.bin": {
+      "bytes": 6553600,
+      "sha256": "fa7b16842e4d380da61bcd98e1901f5de3ba432e92a836dbad073bcce4795c81"
+    },
+    "vermeer-xl-weights/230.bin": {
+      "bytes": 18350080,
+      "sha256": "813740c3df8fd5e0e5bc79fdec1beea75079d6cf22e0b10ffada24a47d31f350"
+    },
+    "vermeer-xl-weights/231.bin": {
+      "bytes": 18350080,
+      "sha256": "f96233b3c5e19a6ae5f788257333c47cab37aa9b5801f8e368eef439334104f7"
+    },
+    "vermeer-xl-weights/232.bin": {
+      "bytes": 18350080,
+      "sha256": "a69a78bdaa46181b6aab34d9d3b8013e7acaf884a6ad602b2b4e6c3f7922e0d1"
+    },
+    "vermeer-xl-weights/233.bin": {
+      "bytes": 5120,
+      "sha256": "5b38d932a0e564717ebe162781059585c973a5e6b9cfd34233b7ac65e79b6664"
+    },
+    "vermeer-xl-weights/234.bin": {
+      "bytes": 5120,
+      "sha256": "707e64d627bd74265b96d346e2e2e6cbe930ac4e5963791a4b3daefab3234797"
+    },
+    "vermeer-xl-weights/235.bin": {
+      "bytes": 19660800,
+      "sha256": "30521c41318da05a5c8a26c7613e501ebc6fd88a415b1eedfcf352ebcfdd03b8"
+    },
+    "vermeer-xl-weights/236.bin": {
+      "bytes": 6553600,
+      "sha256": "4560cd3e9c59d35d33a13ca57f2c6bc4f69d5a5db94bc684770c21b94626647b"
+    },
+    "vermeer-xl-weights/237.bin": {
+      "bytes": 18350080,
+      "sha256": "a1923577ed915fdb1a275079f187919dbd5e8d955047b26616b350f3c88a6793"
+    },
+    "vermeer-xl-weights/238.bin": {
+      "bytes": 18350080,
+      "sha256": "c5ae6af8daa232f8e4e031f41635474e9e6081cffb346be4d64960288ca8718c"
+    },
+    "vermeer-xl-weights/239.bin": {
+      "bytes": 18350080,
+      "sha256": "b57a5cb83abf38c8f80fbff8d38c528e0e3652933cb4b279595863fa5e582472"
+    },
+    "vermeer-xl-weights/240.bin": {
+      "bytes": 5120,
+      "sha256": "10d3c26751fd4f0d1a503a1de05a0578cedd1fd5a2d4793bc3621cd631d26906"
+    },
+    "vermeer-xl-weights/241.bin": {
+      "bytes": 5120,
+      "sha256": "75546718deb2c8d4ed3f3d1aad338db96f28d4712bf775b5fb80acb527a1bf4f"
+    },
+    "vermeer-xl-weights/242.bin": {
+      "bytes": 19660800,
+      "sha256": "0944b35eb2d6a698c065ba88e607f7ec6d4b647cc64b72898755b556bf6bd567"
+    },
+    "vermeer-xl-weights/243.bin": {
+      "bytes": 6553600,
+      "sha256": "e67c66eb173cd858be8d6bf6c198a43613af08d1d8580709d662b433bc82027c"
+    },
+    "vermeer-xl-weights/244.bin": {
+      "bytes": 18350080,
+      "sha256": "a486c3229179d998bb65472deff31bd28292b183215b8f27da84e52b117be519"
+    },
+    "vermeer-xl-weights/245.bin": {
+      "bytes": 18350080,
+      "sha256": "570616bdfde55ea9aff4f50234f7df4566a0886a1235dacfa6222c0dd5ab18cb"
+    },
+    "vermeer-xl-weights/246.bin": {
+      "bytes": 18350080,
+      "sha256": "11bf04c5a1d7309ff9954a0d640da25ad75cd210dbc39f555d5d05baec84de7c"
+    },
+    "vermeer-xl-weights/247.bin": {
+      "bytes": 5120,
+      "sha256": "fdd59ff9f04662314271b856b767eb225e2dee7cf2e5405d9c77849626ea14e8"
+    },
+    "vermeer-xl-weights/248.bin": {
+      "bytes": 5120,
+      "sha256": "bcfb05325863b269ea96223bdefb408120a8410a02e6c221702226c69a3709ce"
+    },
+    "vermeer-xl-weights/249.bin": {
+      "bytes": 19660800,
+      "sha256": "3c090f39e7903c1daaf8dface26eb996a57e6cb341ee51210dccb76066fadada"
+    },
+    "vermeer-xl-weights/250.bin": {
+      "bytes": 6553600,
+      "sha256": "4631ad33dbbb8e8b392caab36f1eae7d049e437d1352aa961a6c9bc467909ca5"
+    },
+    "vermeer-xl-weights/251.bin": {
+      "bytes": 18350080,
+      "sha256": "2e3b698e0d193ea1a0cd5a5bf5adcfa1e496830b5a15cbd339c666d7b9f4fc88"
+    },
+    "vermeer-xl-weights/252.bin": {
+      "bytes": 18350080,
+      "sha256": "6c6a35ec4aa9ffc6b8f95df41595a93759bff6e1b0155df3b4f3bd4754b35929"
+    },
+    "vermeer-xl-weights/253.bin": {
+      "bytes": 18350080,
+      "sha256": "21efee2cfa8cc06137b88c476d9fe7178180a3e7e663907b9509232d68545c97"
+    },
+    "vermeer-xl-weights/254.bin": {
+      "bytes": 5120,
+      "sha256": "7e62cabd4338491c0d7d85ab35dfbf07b324c11bd9ffef34892d1c44fab2588d"
+    },
+    "vermeer-xl-weights/255.bin": {
+      "bytes": 5120,
+      "sha256": "f4359cf24577f5d7e4b116c9e89f987adb1bd75b71307bcf0daaff61e4fff4e8"
+    },
+    "vermeer-xl-weights/256.bin": {
+      "bytes": 5120,
+      "sha256": "ef9c4c8306d793eb2ae151b42bc1a5059cedcb06d5c49a1be62764d1fd43b7b1"
+    },
+    "vermeer-xl-weights/257.bin": {
+      "bytes": 83932160,
+      "sha256": "560a352f20018f1c546b029e7593a39b0b68d2cdd8fd2600961eb74e03c5ed58"
+    }
+  }
+}

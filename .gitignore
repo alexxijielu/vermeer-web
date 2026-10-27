@@ -1,0 +1,14 @@
+node_modules/
+dist/
+.env
+.env.*
+tools/.venv/
+tools/checkpoints/
+tools/reference-tiffs/
+tools/hpa-cell-line-download.csv
+**/__pycache__/
+web/assets/models/
+web/assets/browser-fixture.json
+web/assets/browser-fixture-b.json
+web/assets/browser-fixture-l.json
+web/assets/browser-fixture-xl.json

@@ -1,0 +1,4597 @@
+{
+  "metadataRevision": "5c4ac7f1eeb722f1a8fe68c48743dc6a197806bf",
+  "cellLines": {
+    "A-431": [
+      {
+        "cellLine": "A-431",
+        "antibody": "HPA023778",
+        "uniprot": "Q9NSG2",
+        "fov": "1",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/23778/237_E10_1_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/23778/237_E10_1_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/23778/237_E10_1_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "A-431",
+        "antibody": "HPA023778",
+        "uniprot": "Q9NSG2",
+        "fov": "2",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/23778/237_E10_2_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/23778/237_E10_2_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/23778/237_E10_2_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "A-431",
+        "antibody": "HPA002024",
+        "uniprot": "P09769",
+        "fov": "1",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/2024/60_H5_1_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/2024/60_H5_1_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/2024/60_H5_1_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "A-431",
+        "antibody": "HPA002024",
+        "uniprot": "P09769",
+        "fov": "2",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/2024/60_H5_2_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/2024/60_H5_2_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/2024/60_H5_2_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "A-431",
+        "antibody": "CAB009569",
+        "uniprot": "P48506",
+        "fov": "1",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/9569/921_H5_1_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/9569/921_H5_1_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/9569/921_H5_1_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "A-431",
+        "antibody": "CAB009569",
+        "uniprot": "P48506",
+        "fov": "2",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/9569/921_H5_2_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/9569/921_H5_2_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/9569/921_H5_2_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "A-431",
+        "antibody": "HPA036360",
+        "uniprot": "P48506",
+        "fov": "1",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/36360/441_C2_1_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/36360/441_C2_1_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/36360/441_C2_1_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "A-431",
+        "antibody": "HPA036360",
+        "uniprot": "P48506",
+        "fov": "2",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/36360/441_C2_2_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/36360/441_C2_2_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/36360/441_C2_2_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "A-431",
+        "antibody": "HPA050779",
+        "uniprot": "P23511",
+        "fov": "1",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/50779/844_D10_1_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/50779/844_D10_1_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/50779/844_D10_1_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "A-431",
+        "antibody": "HPA050779",
+        "uniprot": "P23511",
+        "fov": "2",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/50779/844_D10_2_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/50779/844_D10_2_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/50779/844_D10_2_yellow.tif.gz"
+        }
+      }
+    ],
+    "A-549": [
+      {
+        "cellLine": "A-549",
+        "antibody": "HPA028957",
+        "uniprot": "P43351",
+        "fov": "1",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/28957/1566_G9_1_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/28957/1566_G9_1_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/28957/1566_G9_1_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "A-549",
+        "antibody": "HPA028957",
+        "uniprot": "P43351",
+        "fov": "2",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/28957/1566_G9_3_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/28957/1566_G9_3_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/28957/1566_G9_3_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "A-549",
+        "antibody": "HPA007203",
+        "uniprot": "Q76N89",
+        "fov": "1",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/7203/1584_E5_1_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/7203/1584_E5_1_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/7203/1584_E5_1_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "A-549",
+        "antibody": "HPA007203",
+        "uniprot": "Q76N89",
+        "fov": "2",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/7203/1584_E5_3_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/7203/1584_E5_3_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/7203/1584_E5_3_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "A-549",
+        "antibody": "HPA022132",
+        "uniprot": "P28907",
+        "fov": "1",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/22132/1126_F5_1_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/22132/1126_F5_1_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/22132/1126_F5_1_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "A-549",
+        "antibody": "HPA022132",
+        "uniprot": "P28907",
+        "fov": "2",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/22132/1126_F5_3_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/22132/1126_F5_3_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/22132/1126_F5_3_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "A-549",
+        "antibody": "HPA062857",
+        "uniprot": "Q02790",
+        "fov": "1",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/62857/1113_E10_1_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/62857/1113_E10_1_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/62857/1113_E10_1_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "A-549",
+        "antibody": "HPA062857",
+        "uniprot": "Q02790",
+        "fov": "2",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/62857/1113_E10_2_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/62857/1113_E10_2_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/62857/1113_E10_2_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "A-549",
+        "antibody": "HPA044153",
+        "uniprot": "O14558",
+        "fov": "1",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/44153/1125_D7_1_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/44153/1125_D7_1_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/44153/1125_D7_1_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "A-549",
+        "antibody": "HPA044153",
+        "uniprot": "O14558",
+        "fov": "2",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/44153/1125_D7_2_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/44153/1125_D7_2_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/44153/1125_D7_2_yellow.tif.gz"
+        }
+      }
+    ],
+    "AF22": [
+      {
+        "cellLine": "AF22",
+        "antibody": "HPA075418",
+        "uniprot": "Q8TDW4",
+        "fov": "1",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/75418/1595_C4_1_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/75418/1595_C4_1_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/75418/1595_C4_1_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "AF22",
+        "antibody": "HPA075418",
+        "uniprot": "Q8TDW4",
+        "fov": "2",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/75418/1595_C4_2_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/75418/1595_C4_2_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/75418/1595_C4_2_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "AF22",
+        "antibody": "HPA023887",
+        "uniprot": "P06241",
+        "fov": "1",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/23887/1593_C3_5_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/23887/1593_C3_5_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/23887/1593_C3_5_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "AF22",
+        "antibody": "HPA023887",
+        "uniprot": "P06241",
+        "fov": "2",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/23887/1593_C3_9_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/23887/1593_C3_9_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/23887/1593_C3_9_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "AF22",
+        "antibody": "HPA007201",
+        "uniprot": "Q9NXG0",
+        "fov": "1",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/7201/1595_H11_2_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/7201/1595_H11_2_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/7201/1595_H11_2_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "AF22",
+        "antibody": "HPA007201",
+        "uniprot": "Q9NXG0",
+        "fov": "2",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/7201/1595_H11_3_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/7201/1595_H11_3_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/7201/1595_H11_3_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "AF22",
+        "antibody": "HPA069390",
+        "uniprot": "P29320",
+        "fov": "1",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/69390/1783_F9_3_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/69390/1783_F9_3_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/69390/1783_F9_3_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "AF22",
+        "antibody": "HPA069390",
+        "uniprot": "P29320",
+        "fov": "2",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/69390/1783_F9_5_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/69390/1783_F9_5_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/69390/1783_F9_5_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "AF22",
+        "antibody": "HPA077895",
+        "uniprot": "Q2Y0W8",
+        "fov": "1",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/77895/1895_H8_3_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/77895/1895_H8_3_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/77895/1895_H8_3_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "AF22",
+        "antibody": "HPA077895",
+        "uniprot": "Q2Y0W8",
+        "fov": "2",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/77895/1895_H8_4_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/77895/1895_H8_4_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/77895/1895_H8_4_yellow.tif.gz"
+        }
+      }
+    ],
+    "ASC52telo": [
+      {
+        "cellLine": "ASC52telo",
+        "antibody": "HPA035255",
+        "uniprot": "O75800",
+        "fov": "1",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/35255/2210_H5_24_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/35255/2210_H5_24_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/35255/2210_H5_24_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "ASC52telo",
+        "antibody": "HPA035255",
+        "uniprot": "O75800",
+        "fov": "2",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/35255/2210_H5_63_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/35255/2210_H5_63_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/35255/2210_H5_63_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "ASC52telo",
+        "antibody": "HPA038311",
+        "uniprot": "Q9H6T3",
+        "fov": "1",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/38311/2241_D7_8_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/38311/2241_D7_8_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/38311/2241_D7_8_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "ASC52telo",
+        "antibody": "HPA038311",
+        "uniprot": "Q9H6T3",
+        "fov": "2",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/38311/2241_D7_22_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/38311/2241_D7_22_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/38311/2241_D7_22_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "ASC52telo",
+        "antibody": "HPA008421",
+        "uniprot": "P31323",
+        "fov": "1",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/8421/2169_D12_11_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/8421/2169_D12_11_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/8421/2169_D12_11_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "ASC52telo",
+        "antibody": "HPA008421",
+        "uniprot": "P31323",
+        "fov": "2",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/8421/2169_D12_38_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/8421/2169_D12_38_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/8421/2169_D12_38_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "ASC52telo",
+        "antibody": "HPA055861",
+        "uniprot": "Q92793",
+        "fov": "1",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/55861/2183_C9_26_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/55861/2183_C9_26_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/55861/2183_C9_26_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "ASC52telo",
+        "antibody": "HPA055861",
+        "uniprot": "Q92793",
+        "fov": "2",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/55861/2183_C9_80_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/55861/2183_C9_80_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/55861/2183_C9_80_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "ASC52telo",
+        "antibody": "HPA058807",
+        "uniprot": "O75592",
+        "fov": "1",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/58807/2185_C4_13_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/58807/2185_C4_13_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/58807/2185_C4_13_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "ASC52telo",
+        "antibody": "HPA058807",
+        "uniprot": "O75592",
+        "fov": "2",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/58807/2185_C4_83_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/58807/2185_C4_83_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/58807/2185_C4_83_yellow.tif.gz"
+        }
+      }
+    ],
+    "BJ [Human fibroblast]": [
+      {
+        "cellLine": "BJ [Human fibroblast]",
+        "antibody": "HPA044153",
+        "uniprot": "O14558",
+        "fov": "1",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/44153/1368_C11_3_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/44153/1368_C11_3_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/44153/1368_C11_3_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "BJ [Human fibroblast]",
+        "antibody": "HPA044153",
+        "uniprot": "O14558",
+        "fov": "2",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/44153/1368_C11_7_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/44153/1368_C11_7_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/44153/1368_C11_7_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "BJ [Human fibroblast]",
+        "antibody": "HPA006770",
+        "uniprot": "P31270",
+        "fov": "1",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/6770/1667_D4_23_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/6770/1667_D4_23_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/6770/1667_D4_23_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "BJ [Human fibroblast]",
+        "antibody": "HPA006770",
+        "uniprot": "P31270",
+        "fov": "2",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/6770/1667_D4_27_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/6770/1667_D4_27_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/6770/1667_D4_27_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "BJ [Human fibroblast]",
+        "antibody": "HPA055194",
+        "uniprot": "O76009",
+        "fov": "1",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/55194/1368_E6_2_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/55194/1368_E6_2_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/55194/1368_E6_2_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "BJ [Human fibroblast]",
+        "antibody": "HPA055194",
+        "uniprot": "O76009",
+        "fov": "2",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/55194/1368_E6_4_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/55194/1368_E6_4_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/55194/1368_E6_4_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "BJ [Human fibroblast]",
+        "antibody": "HPA077366",
+        "uniprot": "P21731",
+        "fov": "1",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/77366/1743_G1_13_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/77366/1743_G1_13_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/77366/1743_G1_13_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "BJ [Human fibroblast]",
+        "antibody": "HPA077366",
+        "uniprot": "P21731",
+        "fov": "2",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/77366/1743_G1_28_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/77366/1743_G1_28_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/77366/1743_G1_28_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "BJ [Human fibroblast]",
+        "antibody": "HPA066751",
+        "uniprot": "Q9NZN3",
+        "fov": "1",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/66751/1667_E12_5_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/66751/1667_E12_5_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/66751/1667_E12_5_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "BJ [Human fibroblast]",
+        "antibody": "HPA066751",
+        "uniprot": "Q9NZN3",
+        "fov": "2",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/66751/1667_E12_6_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/66751/1667_E12_6_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/66751/1667_E12_6_yellow.tif.gz"
+        }
+      }
+    ],
+    "CACO-2": [
+      {
+        "cellLine": "CACO-2",
+        "antibody": "HPA004109",
+        "uniprot": "O43657",
+        "fov": "1",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/4109/1832_C1_2_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/4109/1832_C1_2_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/4109/1832_C1_2_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "CACO-2",
+        "antibody": "HPA004109",
+        "uniprot": "O43657",
+        "fov": "2",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/4109/1832_C1_4_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/4109/1832_C1_4_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/4109/1832_C1_4_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "CACO-2",
+        "antibody": "HPA028957",
+        "uniprot": "P43351",
+        "fov": "1",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/28957/1553_H5_4_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/28957/1553_H5_4_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/28957/1553_H5_4_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "CACO-2",
+        "antibody": "HPA028957",
+        "uniprot": "P43351",
+        "fov": "2",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/28957/1553_H5_5_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/28957/1553_H5_5_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/28957/1553_H5_5_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "CACO-2",
+        "antibody": "HPA024759",
+        "uniprot": "Q6SZW1",
+        "fov": "1",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/24759/1030_C5_2_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/24759/1030_C5_2_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/24759/1030_C5_2_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "CACO-2",
+        "antibody": "HPA024759",
+        "uniprot": "Q6SZW1",
+        "fov": "2",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/24759/1030_C5_3_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/24759/1030_C5_3_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/24759/1030_C5_3_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "CACO-2",
+        "antibody": "HPA007700",
+        "uniprot": "Q9Y2S7",
+        "fov": "1",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/7700/1722_G7_2_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/7700/1722_G7_2_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/7700/1722_G7_2_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "CACO-2",
+        "antibody": "HPA007700",
+        "uniprot": "Q9Y2S7",
+        "fov": "2",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/7700/1722_G7_7_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/7700/1722_G7_7_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/7700/1722_G7_7_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "CACO-2",
+        "antibody": "HPA040473",
+        "uniprot": "Q9Y2Y6",
+        "fov": "1",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/40473/1240_E7_1_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/40473/1240_E7_1_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/40473/1240_E7_1_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "CACO-2",
+        "antibody": "HPA040473",
+        "uniprot": "Q9Y2Y6",
+        "fov": "2",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/40473/1240_E7_2_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/40473/1240_E7_2_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/40473/1240_E7_2_yellow.tif.gz"
+        }
+      }
+    ],
+    "EFO-21": [
+      {
+        "cellLine": "EFO-21",
+        "antibody": "HPA065180",
+        "uniprot": "Q8TCE9",
+        "fov": "1",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/65180/1830_F2_63_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/65180/1830_F2_63_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/65180/1830_F2_63_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "EFO-21",
+        "antibody": "HPA065180",
+        "uniprot": "Q8TCE9",
+        "fov": "2",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/65180/1830_F2_64_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/65180/1830_F2_64_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/65180/1830_F2_64_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "EFO-21",
+        "antibody": "HPA023427",
+        "uniprot": "Q96S59",
+        "fov": "1",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/23427/1842_A8_61_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/23427/1842_A8_61_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/23427/1842_A8_61_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "EFO-21",
+        "antibody": "HPA023427",
+        "uniprot": "Q96S59",
+        "fov": "2",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/23427/1842_A8_63_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/23427/1842_A8_63_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/23427/1842_A8_63_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "EFO-21",
+        "antibody": "HPA076784",
+        "uniprot": "Q96S59",
+        "fov": "1",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/76784/1937_H11_1_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/76784/1937_H11_1_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/76784/1937_H11_1_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "EFO-21",
+        "antibody": "HPA076784",
+        "uniprot": "Q96S59",
+        "fov": "2",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/76784/1937_H11_2_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/76784/1937_H11_2_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/76784/1937_H11_2_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "EFO-21",
+        "antibody": "HPA023197",
+        "uniprot": "Q9H8M2",
+        "fov": "1",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/23197/1937_G7_2_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/23197/1937_G7_2_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/23197/1937_G7_2_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "EFO-21",
+        "antibody": "HPA023197",
+        "uniprot": "Q9H8M2",
+        "fov": "2",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/23197/1937_G7_3_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/23197/1937_G7_3_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/23197/1937_G7_3_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "EFO-21",
+        "antibody": "HPA065857",
+        "uniprot": "P21815",
+        "fov": "1",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/65857/2226_A12_3_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/65857/2226_A12_3_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/65857/2226_A12_3_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "EFO-21",
+        "antibody": "HPA065857",
+        "uniprot": "P21815",
+        "fov": "2",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/65857/2226_A12_4_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/65857/2226_A12_4_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/65857/2226_A12_4_yellow.tif.gz"
+        }
+      }
+    ],
+    "GAMG": [
+      {
+        "cellLine": "GAMG",
+        "antibody": "HPA007203",
+        "uniprot": "Q76N89",
+        "fov": "1",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/7203/2154_B4_3_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/7203/2154_B4_3_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/7203/2154_B4_3_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "GAMG",
+        "antibody": "HPA007203",
+        "uniprot": "Q76N89",
+        "fov": "2",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/7203/2154_B4_4_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/7203/2154_B4_4_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/7203/2154_B4_4_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "GAMG",
+        "antibody": "HPA063910",
+        "uniprot": "Q9UKZ4",
+        "fov": "1",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/63910/2096_C9_1_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/63910/2096_C9_1_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/63910/2096_C9_1_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "GAMG",
+        "antibody": "HPA063910",
+        "uniprot": "Q9UKZ4",
+        "fov": "2",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/63910/2096_C9_4_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/63910/2096_C9_4_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/63910/2096_C9_4_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "GAMG",
+        "antibody": "HPA063773",
+        "uniprot": "Q99884",
+        "fov": "1",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/63773/2032_F7_2_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/63773/2032_F7_2_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/63773/2032_F7_2_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "GAMG",
+        "antibody": "HPA063773",
+        "uniprot": "Q99884",
+        "fov": "2",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/63773/2032_F7_4_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/63773/2032_F7_4_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/63773/2032_F7_4_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "GAMG",
+        "antibody": "HPA008808",
+        "uniprot": "Q68CQ7",
+        "fov": "1",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/8808/2154_A6_1_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/8808/2154_A6_1_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/8808/2154_A6_1_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "GAMG",
+        "antibody": "HPA008808",
+        "uniprot": "Q68CQ7",
+        "fov": "2",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/8808/2154_A6_2_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/8808/2154_A6_2_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/8808/2154_A6_2_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "GAMG",
+        "antibody": "HPA043063",
+        "uniprot": "Q96KP6",
+        "fov": "1",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/43063/2207_C9_1_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/43063/2207_C9_1_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/43063/2207_C9_1_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "GAMG",
+        "antibody": "HPA043063",
+        "uniprot": "Q96KP6",
+        "fov": "2",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/43063/2207_C9_6_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/43063/2207_C9_6_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/43063/2207_C9_6_yellow.tif.gz"
+        }
+      }
+    ],
+    "HaCaT": [
+      {
+        "cellLine": "HaCaT",
+        "antibody": "HPA073967",
+        "uniprot": "Q9BZF2",
+        "fov": "1",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/73967/1802_G5_2_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/73967/1802_G5_2_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/73967/1802_G5_2_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "HaCaT",
+        "antibody": "HPA073967",
+        "uniprot": "Q9BZF2",
+        "fov": "2",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/73967/1802_G5_3_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/73967/1802_G5_3_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/73967/1802_G5_3_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "HaCaT",
+        "antibody": "HPA073910",
+        "uniprot": "Q14002",
+        "fov": "1",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/73910/1941_E10_2_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/73910/1941_E10_2_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/73910/1941_E10_2_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "HaCaT",
+        "antibody": "HPA073910",
+        "uniprot": "Q14002",
+        "fov": "2",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/73910/1941_E10_4_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/73910/1941_E10_4_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/73910/1941_E10_4_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "HaCaT",
+        "antibody": "HPA077897",
+        "uniprot": "Q8TAV0",
+        "fov": "1",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/77897/1707_H9_13_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/77897/1707_H9_13_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/77897/1707_H9_13_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "HaCaT",
+        "antibody": "HPA077897",
+        "uniprot": "Q8TAV0",
+        "fov": "2",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/77897/1707_H9_18_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/77897/1707_H9_18_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/77897/1707_H9_18_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "HaCaT",
+        "antibody": "HPA070305",
+        "uniprot": "Q9BWX1",
+        "fov": "1",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/70305/1343_D11_2_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/70305/1343_D11_2_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/70305/1343_D11_2_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "HaCaT",
+        "antibody": "HPA070305",
+        "uniprot": "Q9BWX1",
+        "fov": "2",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/70305/1343_D11_3_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/70305/1343_D11_3_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/70305/1343_D11_3_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "HaCaT",
+        "antibody": "HPA069684",
+        "uniprot": "P98194",
+        "fov": "1",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/69684/1346_A10_2_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/69684/1346_A10_2_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/69684/1346_A10_2_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "HaCaT",
+        "antibody": "HPA069684",
+        "uniprot": "P98194",
+        "fov": "2",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/69684/1346_A10_3_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/69684/1346_A10_3_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/69684/1346_A10_3_yellow.tif.gz"
+        }
+      }
+    ],
+    "HAP1": [
+      {
+        "cellLine": "HAP1",
+        "antibody": "HPA023707",
+        "uniprot": "Q9NVH1",
+        "fov": "1",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/23707/1973_G12_3_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/23707/1973_G12_3_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/23707/1973_G12_3_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "HAP1",
+        "antibody": "HPA023707",
+        "uniprot": "Q9NVH1",
+        "fov": "2",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/23707/1973_G12_13_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/23707/1973_G12_13_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/23707/1973_G12_13_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "HAP1",
+        "antibody": "HPA048962",
+        "uniprot": "Q7Z6R9",
+        "fov": "1",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/48962/1918_D3_3_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/48962/1918_D3_3_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/48962/1918_D3_3_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "HAP1",
+        "antibody": "HPA048962",
+        "uniprot": "Q7Z6R9",
+        "fov": "2",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/48962/1918_D3_30_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/48962/1918_D3_30_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/48962/1918_D3_30_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "HAP1",
+        "antibody": "HPA035950",
+        "uniprot": "Q15031",
+        "fov": "1",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/35950/2197_C4_1_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/35950/2197_C4_1_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/35950/2197_C4_1_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "HAP1",
+        "antibody": "HPA035950",
+        "uniprot": "Q15031",
+        "fov": "2",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/35950/2197_C4_2_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/35950/2197_C4_2_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/35950/2197_C4_2_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "HAP1",
+        "antibody": "HPA004840",
+        "uniprot": "P38398",
+        "fov": "1",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/4840/1852_D3_20_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/4840/1852_D3_20_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/4840/1852_D3_20_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "HAP1",
+        "antibody": "HPA004840",
+        "uniprot": "P38398",
+        "fov": "2",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/4840/1852_D3_29_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/4840/1852_D3_29_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/4840/1852_D3_29_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "HAP1",
+        "antibody": "HPA002726",
+        "uniprot": "Q9P219",
+        "fov": "1",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/2726/1851_D8_31_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/2726/1851_D8_31_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/2726/1851_D8_31_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "HAP1",
+        "antibody": "HPA002726",
+        "uniprot": "Q9P219",
+        "fov": "2",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/2726/1851_D8_33_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/2726/1851_D8_33_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/2726/1851_D8_33_yellow.tif.gz"
+        }
+      }
+    ],
+    "HBEC3-KT": [
+      {
+        "cellLine": "HBEC3-KT",
+        "antibody": "HPA015500",
+        "uniprot": "O94804",
+        "fov": "1",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/15500/2213_D8_1_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/15500/2213_D8_1_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/15500/2213_D8_1_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "HBEC3-KT",
+        "antibody": "HPA015500",
+        "uniprot": "O94804",
+        "fov": "2",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/15500/2213_D8_3_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/15500/2213_D8_3_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/15500/2213_D8_3_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "HBEC3-KT",
+        "antibody": "HPA078754",
+        "uniprot": "P78562",
+        "fov": "1",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/78754/2213_D3_2_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/78754/2213_D3_2_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/78754/2213_D3_2_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "HBEC3-KT",
+        "antibody": "HPA078754",
+        "uniprot": "P78562",
+        "fov": "2",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/78754/2213_D3_3_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/78754/2213_D3_3_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/78754/2213_D3_3_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "HBEC3-KT",
+        "antibody": "HPA067952",
+        "uniprot": "P50548",
+        "fov": "1",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/67952/2213_A9_4_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/67952/2213_A9_4_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/67952/2213_A9_4_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "HBEC3-KT",
+        "antibody": "HPA067952",
+        "uniprot": "P50548",
+        "fov": "2",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/67952/2213_A9_6_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/67952/2213_A9_6_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/67952/2213_A9_6_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "HBEC3-KT",
+        "antibody": "HPA072144",
+        "uniprot": "P50548",
+        "fov": "1",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/72144/2213_G8_1_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/72144/2213_G8_1_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/72144/2213_G8_1_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "HBEC3-KT",
+        "antibody": "HPA072144",
+        "uniprot": "P50548",
+        "fov": "2",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/72144/2213_G8_5_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/72144/2213_G8_5_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/72144/2213_G8_5_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "HBEC3-KT",
+        "antibody": "HPA019793",
+        "uniprot": "Q99075",
+        "fov": "1",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/19793/2213_A1_2_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/19793/2213_A1_2_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/19793/2213_A1_2_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "HBEC3-KT",
+        "antibody": "HPA019793",
+        "uniprot": "Q99075",
+        "fov": "2",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/19793/2213_A1_3_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/19793/2213_A1_3_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/19793/2213_A1_3_yellow.tif.gz"
+        }
+      }
+    ],
+    "HDLM-2": [
+      {
+        "cellLine": "HDLM-2",
+        "antibody": "HPA065647",
+        "uniprot": "Q13651",
+        "fov": "1",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/65647/1962_E9_2_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/65647/1962_E9_2_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/65647/1962_E9_2_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "HDLM-2",
+        "antibody": "HPA065647",
+        "uniprot": "Q13651",
+        "fov": "2",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/65647/1962_E9_3_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/65647/1962_E9_3_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/65647/1962_E9_3_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "HDLM-2",
+        "antibody": "HPA069086",
+        "uniprot": "Q13651",
+        "fov": "1",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/69086/1962_E8_2_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/69086/1962_E8_2_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/69086/1962_E8_2_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "HDLM-2",
+        "antibody": "HPA069086",
+        "uniprot": "Q13651",
+        "fov": "2",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/69086/1962_E8_7_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/69086/1962_E8_7_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/69086/1962_E8_7_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "HDLM-2",
+        "antibody": "HPA044568",
+        "uniprot": "Q9ULM6",
+        "fov": "1",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/44568/1962_F4_1_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/44568/1962_F4_1_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/44568/1962_F4_1_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "HDLM-2",
+        "antibody": "HPA044568",
+        "uniprot": "Q9ULM6",
+        "fov": "2",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/44568/1962_F4_2_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/44568/1962_F4_2_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/44568/1962_F4_2_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "HDLM-2",
+        "antibody": "HPA026802",
+        "uniprot": "P42081",
+        "fov": "1",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/26802/1962_A12_1_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/26802/1962_A12_1_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/26802/1962_A12_1_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "HDLM-2",
+        "antibody": "HPA026802",
+        "uniprot": "P42081",
+        "fov": "2",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/26802/1962_A12_6_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/26802/1962_A12_6_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/26802/1962_A12_6_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "HDLM-2",
+        "antibody": "HPA026303",
+        "uniprot": "O14966",
+        "fov": "1",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/26303/1959_C2_1_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/26303/1959_C2_1_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/26303/1959_C2_1_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "HDLM-2",
+        "antibody": "HPA026303",
+        "uniprot": "O14966",
+        "fov": "2",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/26303/1959_C2_2_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/26303/1959_C2_2_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/26303/1959_C2_2_yellow.tif.gz"
+        }
+      }
+    ],
+    "HEK293": [
+      {
+        "cellLine": "HEK293",
+        "antibody": "HPA049606",
+        "uniprot": "O00522",
+        "fov": "1",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/49606/866_E12_1_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/49606/866_E12_1_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/49606/866_E12_1_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "HEK293",
+        "antibody": "HPA049606",
+        "uniprot": "O00522",
+        "fov": "2",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/49606/866_E12_2_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/49606/866_E12_2_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/49606/866_E12_2_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "HEK293",
+        "antibody": "HPA064732",
+        "uniprot": "O14641",
+        "fov": "1",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/64732/1273_E11_2_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/64732/1273_E11_2_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/64732/1273_E11_2_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "HEK293",
+        "antibody": "HPA064732",
+        "uniprot": "O14641",
+        "fov": "2",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/64732/1273_E11_3_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/64732/1273_E11_3_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/64732/1273_E11_3_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "HEK293",
+        "antibody": "HPA006770",
+        "uniprot": "P31270",
+        "fov": "1",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/6770/1639_C9_1_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/6770/1639_C9_1_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/6770/1639_C9_1_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "HEK293",
+        "antibody": "HPA006770",
+        "uniprot": "P31270",
+        "fov": "2",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/6770/1639_C9_3_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/6770/1639_C9_3_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/6770/1639_C9_3_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "HEK293",
+        "antibody": "HPA058665",
+        "uniprot": "P57073",
+        "fov": "1",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/58665/1039_F5_2_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/58665/1039_F5_2_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/58665/1039_F5_2_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "HEK293",
+        "antibody": "HPA058665",
+        "uniprot": "P57073",
+        "fov": "2",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/58665/1039_F5_3_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/58665/1039_F5_3_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/58665/1039_F5_3_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "HEK293",
+        "antibody": "HPA065626",
+        "uniprot": "Q9UKT7",
+        "fov": "1",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/65626/1284_F5_2_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/65626/1284_F5_2_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/65626/1284_F5_2_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "HEK293",
+        "antibody": "HPA065626",
+        "uniprot": "Q9UKT7",
+        "fov": "2",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/65626/1284_F5_3_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/65626/1284_F5_3_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/65626/1284_F5_3_yellow.tif.gz"
+        }
+      }
+    ],
+    "HEL": [
+      {
+        "cellLine": "HEL",
+        "antibody": "HPA075409",
+        "uniprot": "Q96Q42",
+        "fov": "1",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/75409/1812_D9_5_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/75409/1812_D9_5_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/75409/1812_D9_5_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "HEL",
+        "antibody": "HPA075409",
+        "uniprot": "Q96Q42",
+        "fov": "2",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/75409/1812_D9_26_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/75409/1812_D9_26_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/75409/1812_D9_26_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "HEL",
+        "antibody": "HPA065835",
+        "uniprot": "P30260",
+        "fov": "1",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/65835/1846_E11_61_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/65835/1846_E11_61_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/65835/1846_E11_61_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "HEL",
+        "antibody": "HPA065835",
+        "uniprot": "P30260",
+        "fov": "2",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/65835/1846_E11_62_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/65835/1846_E11_62_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/65835/1846_E11_62_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "HEL",
+        "antibody": "HPA058807",
+        "uniprot": "O75592",
+        "fov": "1",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/58807/2069_E5_1_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/58807/2069_E5_1_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/58807/2069_E5_1_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "HEL",
+        "antibody": "HPA058807",
+        "uniprot": "O75592",
+        "fov": "2",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/58807/2069_E5_2_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/58807/2069_E5_2_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/58807/2069_E5_2_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "HEL",
+        "antibody": "HPA031169",
+        "uniprot": "P08514",
+        "fov": "1",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/31169/1877_G7_32_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/31169/1877_G7_32_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/31169/1877_G7_32_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "HEL",
+        "antibody": "HPA031169",
+        "uniprot": "P08514",
+        "fov": "2",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/31169/1877_G7_33_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/31169/1877_G7_33_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/31169/1877_G7_33_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "HEL",
+        "antibody": "HPA002028",
+        "uniprot": "Q06187",
+        "fov": "1",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/2028/1770_B11_1_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/2028/1770_B11_1_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/2028/1770_B11_1_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "HEL",
+        "antibody": "HPA002028",
+        "uniprot": "Q06187",
+        "fov": "2",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/2028/1770_B11_4_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/2028/1770_B11_4_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/2028/1770_B11_4_yellow.tif.gz"
+        }
+      }
+    ],
+    "HeLa": [
+      {
+        "cellLine": "HeLa",
+        "antibody": "HPA059901",
+        "uniprot": "Q9P2N7",
+        "fov": "1",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/59901/1045_A6_1_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/59901/1045_A6_1_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/59901/1045_A6_1_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "HeLa",
+        "antibody": "HPA059901",
+        "uniprot": "Q9P2N7",
+        "fov": "2",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/59901/1045_A6_2_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/59901/1045_A6_2_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/59901/1045_A6_2_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "HeLa",
+        "antibody": "HPA054364",
+        "uniprot": "O14561",
+        "fov": "1",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/54364/869_B1_1_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/54364/869_B1_1_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/54364/869_B1_1_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "HeLa",
+        "antibody": "HPA054364",
+        "uniprot": "O14561",
+        "fov": "2",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/54364/869_B1_2_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/54364/869_B1_2_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/54364/869_B1_2_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "HeLa",
+        "antibody": "HPA002946",
+        "uniprot": "P53701",
+        "fov": "1",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/2946/2009_B1_4_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/2946/2009_B1_4_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/2946/2009_B1_4_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "HeLa",
+        "antibody": "HPA002946",
+        "uniprot": "P53701",
+        "fov": "2",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/2946/2009_B1_5_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/2946/2009_B1_5_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/2946/2009_B1_5_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "HeLa",
+        "antibody": "HPA063788",
+        "uniprot": "P50221",
+        "fov": "1",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/63788/1797_H2_18_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/63788/1797_H2_18_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/63788/1797_H2_18_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "HeLa",
+        "antibody": "HPA063788",
+        "uniprot": "P50221",
+        "fov": "2",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/63788/1797_H2_33_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/63788/1797_H2_33_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/63788/1797_H2_33_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "HeLa",
+        "antibody": "HPA048831",
+        "uniprot": "Q7L5A3",
+        "fov": "1",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/48831/784_G4_3_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/48831/784_G4_3_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/48831/784_G4_3_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "HeLa",
+        "antibody": "HPA048831",
+        "uniprot": "Q7L5A3",
+        "fov": "2",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/48831/784_G4_4_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/48831/784_G4_4_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/48831/784_G4_4_yellow.tif.gz"
+        }
+      }
+    ],
+    "Hep-G2": [
+      {
+        "cellLine": "Hep-G2",
+        "antibody": "HPA017059",
+        "uniprot": "Q92851",
+        "fov": "1",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/17059/1404_C2_1_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/17059/1404_C2_1_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/17059/1404_C2_1_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "Hep-G2",
+        "antibody": "HPA017059",
+        "uniprot": "Q92851",
+        "fov": "2",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/17059/1404_C2_3_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/17059/1404_C2_3_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/17059/1404_C2_3_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "Hep-G2",
+        "antibody": "HPA077882",
+        "uniprot": "P16383",
+        "fov": "1",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/77882/1762_H2_4_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/77882/1762_H2_4_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/77882/1762_H2_4_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "Hep-G2",
+        "antibody": "HPA077882",
+        "uniprot": "P16383",
+        "fov": "2",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/77882/1762_H2_6_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/77882/1762_H2_6_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/77882/1762_H2_6_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "Hep-G2",
+        "antibody": "HPA049395",
+        "uniprot": "P21439",
+        "fov": "1",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/49395/1142_F2_2_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/49395/1142_F2_2_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/49395/1142_F2_2_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "Hep-G2",
+        "antibody": "HPA049395",
+        "uniprot": "P21439",
+        "fov": "2",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/49395/1142_F2_4_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/49395/1142_F2_4_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/49395/1142_F2_4_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "Hep-G2",
+        "antibody": "HPA061460",
+        "uniprot": "P56179",
+        "fov": "1",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/61460/1135_C5_1_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/61460/1135_C5_1_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/61460/1135_C5_1_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "Hep-G2",
+        "antibody": "HPA061460",
+        "uniprot": "P56179",
+        "fov": "2",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/61460/1135_C5_3_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/61460/1135_C5_3_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/61460/1135_C5_3_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "Hep-G2",
+        "antibody": "HPA029635",
+        "uniprot": "P20618",
+        "fov": "1",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/29635/1142_A5_1_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/29635/1142_A5_1_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/29635/1142_A5_1_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "Hep-G2",
+        "antibody": "HPA029635",
+        "uniprot": "P20618",
+        "fov": "2",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/29635/1142_A5_3_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/29635/1142_A5_3_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/29635/1142_A5_3_yellow.tif.gz"
+        }
+      }
+    ],
+    "hTCEpi": [
+      {
+        "cellLine": "hTCEpi",
+        "antibody": "HPA052963",
+        "uniprot": "Q9UMD9",
+        "fov": "1",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/52963/1790_H3_2_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/52963/1790_H3_2_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/52963/1790_H3_2_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "hTCEpi",
+        "antibody": "HPA052963",
+        "uniprot": "Q9UMD9",
+        "fov": "2",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/52963/1790_H3_4_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/52963/1790_H3_4_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/52963/1790_H3_4_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "hTCEpi",
+        "antibody": "HPA010856",
+        "uniprot": "Q14802",
+        "fov": "1",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/10856/1790_E4_1_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/10856/1790_E4_1_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/10856/1790_E4_1_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "hTCEpi",
+        "antibody": "HPA010856",
+        "uniprot": "Q14802",
+        "fov": "2",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/10856/1790_E4_2_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/10856/1790_E4_2_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/10856/1790_E4_2_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "hTCEpi",
+        "antibody": "HPA027062",
+        "uniprot": "P31944",
+        "fov": "1",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/27062/1790_F1_2_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/27062/1790_F1_2_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/27062/1790_F1_2_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "hTCEpi",
+        "antibody": "HPA027062",
+        "uniprot": "P31944",
+        "fov": "2",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/27062/1790_F1_6_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/27062/1790_F1_6_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/27062/1790_F1_6_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "hTCEpi",
+        "antibody": "HPA028213",
+        "uniprot": "P49888",
+        "fov": "1",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/28213/1790_A1_1_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/28213/1790_A1_1_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/28213/1790_A1_1_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "hTCEpi",
+        "antibody": "HPA028213",
+        "uniprot": "P49888",
+        "fov": "2",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/28213/1790_A1_3_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/28213/1790_A1_3_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/28213/1790_A1_3_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "hTCEpi",
+        "antibody": "HPA001031",
+        "uniprot": "P01040",
+        "fov": "1",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/1031/1790_F2_5_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/1031/1790_F2_5_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/1031/1790_F2_5_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "hTCEpi",
+        "antibody": "HPA001031",
+        "uniprot": "P01040",
+        "fov": "2",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/1031/1790_F2_6_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/1031/1790_F2_6_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/1031/1790_F2_6_yellow.tif.gz"
+        }
+      }
+    ],
+    "hTERT-RPE1": [
+      {
+        "cellLine": "hTERT-RPE1",
+        "antibody": "HPA077157",
+        "uniprot": "Q96NX5",
+        "fov": "1",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/77157/2102_H4_3_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/77157/2102_H4_3_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/77157/2102_H4_3_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "hTERT-RPE1",
+        "antibody": "HPA077157",
+        "uniprot": "Q96NX5",
+        "fov": "2",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/77157/2102_H4_4_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/77157/2102_H4_4_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/77157/2102_H4_4_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "hTERT-RPE1",
+        "antibody": "HPA006134",
+        "uniprot": "P61812",
+        "fov": "1",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/6134/1992_B10_61_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/6134/1992_B10_61_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/6134/1992_B10_61_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "hTERT-RPE1",
+        "antibody": "HPA006134",
+        "uniprot": "P61812",
+        "fov": "2",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/6134/1992_B10_62_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/6134/1992_B10_62_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/6134/1992_B10_62_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "hTERT-RPE1",
+        "antibody": "HPA005939",
+        "uniprot": "Q8N4C6",
+        "fov": "1",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/5939/2102_C2_1_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/5939/2102_C2_1_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/5939/2102_C2_1_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "hTERT-RPE1",
+        "antibody": "HPA005939",
+        "uniprot": "Q8N4C6",
+        "fov": "2",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/5939/2102_C2_2_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/5939/2102_C2_2_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/5939/2102_C2_2_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "hTERT-RPE1",
+        "antibody": "HPA053862",
+        "uniprot": "Q05639",
+        "fov": "1",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/53862/2049_E1_1_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/53862/2049_E1_1_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/53862/2049_E1_1_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "hTERT-RPE1",
+        "antibody": "HPA053862",
+        "uniprot": "Q05639",
+        "fov": "2",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/53862/2049_E1_2_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/53862/2049_E1_2_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/53862/2049_E1_2_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "hTERT-RPE1",
+        "antibody": "HPA076722",
+        "uniprot": "P49207",
+        "fov": "1",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/76722/2102_G7_1_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/76722/2102_G7_1_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/76722/2102_G7_1_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "hTERT-RPE1",
+        "antibody": "HPA076722",
+        "uniprot": "P49207",
+        "fov": "2",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/76722/2102_G7_2_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/76722/2102_G7_2_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/76722/2102_G7_2_yellow.tif.gz"
+        }
+      }
+    ],
+    "hTERT-RPE1 (serum starved)": [
+      {
+        "cellLine": "hTERT-RPE1 (serum starved)",
+        "antibody": "HPA028185",
+        "uniprot": "Q92934",
+        "fov": "1",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/28185/2244_C8_59_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/28185/2244_C8_59_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/28185/2244_C8_59_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "hTERT-RPE1 (serum starved)",
+        "antibody": "HPA028185",
+        "uniprot": "Q92934",
+        "fov": "2",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/28185/2244_C8_69_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/28185/2244_C8_69_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/28185/2244_C8_69_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "hTERT-RPE1 (serum starved)",
+        "antibody": "HPA043018",
+        "uniprot": "Q9H9R9",
+        "fov": "1",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/43018/2191_F7_40_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/43018/2191_F7_40_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/43018/2191_F7_40_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "hTERT-RPE1 (serum starved)",
+        "antibody": "HPA043018",
+        "uniprot": "Q9H9R9",
+        "fov": "2",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/43018/2191_F7_54_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/43018/2191_F7_54_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/43018/2191_F7_54_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "hTERT-RPE1 (serum starved)",
+        "antibody": "HPA017335",
+        "uniprot": "P52756",
+        "fov": "1",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/17335/2244_D7_31_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/17335/2244_D7_31_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/17335/2244_D7_31_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "hTERT-RPE1 (serum starved)",
+        "antibody": "HPA017335",
+        "uniprot": "P52756",
+        "fov": "2",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/17335/2244_D7_54_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/17335/2244_D7_54_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/17335/2244_D7_54_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "hTERT-RPE1 (serum starved)",
+        "antibody": "HPA026679",
+        "uniprot": "Q96JG6",
+        "fov": "1",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/26679/2244_E10_32_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/26679/2244_E10_32_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/26679/2244_E10_32_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "hTERT-RPE1 (serum starved)",
+        "antibody": "HPA026679",
+        "uniprot": "Q96JG6",
+        "fov": "2",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/26679/2244_E10_43_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/26679/2244_E10_43_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/26679/2244_E10_43_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "hTERT-RPE1 (serum starved)",
+        "antibody": "HPA035255",
+        "uniprot": "O75800",
+        "fov": "1",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/35255/2153_D12_28_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/35255/2153_D12_28_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/35255/2153_D12_28_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "hTERT-RPE1 (serum starved)",
+        "antibody": "HPA035255",
+        "uniprot": "O75800",
+        "fov": "2",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/35255/2153_D12_41_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/35255/2153_D12_41_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/35255/2153_D12_41_yellow.tif.gz"
+        }
+      }
+    ],
+    "HUVEC/TERT2": [
+      {
+        "cellLine": "HUVEC/TERT2",
+        "antibody": "HPA005434",
+        "uniprot": "Q9NY15",
+        "fov": "1",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/5434/1752_F10_8_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/5434/1752_F10_8_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/5434/1752_F10_8_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "HUVEC/TERT2",
+        "antibody": "HPA005434",
+        "uniprot": "Q9NY15",
+        "fov": "2",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/5434/1752_F10_13_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/5434/1752_F10_13_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/5434/1752_F10_13_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "HUVEC/TERT2",
+        "antibody": "HPA013657",
+        "uniprot": "O75508",
+        "fov": "1",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/13657/1878_C6_11_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/13657/1878_C6_11_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/13657/1878_C6_11_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "HUVEC/TERT2",
+        "antibody": "HPA013657",
+        "uniprot": "O75508",
+        "fov": "2",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/13657/1878_C6_27_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/13657/1878_C6_27_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/13657/1878_C6_27_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "HUVEC/TERT2",
+        "antibody": "HPA075956",
+        "uniprot": "Q70Z35",
+        "fov": "1",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/75956/1878_A8_5_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/75956/1878_A8_5_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/75956/1878_A8_5_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "HUVEC/TERT2",
+        "antibody": "HPA075956",
+        "uniprot": "Q70Z35",
+        "fov": "2",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/75956/1878_A8_20_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/75956/1878_A8_20_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/75956/1878_A8_20_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "HUVEC/TERT2",
+        "antibody": "HPA030353",
+        "uniprot": "Q14554",
+        "fov": "1",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/30353/1752_F5_8_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/30353/1752_F5_8_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/30353/1752_F5_8_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "HUVEC/TERT2",
+        "antibody": "HPA030353",
+        "uniprot": "Q14554",
+        "fov": "2",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/30353/1752_F5_23_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/30353/1752_F5_23_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/30353/1752_F5_23_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "HUVEC/TERT2",
+        "antibody": "HPA056479",
+        "uniprot": "O00587",
+        "fov": "1",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/56479/1878_G7_61_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/56479/1878_G7_61_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/56479/1878_G7_61_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "HUVEC/TERT2",
+        "antibody": "HPA056479",
+        "uniprot": "O00587",
+        "fov": "2",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/56479/1878_G7_62_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/56479/1878_G7_62_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/56479/1878_G7_62_yellow.tif.gz"
+        }
+      }
+    ],
+    "JURKAT": [
+      {
+        "cellLine": "JURKAT",
+        "antibody": "HPA014058",
+        "uniprot": "Q9NWR8",
+        "fov": "1",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/14058/2214_G5_1_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/14058/2214_G5_1_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/14058/2214_G5_1_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "JURKAT",
+        "antibody": "HPA014058",
+        "uniprot": "Q9NWR8",
+        "fov": "2",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/14058/2214_G5_2_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/14058/2214_G5_2_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/14058/2214_G5_2_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "JURKAT",
+        "antibody": "HPA063910",
+        "uniprot": "Q9UKZ4",
+        "fov": "1",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/63910/2144_C2_1_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/63910/2144_C2_1_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/63910/2144_C2_1_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "JURKAT",
+        "antibody": "HPA063910",
+        "uniprot": "Q9UKZ4",
+        "fov": "2",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/63910/2144_C2_2_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/63910/2144_C2_2_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/63910/2144_C2_2_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "JURKAT",
+        "antibody": "HPA040796",
+        "uniprot": "Q9Y228",
+        "fov": "1",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/40796/2144_B3_2_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/40796/2144_B3_2_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/40796/2144_B3_2_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "JURKAT",
+        "antibody": "HPA040796",
+        "uniprot": "Q9Y228",
+        "fov": "2",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/40796/2144_B3_3_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/40796/2144_B3_3_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/40796/2144_B3_3_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "JURKAT",
+        "antibody": "HPA028117",
+        "uniprot": "O15457",
+        "fov": "1",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/28117/2144_B2_2_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/28117/2144_B2_2_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/28117/2144_B2_2_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "JURKAT",
+        "antibody": "HPA028117",
+        "uniprot": "O15457",
+        "fov": "2",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/28117/2144_B2_3_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/28117/2144_B2_3_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/28117/2144_B2_3_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "JURKAT",
+        "antibody": "HPA077706",
+        "uniprot": "Q02153",
+        "fov": "1",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/77706/2144_B12_1_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/77706/2144_B12_1_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/77706/2144_B12_1_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "JURKAT",
+        "antibody": "HPA077706",
+        "uniprot": "Q02153",
+        "fov": "2",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/77706/2144_B12_6_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/77706/2144_B12_6_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/77706/2144_B12_6_yellow.tif.gz"
+        }
+      }
+    ],
+    "K-562": [
+      {
+        "cellLine": "K-562",
+        "antibody": "HPA066547",
+        "uniprot": "P42679",
+        "fov": "1",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/66547/1854_F7_1_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/66547/1854_F7_1_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/66547/1854_F7_1_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "K-562",
+        "antibody": "HPA066547",
+        "uniprot": "P42679",
+        "fov": "2",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/66547/1854_F7_2_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/66547/1854_F7_2_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/66547/1854_F7_2_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "K-562",
+        "antibody": "HPA068054",
+        "uniprot": "P48546",
+        "fov": "1",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/68054/1993_C5_2_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/68054/1993_C5_2_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/68054/1993_C5_2_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "K-562",
+        "antibody": "HPA068054",
+        "uniprot": "P48546",
+        "fov": "2",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/68054/1993_C5_6_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/68054/1993_C5_6_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/68054/1993_C5_6_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "K-562",
+        "antibody": "HPA038094",
+        "uniprot": "Q9ULZ2",
+        "fov": "1",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/38094/2181_E9_1_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/38094/2181_E9_1_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/38094/2181_E9_1_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "K-562",
+        "antibody": "HPA038094",
+        "uniprot": "Q9ULZ2",
+        "fov": "2",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/38094/2181_E9_2_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/38094/2181_E9_2_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/38094/2181_E9_2_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "K-562",
+        "antibody": "HPA062230",
+        "uniprot": "Q9UBF1",
+        "fov": "1",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/62230/1854_H6_5_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/62230/1854_H6_5_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/62230/1854_H6_5_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "K-562",
+        "antibody": "HPA062230",
+        "uniprot": "Q9UBF1",
+        "fov": "2",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/62230/1854_H6_7_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/62230/1854_H6_7_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/62230/1854_H6_7_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "K-562",
+        "antibody": "HPA001798",
+        "uniprot": "O43182",
+        "fov": "1",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/1798/2054_C6_2_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/1798/2054_C6_2_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/1798/2054_C6_2_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "K-562",
+        "antibody": "HPA001798",
+        "uniprot": "O43182",
+        "fov": "2",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/1798/2054_C6_3_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/1798/2054_C6_3_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/1798/2054_C6_3_yellow.tif.gz"
+        }
+      }
+    ],
+    "LHCN-M2": [
+      {
+        "cellLine": "LHCN-M2",
+        "antibody": "HPA045929",
+        "uniprot": "Q8TBB6",
+        "fov": "1",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/45929/1782_H7_31_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/45929/1782_H7_31_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/45929/1782_H7_31_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "LHCN-M2",
+        "antibody": "HPA045929",
+        "uniprot": "Q8TBB6",
+        "fov": "2",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/45929/1782_H7_33_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/45929/1782_H7_33_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/45929/1782_H7_33_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "LHCN-M2",
+        "antibody": "HPA057393",
+        "uniprot": "Q96JB8",
+        "fov": "1",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/57393/1781_G3_2_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/57393/1781_G3_2_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/57393/1781_G3_2_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "LHCN-M2",
+        "antibody": "HPA057393",
+        "uniprot": "Q96JB8",
+        "fov": "2",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/57393/1781_G3_16_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/57393/1781_G3_16_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/57393/1781_G3_16_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "LHCN-M2",
+        "antibody": "HPA067602",
+        "uniprot": "Q92839",
+        "fov": "1",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/67602/1782_C6_1_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/67602/1782_C6_1_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/67602/1782_C6_1_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "LHCN-M2",
+        "antibody": "HPA067602",
+        "uniprot": "Q92839",
+        "fov": "2",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/67602/1782_C6_16_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/67602/1782_C6_16_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/67602/1782_C6_16_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "LHCN-M2",
+        "antibody": "HPA058320",
+        "uniprot": "P47972",
+        "fov": "1",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/58320/1781_D7_32_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/58320/1781_D7_32_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/58320/1781_D7_32_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "LHCN-M2",
+        "antibody": "HPA058320",
+        "uniprot": "P47972",
+        "fov": "2",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/58320/1781_D7_34_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/58320/1781_D7_34_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/58320/1781_D7_34_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "LHCN-M2",
+        "antibody": "HPA076603",
+        "uniprot": "Q9UKJ5",
+        "fov": "1",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/76603/1782_A4_3_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/76603/1782_A4_3_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/76603/1782_A4_3_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "LHCN-M2",
+        "antibody": "HPA076603",
+        "uniprot": "Q9UKJ5",
+        "fov": "2",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/76603/1782_A4_26_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/76603/1782_A4_26_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/76603/1782_A4_26_yellow.tif.gz"
+        }
+      }
+    ],
+    "MCF-7": [
+      {
+        "cellLine": "MCF-7",
+        "antibody": "HPA043508",
+        "uniprot": "Q16850",
+        "fov": "1",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/43508/721_A3_1_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/43508/721_A3_1_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/43508/721_A3_1_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "MCF-7",
+        "antibody": "HPA043508",
+        "uniprot": "Q16850",
+        "fov": "2",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/43508/721_A3_2_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/43508/721_A3_2_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/43508/721_A3_2_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "MCF-7",
+        "antibody": "HPA049606",
+        "uniprot": "O00522",
+        "fov": "1",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/49606/723_E12_1_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/49606/723_E12_1_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/49606/723_E12_1_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "MCF-7",
+        "antibody": "HPA049606",
+        "uniprot": "O00522",
+        "fov": "2",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/49606/723_E12_3_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/49606/723_E12_3_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/49606/723_E12_3_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "MCF-7",
+        "antibody": "HPA061452",
+        "uniprot": "Q05084",
+        "fov": "1",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/61452/1080_E2_1_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/61452/1080_E2_1_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/61452/1080_E2_1_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "MCF-7",
+        "antibody": "HPA061452",
+        "uniprot": "Q05084",
+        "fov": "2",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/61452/1080_E2_2_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/61452/1080_E2_2_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/61452/1080_E2_2_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "MCF-7",
+        "antibody": "HPA009277",
+        "uniprot": "P52569",
+        "fov": "1",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/9277/1601_B2_1_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/9277/1601_B2_1_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/9277/1601_B2_1_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "MCF-7",
+        "antibody": "HPA009277",
+        "uniprot": "P52569",
+        "fov": "2",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/9277/1601_B2_3_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/9277/1601_B2_3_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/9277/1601_B2_3_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "MCF-7",
+        "antibody": "HPA062857",
+        "uniprot": "Q02790",
+        "fov": "1",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/62857/1230_E5_1_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/62857/1230_E5_1_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/62857/1230_E5_1_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "MCF-7",
+        "antibody": "HPA062857",
+        "uniprot": "Q02790",
+        "fov": "2",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/62857/1230_E5_2_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/62857/1230_E5_2_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/62857/1230_E5_2_yellow.tif.gz"
+        }
+      }
+    ],
+    "NB4": [
+      {
+        "cellLine": "NB4",
+        "antibody": "HPA026802",
+        "uniprot": "P42081",
+        "fov": "1",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/26802/1714_B1_1_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/26802/1714_B1_1_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/26802/1714_B1_1_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "NB4",
+        "antibody": "HPA026802",
+        "uniprot": "P42081",
+        "fov": "2",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/26802/1714_B1_2_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/26802/1714_B1_2_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/26802/1714_B1_2_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "NB4",
+        "antibody": "HPA057341",
+        "uniprot": "P08567",
+        "fov": "1",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/57341/1714_E10_1_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/57341/1714_E10_1_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/57341/1714_E10_1_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "NB4",
+        "antibody": "HPA057341",
+        "uniprot": "P08567",
+        "fov": "2",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/57341/1714_E10_2_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/57341/1714_E10_2_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/57341/1714_E10_2_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "NB4",
+        "antibody": "HPA039490",
+        "uniprot": "P55160",
+        "fov": "1",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/39490/1714_D9_1_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/39490/1714_D9_1_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/39490/1714_D9_1_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "NB4",
+        "antibody": "HPA039490",
+        "uniprot": "P55160",
+        "fov": "2",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/39490/1714_D9_3_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/39490/1714_D9_3_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/39490/1714_D9_3_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "NB4",
+        "antibody": "HPA060601",
+        "uniprot": "O95977",
+        "fov": "1",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/60601/1714_F4_1_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/60601/1714_F4_1_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/60601/1714_F4_1_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "NB4",
+        "antibody": "HPA060601",
+        "uniprot": "O95977",
+        "fov": "2",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/60601/1714_F4_2_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/60601/1714_F4_2_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/60601/1714_F4_2_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "NB4",
+        "antibody": "HPA067232",
+        "uniprot": "O95977",
+        "fov": "1",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/67232/1714_H5_1_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/67232/1714_H5_1_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/67232/1714_H5_1_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "NB4",
+        "antibody": "HPA067232",
+        "uniprot": "O95977",
+        "fov": "2",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/67232/1714_H5_2_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/67232/1714_H5_2_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/67232/1714_H5_2_yellow.tif.gz"
+        }
+      }
+    ],
+    "OE19": [
+      {
+        "cellLine": "OE19",
+        "antibody": "HPA072383",
+        "uniprot": "Q8IZE3",
+        "fov": "1",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/72383/2038_G11_1_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/72383/2038_G11_1_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/72383/2038_G11_1_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "OE19",
+        "antibody": "HPA072383",
+        "uniprot": "Q8IZE3",
+        "fov": "2",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/72383/2038_G11_2_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/72383/2038_G11_2_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/72383/2038_G11_2_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "OE19",
+        "antibody": "HPA073910",
+        "uniprot": "Q14002",
+        "fov": "1",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/73910/2037_F6_1_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/73910/2037_F6_1_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/73910/2037_F6_1_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "OE19",
+        "antibody": "HPA073910",
+        "uniprot": "Q14002",
+        "fov": "2",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/73910/2037_F6_2_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/73910/2037_F6_2_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/73910/2037_F6_2_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "OE19",
+        "antibody": "HPA068054",
+        "uniprot": "P48546",
+        "fov": "1",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/68054/2037_C7_4_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/68054/2037_C7_4_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/68054/2037_C7_4_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "OE19",
+        "antibody": "HPA068054",
+        "uniprot": "P48546",
+        "fov": "2",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/68054/2037_C7_6_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/68054/2037_C7_6_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/68054/2037_C7_6_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "OE19",
+        "antibody": "HPA036632",
+        "uniprot": "Q8NE62",
+        "fov": "1",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/36632/2192_C2_1_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/36632/2192_C2_1_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/36632/2192_C2_1_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "OE19",
+        "antibody": "HPA036632",
+        "uniprot": "Q8NE62",
+        "fov": "2",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/36632/2192_C2_2_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/36632/2192_C2_2_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/36632/2192_C2_2_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "OE19",
+        "antibody": "HPA007622",
+        "uniprot": "Q15311",
+        "fov": "1",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/7622/2101_G5_1_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/7622/2101_G5_1_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/7622/2101_G5_1_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "OE19",
+        "antibody": "HPA007622",
+        "uniprot": "Q15311",
+        "fov": "2",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/7622/2101_G5_2_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/7622/2101_G5_2_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/7622/2101_G5_2_yellow.tif.gz"
+        }
+      }
+    ],
+    "PC-3": [
+      {
+        "cellLine": "PC-3",
+        "antibody": "HPA046835",
+        "uniprot": "P05141",
+        "fov": "1",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/46835/978_H5_1_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/46835/978_H5_1_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/46835/978_H5_1_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "PC-3",
+        "antibody": "HPA046835",
+        "uniprot": "P05141",
+        "fov": "2",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/46835/978_H5_2_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/46835/978_H5_2_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/46835/978_H5_2_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "PC-3",
+        "antibody": "HPA053283",
+        "uniprot": "Q9UKT7",
+        "fov": "1",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/53283/882_B3_1_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/53283/882_B3_1_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/53283/882_B3_1_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "PC-3",
+        "antibody": "HPA053283",
+        "uniprot": "Q9UKT7",
+        "fov": "2",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/53283/882_B3_2_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/53283/882_B3_2_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/53283/882_B3_2_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "PC-3",
+        "antibody": "HPA047037",
+        "uniprot": "P11233",
+        "fov": "1",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/47037/1198_H1_4_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/47037/1198_H1_4_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/47037/1198_H1_4_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "PC-3",
+        "antibody": "HPA047037",
+        "uniprot": "P11233",
+        "fov": "2",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/47037/1198_H1_5_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/47037/1198_H1_5_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/47037/1198_H1_5_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "PC-3",
+        "antibody": "HPA077249",
+        "uniprot": "P50549",
+        "fov": "1",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/77249/1623_B11_4_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/77249/1623_B11_4_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/77249/1623_B11_4_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "PC-3",
+        "antibody": "HPA077249",
+        "uniprot": "P50549",
+        "fov": "2",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/77249/1623_B11_5_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/77249/1623_B11_5_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/77249/1623_B11_5_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "PC-3",
+        "antibody": "HPA046765",
+        "uniprot": "Q96CT7",
+        "fov": "1",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/46765/852_G1_1_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/46765/852_G1_1_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/46765/852_G1_1_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "PC-3",
+        "antibody": "HPA046765",
+        "uniprot": "Q96CT7",
+        "fov": "2",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/46765/852_G1_2_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/46765/852_G1_2_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/46765/852_G1_2_yellow.tif.gz"
+        }
+      }
+    ],
+    "PODO/SVTERT152": [
+      {
+        "cellLine": "PODO/SVTERT152",
+        "antibody": "HPA036369",
+        "uniprot": "Q9P2D3",
+        "fov": "1",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/36369/2225_C4_1_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/36369/2225_C4_1_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/36369/2225_C4_1_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "PODO/SVTERT152",
+        "antibody": "HPA036369",
+        "uniprot": "Q9P2D3",
+        "fov": "2",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/36369/2225_C4_4_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/36369/2225_C4_4_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/36369/2225_C4_4_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "PODO/SVTERT152",
+        "antibody": "HPA006035",
+        "uniprot": "P12814",
+        "fov": "1",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/6035/2225_E1_1_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/6035/2225_E1_1_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/6035/2225_E1_1_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "PODO/SVTERT152",
+        "antibody": "HPA006035",
+        "uniprot": "P12814",
+        "fov": "2",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/6035/2225_E1_3_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/6035/2225_E1_3_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/6035/2225_E1_3_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "PODO/SVTERT152",
+        "antibody": "HPA002110",
+        "uniprot": "O00592",
+        "fov": "1",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/2110/2225_E2_1_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/2110/2225_E2_1_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/2110/2225_E2_1_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "PODO/SVTERT152",
+        "antibody": "HPA002110",
+        "uniprot": "O00592",
+        "fov": "2",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/2110/2225_E2_5_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/2110/2225_E2_5_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/2110/2225_E2_5_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "PODO/SVTERT152",
+        "antibody": "HPA023062",
+        "uniprot": "Q8IWW8",
+        "fov": "1",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/23062/2225_A1_1_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/23062/2225_A1_1_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/23062/2225_A1_1_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "PODO/SVTERT152",
+        "antibody": "HPA023062",
+        "uniprot": "Q8IWW8",
+        "fov": "2",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/23062/2225_A1_2_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/23062/2225_A1_2_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/23062/2225_A1_2_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "PODO/SVTERT152",
+        "antibody": "HPA011405",
+        "uniprot": "Q9H5V8",
+        "fov": "1",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/11405/2225_B1_1_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/11405/2225_B1_1_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/11405/2225_B1_1_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "PODO/SVTERT152",
+        "antibody": "HPA011405",
+        "uniprot": "Q9H5V8",
+        "fov": "2",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/11405/2225_B1_2_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/11405/2225_B1_2_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/11405/2225_B1_2_yellow.tif.gz"
+        }
+      }
+    ],
+    "PODO/TERT256": [
+      {
+        "cellLine": "PODO/TERT256",
+        "antibody": "HPA076403",
+        "uniprot": "Q15386",
+        "fov": "1",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/76403/2224_B5_1_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/76403/2224_B5_1_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/76403/2224_B5_1_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "PODO/TERT256",
+        "antibody": "HPA076403",
+        "uniprot": "Q15386",
+        "fov": "2",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/76403/2224_B5_2_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/76403/2224_B5_2_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/76403/2224_B5_2_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "PODO/TERT256",
+        "antibody": "HPA006180",
+        "uniprot": "O00409",
+        "fov": "1",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/6180/2224_C8_2_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/6180/2224_C8_2_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/6180/2224_C8_2_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "PODO/TERT256",
+        "antibody": "HPA006180",
+        "uniprot": "O00409",
+        "fov": "2",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/6180/2224_C8_3_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/6180/2224_C8_3_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/6180/2224_C8_3_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "PODO/TERT256",
+        "antibody": "HPA072893",
+        "uniprot": "Q9Y5L0",
+        "fov": "1",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/72893/2224_F7_1_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/72893/2224_F7_1_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/72893/2224_F7_1_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "PODO/TERT256",
+        "antibody": "HPA072893",
+        "uniprot": "Q9Y5L0",
+        "fov": "2",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/72893/2224_F7_2_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/72893/2224_F7_2_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/72893/2224_F7_2_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "PODO/TERT256",
+        "antibody": "HPA006035",
+        "uniprot": "P12814",
+        "fov": "1",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/6035/2224_G1_1_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/6035/2224_G1_1_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/6035/2224_G1_1_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "PODO/TERT256",
+        "antibody": "HPA006035",
+        "uniprot": "P12814",
+        "fov": "2",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/6035/2224_G1_3_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/6035/2224_G1_3_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/6035/2224_G1_3_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "PODO/TERT256",
+        "antibody": "HPA074912",
+        "uniprot": "Q9BWT7",
+        "fov": "1",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/74912/2224_A7_1_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/74912/2224_A7_1_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/74912/2224_A7_1_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "PODO/TERT256",
+        "antibody": "HPA074912",
+        "uniprot": "Q9BWT7",
+        "fov": "2",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/74912/2224_A7_2_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/74912/2224_A7_2_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/74912/2224_A7_2_yellow.tif.gz"
+        }
+      }
+    ],
+    "REH": [
+      {
+        "cellLine": "REH",
+        "antibody": "HPA036902",
+        "uniprot": "Q86VW1",
+        "fov": "1",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/36902/1889_H5_1_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/36902/1889_H5_1_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/36902/1889_H5_1_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "REH",
+        "antibody": "HPA036902",
+        "uniprot": "Q86VW1",
+        "fov": "2",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/36902/1889_H5_2_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/36902/1889_H5_2_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/36902/1889_H5_2_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "REH",
+        "antibody": "HPA058807",
+        "uniprot": "O75592",
+        "fov": "1",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/58807/2055_E5_1_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/58807/2055_E5_1_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/58807/2055_E5_1_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "REH",
+        "antibody": "HPA058807",
+        "uniprot": "O75592",
+        "fov": "2",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/58807/2055_E5_3_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/58807/2055_E5_3_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/58807/2055_E5_3_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "REH",
+        "antibody": "HPA009178",
+        "uniprot": "P40259",
+        "fov": "1",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/9178/1889_C4_2_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/9178/1889_C4_2_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/9178/1889_C4_2_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "REH",
+        "antibody": "HPA009178",
+        "uniprot": "P40259",
+        "fov": "2",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/9178/1889_C4_3_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/9178/1889_C4_3_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/9178/1889_C4_3_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "REH",
+        "antibody": "HPA002028",
+        "uniprot": "Q06187",
+        "fov": "1",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/2028/1817_G6_1_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/2028/1817_G6_1_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/2028/1817_G6_1_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "REH",
+        "antibody": "HPA002028",
+        "uniprot": "Q06187",
+        "fov": "2",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/2028/1817_G6_2_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/2028/1817_G6_2_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/2028/1817_G6_2_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "REH",
+        "antibody": "HPA002022",
+        "uniprot": "P42768",
+        "fov": "1",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/2022/1779_G4_1_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/2022/1779_G4_1_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/2022/1779_G4_1_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "REH",
+        "antibody": "HPA002022",
+        "uniprot": "P42768",
+        "fov": "2",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/2022/1779_G4_2_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/2022/1779_G4_2_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/2022/1779_G4_2_yellow.tif.gz"
+        }
+      }
+    ],
+    "Rh30": [
+      {
+        "cellLine": "Rh30",
+        "antibody": "HPA038922",
+        "uniprot": "P08603",
+        "fov": "1",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/38922/2126_G7_1_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/38922/2126_G7_1_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/38922/2126_G7_1_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "Rh30",
+        "antibody": "HPA038922",
+        "uniprot": "P08603",
+        "fov": "2",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/38922/2126_G7_2_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/38922/2126_G7_2_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/38922/2126_G7_2_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "Rh30",
+        "antibody": "HPA030961",
+        "uniprot": "P46063",
+        "fov": "1",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/30961/1807_C9_31_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/30961/1807_C9_31_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/30961/1807_C9_31_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "Rh30",
+        "antibody": "HPA030961",
+        "uniprot": "P46063",
+        "fov": "2",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/30961/1807_C9_32_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/30961/1807_C9_32_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/30961/1807_C9_32_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "Rh30",
+        "antibody": "HPA064259",
+        "uniprot": "P46063",
+        "fov": "1",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/64259/1152_E7_2_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/64259/1152_E7_2_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/64259/1152_E7_2_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "Rh30",
+        "antibody": "HPA064259",
+        "uniprot": "P46063",
+        "fov": "2",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/64259/1152_E7_3_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/64259/1152_E7_3_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/64259/1152_E7_3_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "Rh30",
+        "antibody": "HPA065835",
+        "uniprot": "P30260",
+        "fov": "1",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/65835/1807_D10_31_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/65835/1807_D10_31_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/65835/1807_D10_31_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "Rh30",
+        "antibody": "HPA065835",
+        "uniprot": "P30260",
+        "fov": "2",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/65835/1807_D10_32_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/65835/1807_D10_32_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/65835/1807_D10_32_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "Rh30",
+        "antibody": "HPA061464",
+        "uniprot": "P05164",
+        "fov": "1",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/61464/1403_F7_1_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/61464/1403_F7_1_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/61464/1403_F7_1_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "Rh30",
+        "antibody": "HPA061464",
+        "uniprot": "P05164",
+        "fov": "2",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/61464/1403_F7_2_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/61464/1403_F7_2_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/61464/1403_F7_2_yellow.tif.gz"
+        }
+      }
+    ],
+    "RPTEC/TERT1": [
+      {
+        "cellLine": "RPTEC/TERT1",
+        "antibody": "HPA028185",
+        "uniprot": "Q92934",
+        "fov": "1",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/28185/2234_H8_35_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/28185/2234_H8_35_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/28185/2234_H8_35_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "RPTEC/TERT1",
+        "antibody": "HPA028185",
+        "uniprot": "Q92934",
+        "fov": "2",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/28185/2234_H8_56_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/28185/2234_H8_56_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/28185/2234_H8_56_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "RPTEC/TERT1",
+        "antibody": "HPA029606",
+        "uniprot": "P28838",
+        "fov": "1",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/29606/2234_B5_30_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/29606/2234_B5_30_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/29606/2234_B5_30_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "RPTEC/TERT1",
+        "antibody": "HPA029606",
+        "uniprot": "P28838",
+        "fov": "2",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/29606/2234_B5_97_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/29606/2234_B5_97_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/29606/2234_B5_97_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "RPTEC/TERT1",
+        "antibody": "HPA017335",
+        "uniprot": "P52756",
+        "fov": "1",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/17335/2234_B8_17_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/17335/2234_B8_17_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/17335/2234_B8_17_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "RPTEC/TERT1",
+        "antibody": "HPA017335",
+        "uniprot": "P52756",
+        "fov": "2",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/17335/2234_B8_35_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/17335/2234_B8_35_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/17335/2234_B8_35_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "RPTEC/TERT1",
+        "antibody": "HPA026679",
+        "uniprot": "Q96JG6",
+        "fov": "1",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/26679/2234_B4_15_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/26679/2234_B4_15_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/26679/2234_B4_15_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "RPTEC/TERT1",
+        "antibody": "HPA026679",
+        "uniprot": "Q96JG6",
+        "fov": "2",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/26679/2234_B4_54_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/26679/2234_B4_54_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/26679/2234_B4_54_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "RPTEC/TERT1",
+        "antibody": "HPA035255",
+        "uniprot": "O75800",
+        "fov": "1",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/35255/2148_D10_16_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/35255/2148_D10_16_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/35255/2148_D10_16_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "RPTEC/TERT1",
+        "antibody": "HPA035255",
+        "uniprot": "O75800",
+        "fov": "2",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/35255/2148_D10_79_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/35255/2148_D10_79_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/35255/2148_D10_79_yellow.tif.gz"
+        }
+      }
+    ],
+    "RT-4": [
+      {
+        "cellLine": "RT-4",
+        "antibody": "HPA004109",
+        "uniprot": "O43657",
+        "fov": "1",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/4109/1843_B2_17_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/4109/1843_B2_17_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/4109/1843_B2_17_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "RT-4",
+        "antibody": "HPA004109",
+        "uniprot": "O43657",
+        "fov": "2",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/4109/1843_B2_30_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/4109/1843_B2_30_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/4109/1843_B2_30_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "RT-4",
+        "antibody": "HPA002024",
+        "uniprot": "P09769",
+        "fov": "1",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/2024/1422_H6_1_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/2024/1422_H6_1_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/2024/1422_H6_1_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "RT-4",
+        "antibody": "HPA002024",
+        "uniprot": "P09769",
+        "fov": "2",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/2024/1422_H6_2_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/2024/1422_H6_2_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/2024/1422_H6_2_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "RT-4",
+        "antibody": "HPA050779",
+        "uniprot": "P23511",
+        "fov": "1",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/50779/1422_A9_1_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/50779/1422_A9_1_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/50779/1422_A9_1_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "RT-4",
+        "antibody": "HPA050779",
+        "uniprot": "P23511",
+        "fov": "2",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/50779/1422_A9_2_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/50779/1422_A9_2_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/50779/1422_A9_2_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "RT-4",
+        "antibody": "HPA002237",
+        "uniprot": "O14792",
+        "fov": "1",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/2237/1596_C7_1_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/2237/1596_C7_1_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/2237/1596_C7_1_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "RT-4",
+        "antibody": "HPA002237",
+        "uniprot": "O14792",
+        "fov": "2",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/2237/1596_C7_3_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/2237/1596_C7_3_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/2237/1596_C7_3_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "RT-4",
+        "antibody": "HPA061452",
+        "uniprot": "Q05084",
+        "fov": "1",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/61452/1423_B2_1_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/61452/1423_B2_1_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/61452/1423_B2_1_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "RT-4",
+        "antibody": "HPA061452",
+        "uniprot": "Q05084",
+        "fov": "2",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/61452/1423_B2_2_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/61452/1423_B2_2_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/61452/1423_B2_2_yellow.tif.gz"
+        }
+      }
+    ],
+    "SH-SY5Y": [
+      {
+        "cellLine": "SH-SY5Y",
+        "antibody": "HPA075682",
+        "uniprot": "Q9Y216",
+        "fov": "1",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/75682/1776_C9_1_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/75682/1776_C9_1_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/75682/1776_C9_1_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "SH-SY5Y",
+        "antibody": "HPA075682",
+        "uniprot": "Q9Y216",
+        "fov": "2",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/75682/1776_C9_2_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/75682/1776_C9_2_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/75682/1776_C9_2_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "SH-SY5Y",
+        "antibody": "HPA021611",
+        "uniprot": "O14641",
+        "fov": "1",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/21611/1220_G5_1_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/21611/1220_G5_1_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/21611/1220_G5_1_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "SH-SY5Y",
+        "antibody": "HPA021611",
+        "uniprot": "O14641",
+        "fov": "2",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/21611/1220_G5_2_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/21611/1220_G5_2_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/21611/1220_G5_2_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "SH-SY5Y",
+        "antibody": "HPA064732",
+        "uniprot": "O14641",
+        "fov": "1",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/64732/1223_D11_1_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/64732/1223_D11_1_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/64732/1223_D11_1_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "SH-SY5Y",
+        "antibody": "HPA064732",
+        "uniprot": "O14641",
+        "fov": "2",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/64732/1223_D11_2_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/64732/1223_D11_2_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/64732/1223_D11_2_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "SH-SY5Y",
+        "antibody": "HPA077882",
+        "uniprot": "P16383",
+        "fov": "1",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/77882/1711_C2_5_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/77882/1711_C2_5_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/77882/1711_C2_5_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "SH-SY5Y",
+        "antibody": "HPA077882",
+        "uniprot": "P16383",
+        "fov": "2",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/77882/1711_C2_6_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/77882/1711_C2_6_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/77882/1711_C2_6_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "SH-SY5Y",
+        "antibody": "HPA061460",
+        "uniprot": "P56179",
+        "fov": "1",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/61460/1220_E7_3_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/61460/1220_E7_3_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/61460/1220_E7_3_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "SH-SY5Y",
+        "antibody": "HPA061460",
+        "uniprot": "P56179",
+        "fov": "2",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/61460/1220_E7_4_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/61460/1220_E7_4_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/61460/1220_E7_4_yellow.tif.gz"
+        }
+      }
+    ],
+    "SiHa": [
+      {
+        "cellLine": "SiHa",
+        "antibody": "HPA024759",
+        "uniprot": "Q6SZW1",
+        "fov": "1",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/24759/1183_F5_2_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/24759/1183_F5_2_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/24759/1183_F5_2_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "SiHa",
+        "antibody": "HPA024759",
+        "uniprot": "Q6SZW1",
+        "fov": "2",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/24759/1183_F5_3_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/24759/1183_F5_3_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/24759/1183_F5_3_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "SiHa",
+        "antibody": "HPA007700",
+        "uniprot": "Q9Y2S7",
+        "fov": "1",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/7700/1606_D3_2_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/7700/1606_D3_2_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/7700/1606_D3_2_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "SiHa",
+        "antibody": "HPA007700",
+        "uniprot": "Q9Y2S7",
+        "fov": "2",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/7700/1606_D3_3_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/7700/1606_D3_3_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/7700/1606_D3_3_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "SiHa",
+        "antibody": "HPA039292",
+        "uniprot": "Q8TCT7",
+        "fov": "1",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/39292/1495_A11_1_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/39292/1495_A11_1_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/39292/1495_A11_1_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "SiHa",
+        "antibody": "HPA039292",
+        "uniprot": "Q8TCT7",
+        "fov": "2",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/39292/1495_A11_3_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/39292/1495_A11_3_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/39292/1495_A11_3_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "SiHa",
+        "antibody": "HPA061464",
+        "uniprot": "P05164",
+        "fov": "1",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/61464/1487_B11_3_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/61464/1487_B11_3_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/61464/1487_B11_3_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "SiHa",
+        "antibody": "HPA061464",
+        "uniprot": "P05164",
+        "fov": "2",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/61464/1487_B11_4_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/61464/1487_B11_4_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/61464/1487_B11_4_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "SiHa",
+        "antibody": "HPA071863",
+        "uniprot": "P17010",
+        "fov": "1",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/71863/1486_A11_1_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/71863/1486_A11_1_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/71863/1486_A11_1_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "SiHa",
+        "antibody": "HPA071863",
+        "uniprot": "P17010",
+        "fov": "2",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/71863/1486_A11_3_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/71863/1486_A11_3_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/71863/1486_A11_3_yellow.tif.gz"
+        }
+      }
+    ],
+    "SK-MEL-30": [
+      {
+        "cellLine": "SK-MEL-30",
+        "antibody": "HPA072383",
+        "uniprot": "Q8IZE3",
+        "fov": "1",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/72383/2142_F7_1_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/72383/2142_F7_1_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/72383/2142_F7_1_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "SK-MEL-30",
+        "antibody": "HPA072383",
+        "uniprot": "Q8IZE3",
+        "fov": "2",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/72383/2142_F7_2_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/72383/2142_F7_2_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/72383/2142_F7_2_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "SK-MEL-30",
+        "antibody": "HPA072413",
+        "uniprot": "O00458",
+        "fov": "1",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/72413/1931_H9_5_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/72413/1931_H9_5_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/72413/1931_H9_5_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "SK-MEL-30",
+        "antibody": "HPA072413",
+        "uniprot": "O00458",
+        "fov": "2",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/72413/1931_H9_6_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/72413/1931_H9_6_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/72413/1931_H9_6_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "SK-MEL-30",
+        "antibody": "HPA064678",
+        "uniprot": "O60861",
+        "fov": "1",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/64678/1262_C11_1_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/64678/1262_C11_1_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/64678/1262_C11_1_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "SK-MEL-30",
+        "antibody": "HPA064678",
+        "uniprot": "O60861",
+        "fov": "2",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/64678/1262_C11_2_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/64678/1262_C11_2_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/64678/1262_C11_2_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "SK-MEL-30",
+        "antibody": "HPA063889",
+        "uniprot": "Q92833",
+        "fov": "1",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/63889/1279_A1_1_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/63889/1279_A1_1_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/63889/1279_A1_1_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "SK-MEL-30",
+        "antibody": "HPA063889",
+        "uniprot": "Q92833",
+        "fov": "2",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/63889/1279_A1_2_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/63889/1279_A1_2_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/63889/1279_A1_2_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "SK-MEL-30",
+        "antibody": "HPA073626",
+        "uniprot": "Q9UQ88",
+        "fov": "1",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/73626/1682_E1_2_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/73626/1682_E1_2_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/73626/1682_E1_2_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "SK-MEL-30",
+        "antibody": "HPA073626",
+        "uniprot": "Q9UQ88",
+        "fov": "2",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/73626/1682_E1_3_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/73626/1682_E1_3_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/73626/1682_E1_3_yellow.tif.gz"
+        }
+      }
+    ],
+    "Sperm": [
+      {
+        "cellLine": "Sperm",
+        "antibody": "HPA028185",
+        "uniprot": "Q92934",
+        "fov": "1",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/28185/2239_C9_6_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/28185/2239_C9_6_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/28185/2239_C9_6_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "Sperm",
+        "antibody": "HPA028185",
+        "uniprot": "Q92934",
+        "fov": "2",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/28185/2239_C9_11_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/28185/2239_C9_11_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/28185/2239_C9_11_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "Sperm",
+        "antibody": "HPA029606",
+        "uniprot": "P28838",
+        "fov": "1",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/29606/2238_C6_33_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/29606/2238_C6_33_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/29606/2238_C6_33_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "Sperm",
+        "antibody": "HPA029606",
+        "uniprot": "P28838",
+        "fov": "2",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/29606/2238_C6_39_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/29606/2238_C6_39_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/29606/2238_C6_39_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "Sperm",
+        "antibody": "HPA043018",
+        "uniprot": "Q9H9R9",
+        "fov": "1",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/43018/2229_E11_15_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/43018/2229_E11_15_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/43018/2229_E11_15_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "Sperm",
+        "antibody": "HPA043018",
+        "uniprot": "Q9H9R9",
+        "fov": "2",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/43018/2229_E11_20_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/43018/2229_E11_20_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/43018/2229_E11_20_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "Sperm",
+        "antibody": "HPA017335",
+        "uniprot": "P52756",
+        "fov": "1",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/17335/2239_G5_4_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/17335/2239_G5_4_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/17335/2239_G5_4_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "Sperm",
+        "antibody": "HPA017335",
+        "uniprot": "P52756",
+        "fov": "2",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/17335/2239_G5_46_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/17335/2239_G5_46_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/17335/2239_G5_46_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "Sperm",
+        "antibody": "HPA026679",
+        "uniprot": "Q96JG6",
+        "fov": "1",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/26679/2240_D3_23_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/26679/2240_D3_23_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/26679/2240_D3_23_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "Sperm",
+        "antibody": "HPA026679",
+        "uniprot": "Q96JG6",
+        "fov": "2",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/26679/2240_D3_38_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/26679/2240_D3_38_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/26679/2240_D3_38_yellow.tif.gz"
+        }
+      }
+    ],
+    "SuSa": [
+      {
+        "cellLine": "SuSa",
+        "antibody": "HPA072383",
+        "uniprot": "Q8IZE3",
+        "fov": "1",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/72383/2091_H8_1_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/72383/2091_H8_1_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/72383/2091_H8_1_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "SuSa",
+        "antibody": "HPA072383",
+        "uniprot": "Q8IZE3",
+        "fov": "2",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/72383/2091_H8_2_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/72383/2091_H8_2_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/72383/2091_H8_2_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "SuSa",
+        "antibody": "HPA075409",
+        "uniprot": "Q96Q42",
+        "fov": "1",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/75409/2090_G2_1_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/75409/2090_G2_1_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/75409/2090_G2_1_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "SuSa",
+        "antibody": "HPA075409",
+        "uniprot": "Q96Q42",
+        "fov": "2",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/75409/2090_G2_2_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/75409/2090_G2_2_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/75409/2090_G2_2_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "SuSa",
+        "antibody": "CAB080453",
+        "uniprot": "P38398",
+        "fov": "1",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/80453/2223_B3_1_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/80453/2223_B3_1_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/80453/2223_B3_1_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "SuSa",
+        "antibody": "CAB080453",
+        "uniprot": "P38398",
+        "fov": "2",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/80453/2223_B3_2_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/80453/2223_B3_2_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/80453/2223_B3_2_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "SuSa",
+        "antibody": "HPA012085",
+        "uniprot": "Q9Y6N8",
+        "fov": "1",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/12085/2033_F7_2_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/12085/2033_F7_2_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/12085/2033_F7_2_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "SuSa",
+        "antibody": "HPA012085",
+        "uniprot": "Q9Y6N8",
+        "fov": "2",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/12085/2033_F7_6_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/12085/2033_F7_6_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/12085/2033_F7_6_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "SuSa",
+        "antibody": "HPA055073",
+        "uniprot": "Q15800",
+        "fov": "1",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/55073/2052_F4_1_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/55073/2052_F4_1_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/55073/2052_F4_1_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "SuSa",
+        "antibody": "HPA055073",
+        "uniprot": "Q15800",
+        "fov": "2",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/55073/2052_F4_2_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/55073/2052_F4_2_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/55073/2052_F4_2_yellow.tif.gz"
+        }
+      }
+    ],
+    "THP-1": [
+      {
+        "cellLine": "THP-1",
+        "antibody": "HPA036902",
+        "uniprot": "Q86VW1",
+        "fov": "1",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/36902/1926_C1_2_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/36902/1926_C1_2_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/36902/1926_C1_2_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "THP-1",
+        "antibody": "HPA036902",
+        "uniprot": "Q86VW1",
+        "fov": "2",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/36902/1926_C1_3_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/36902/1926_C1_3_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/36902/1926_C1_3_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "THP-1",
+        "antibody": "CAB080348",
+        "uniprot": "P49916",
+        "fov": "1",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/80348/2140_B5_1_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/80348/2140_B5_1_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/80348/2140_B5_1_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "THP-1",
+        "antibody": "CAB080348",
+        "uniprot": "P49916",
+        "fov": "2",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/80348/2140_B5_2_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/80348/2140_B5_2_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/80348/2140_B5_2_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "THP-1",
+        "antibody": "CAB080311",
+        "uniprot": "P78423",
+        "fov": "1",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/80311/2139_A2_2_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/80311/2139_A2_2_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/80311/2139_A2_2_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "THP-1",
+        "antibody": "CAB080311",
+        "uniprot": "P78423",
+        "fov": "2",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/80311/2139_A2_3_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/80311/2139_A2_3_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/80311/2139_A2_3_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "THP-1",
+        "antibody": "CAB080375",
+        "uniprot": "O43490",
+        "fov": "1",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/80375/2140_G7_1_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/80375/2140_G7_1_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/80375/2140_G7_1_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "THP-1",
+        "antibody": "CAB080375",
+        "uniprot": "O43490",
+        "fov": "2",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/80375/2140_G7_2_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/80375/2140_G7_2_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/80375/2140_G7_2_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "THP-1",
+        "antibody": "HPA000505",
+        "uniprot": "P51854",
+        "fov": "1",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/505/1855_B10_23_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/505/1855_B10_23_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/505/1855_B10_23_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "THP-1",
+        "antibody": "HPA000505",
+        "uniprot": "P51854",
+        "fov": "2",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/505/1855_B10_27_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/505/1855_B10_27_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/505/1855_B10_27_yellow.tif.gz"
+        }
+      }
+    ],
+    "U-251MG": [
+      {
+        "cellLine": "U-251MG",
+        "antibody": "HPA023778",
+        "uniprot": "Q9NSG2",
+        "fov": "1",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/23778/236_E10_1_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/23778/236_E10_1_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/23778/236_E10_1_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "U-251MG",
+        "antibody": "HPA023778",
+        "uniprot": "Q9NSG2",
+        "fov": "2",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/23778/236_E10_2_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/23778/236_E10_2_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/23778/236_E10_2_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "U-251MG",
+        "antibody": "HPA038922",
+        "uniprot": "P08603",
+        "fov": "1",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/38922/599_A5_1_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/38922/599_A5_1_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/38922/599_A5_1_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "U-251MG",
+        "antibody": "HPA038922",
+        "uniprot": "P08603",
+        "fov": "2",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/38922/599_A5_2_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/38922/599_A5_2_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/38922/599_A5_2_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "U-251MG",
+        "antibody": "CAB009569",
+        "uniprot": "P48506",
+        "fov": "1",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/9569/923_H5_1_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/9569/923_H5_1_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/9569/923_H5_1_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "U-251MG",
+        "antibody": "CAB009569",
+        "uniprot": "P48506",
+        "fov": "2",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/9569/923_H5_3_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/9569/923_H5_3_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/9569/923_H5_3_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "U-251MG",
+        "antibody": "HPA036360",
+        "uniprot": "P48506",
+        "fov": "1",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/36360/430_C2_5_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/36360/430_C2_5_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/36360/430_C2_5_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "U-251MG",
+        "antibody": "HPA036360",
+        "uniprot": "P48506",
+        "fov": "2",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/36360/430_C2_6_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/36360/430_C2_6_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/36360/430_C2_6_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "U-251MG",
+        "antibody": "HPA024301",
+        "uniprot": "Q5TH74",
+        "fov": "1",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/24301/224_A6_1_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/24301/224_A6_1_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/24301/224_A6_1_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "U-251MG",
+        "antibody": "HPA024301",
+        "uniprot": "Q5TH74",
+        "fov": "2",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/24301/224_A6_2_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/24301/224_A6_2_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/24301/224_A6_2_yellow.tif.gz"
+        }
+      }
+    ],
+    "U2OS": [
+      {
+        "cellLine": "U2OS",
+        "antibody": "HPA004109",
+        "uniprot": "O43657",
+        "fov": "1",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/4109/23_H11_1_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/4109/1843_B2_17_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/4109/23_H11_1_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "U2OS",
+        "antibody": "HPA004109",
+        "uniprot": "O43657",
+        "fov": "2",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/4109/23_H11_2_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/4109/23_H11_2_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/4109/23_H11_2_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "U2OS",
+        "antibody": "HPA023778",
+        "uniprot": "Q9NSG2",
+        "fov": "1",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/23778/268_E10_1_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/23778/268_E10_1_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/23778/268_E10_1_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "U2OS",
+        "antibody": "HPA023778",
+        "uniprot": "Q9NSG2",
+        "fov": "2",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/23778/268_E10_2_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/23778/268_E10_2_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/23778/268_E10_2_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "U2OS",
+        "antibody": "HPA002024",
+        "uniprot": "P09769",
+        "fov": "1",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/2024/59_H5_1_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/2024/59_H5_1_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/2024/59_H5_1_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "U2OS",
+        "antibody": "HPA002024",
+        "uniprot": "P09769",
+        "fov": "2",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/2024/59_H5_2_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/2024/59_H5_2_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/2024/59_H5_2_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "U2OS",
+        "antibody": "HPA038922",
+        "uniprot": "P08603",
+        "fov": "1",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/38922/603_A5_1_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/38922/603_A5_1_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/38922/603_A5_1_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "U2OS",
+        "antibody": "HPA038922",
+        "uniprot": "P08603",
+        "fov": "2",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/38922/603_A5_2_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/38922/603_A5_2_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/38922/603_A5_2_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "U2OS",
+        "antibody": "CAB009569",
+        "uniprot": "P48506",
+        "fov": "1",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/9569/931_H5_3_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/9569/931_H5_3_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/9569/931_H5_3_yellow.tif.gz"
+        }
+      },
+      {
+        "cellLine": "U2OS",
+        "antibody": "CAB009569",
+        "uniprot": "P48506",
+        "fov": "2",
+        "sources": {
+          "blue": "https://images.proteinatlas.org/9569/931_H5_4_blue.tif.gz",
+          "red": "https://images.proteinatlas.org/9569/931_H5_4_red.tif.gz",
+          "yellow": "https://images.proteinatlas.org/9569/931_H5_4_yellow.tif.gz"
+        }
+      }
+    ]
+  }
+}

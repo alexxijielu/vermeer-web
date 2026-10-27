@@ -1,0 +1,11 @@
+torch==2.14.1
+onnx==1.23.2
+onnxruntime==1.31.0
+numpy==2.5.4
+scipy==1.18.1
+safetensors==0.8.0
+transformers==5.20.1
+huggingface-hub==1.33.0
+pillow==12.3.0
+scikit-image==0.26.0
+tifffile==2026.10.15

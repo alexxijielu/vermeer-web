@@ -1,0 +1,5 @@
+* text=auto
+web/assets/** -text
+licenses/** -text
+*.png binary
+*.npy binary

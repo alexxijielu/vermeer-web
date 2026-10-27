@@ -1,0 +1,38 @@
+{
+  "date": "2026-10-26",
+  "device": "AMD Radeon 860M integrated GPU (WebGPU: amd rdna-3)",
+  "systemRamGB": 63.3,
+  "precision": "FP32",
+  "embeddingMaxAbsoluteError": 4.023313522338867e-7,
+  "cachedGPTMaxAbsoluteErrors": [
+    0.0000286102294921875,
+    0.0000209808349609375,
+    0.00002288818359375,
+    0.00001430511474609375
+  ],
+  "decoderMaxAbsoluteError": 0.000017210841178894043,
+  "endToEnd": {
+    "sequenceResidues": 115,
+    "reference": "Rh30 field 1",
+    "seed": 42,
+    "temperature": 1,
+    "secondsExcludingInitialSetup": 41.1,
+    "secondRunSecondsExcludingInitialSetup": 36.9,
+    "width": 256,
+    "height": 256,
+    "finiteRawPixels": 65536,
+    "generatedTokens": 259,
+    "channelBoundaryTokens": [16387, 16391, 16392]
+  },
+  "interfaceChecks": {
+    "invalidCharactersRejected": true,
+    "multipleFastaRecordsRejected": true,
+    "cancellationProducesNoResult": true,
+    "noHorizontalOverflowAt375Pixels": true,
+    "jsonFinitePixelCount": 65536,
+    "jsonEmbeddingLength": 1152,
+    "pngBytes": 68157,
+    "pngSignatureValid": true
+  },
+  "note": "Single-device research-prototype check, not a 16 GB memory benchmark or biological validation."
+}

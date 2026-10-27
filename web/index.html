@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="A research prototype for browser-based protein localization prediction with Vermeer.">
+  <title>Vermeer</title>
+  <link rel="stylesheet" href="style.css">
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-DDN4WNM253"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'G-DDN4WNM253');
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#home">Skip to content</a>
+  <header>
+    <nav aria-label="Main navigation">
+      <a class="wordmark" href="#home">Vermeer</a>
+      <div><a href="#home">Home</a><a href="#results">Results</a><a href="#faq">FAQ</a><a href="https://github.com/microsoft/vermeer">Code</a></div>
+    </nav>
+  </header>
+  <main id="home">
+    <section class="introduction" aria-labelledby="title">
+      <svg class="mark" viewBox="0 0 144 112" aria-hidden="true">
+        <path d="M21 51 C29 36 43 31 62 34 C82 33 99 43 103 59 C108 76 94 93 76 99 C58 106 34 99 23 85 C14 74 14 62 21 51Z" fill="#edf3f8" stroke="#527a96" stroke-width="2"/>
+        <ellipse cx="51" cy="67" rx="14" ry="12" fill="#cbd9e6" stroke="#527a96" stroke-width="1.5"/>
+        <g fill="none" stroke="#39a365" stroke-linecap="round">
+          <path d="M31 55 C39 45 53 43 63 49" stroke-width="3"/>
+          <path d="M75 70 C78 80 68 90 55 89 C45 89 36 85 32 79" stroke-width="4"/>
+          <path d="M72 51 Q79 53 83 59" stroke-width="2.5"/>
+        </g>
+        <g fill="#39a365">
+          <circle cx="29" cy="66" r="2.5"/>
+          <circle cx="41" cy="45" r="2"/>
+          <circle cx="66" cy="80" r="2.5"/>
+          <circle cx="88" cy="73" r="2"/>
+          <circle cx="43" cy="82" r="2"/>
+        </g>
+        <g transform="translate(80 68) rotate(43)" stroke-linejoin="round">
+          <path d="M-3 -69 A3 3 0 0 1 3 -69 L4 -30 H-4Z" fill="#527a96" stroke="#355b75" stroke-width="1.5"/>
+          <rect x="-6" y="-31" width="12" height="14" rx="2" fill="#dbe4eb" stroke="#527a96" stroke-width="1.5"/>
+          <path d="M-5 -25 H5" stroke="#9aafbd" stroke-width="1.5"/>
+          <path d="M-5 -17 H5 L7 -7 Q7 0 -3 4 Q-1 -1 -5 -4 Q-8 -8 -5 -17Z" fill="#d8bd94" stroke="#75664f" stroke-width="1.5"/>
+          <path d="M-2 -15 L-1 -6 M2 -15 L3 -7" stroke="#b18f60" stroke-width="1"/>
+          <path d="M-5 -4 Q1 -7 7 -7 Q7 0 -3 4 Q-1 -1 -5 -4Z" fill="#39a365" stroke="#27824d" stroke-width="1.3"/>
+        </g>
+      </svg>
+      <h1 id="title">Vermeer</h1>
+      <p class="subtitle">Generate microscopy images showing how <br> proteins localize inside of human cells</p>
+      <hr>
+      <p>This is a web application implementing our Vermeer model, as described in our <a href="https://www.biorxiv.org/content/10.64898/2026.06.01.729395v1">NeurIPS paper</a>.
+      Vermeer accepts as input, landmark stain microscopy images showing a human cell and a protein sequence, and generates an image predicting how the protein will localize inside the cells.</p>
+      <p>Note that Vermeer is trained on wild-type human proteins, and may not always be accurate on proteins too different. In our testing, Vermeer can do a good job with larger mutagenesis (e.g. deletions of >10 residues), but is relatively insensitive to point mutations. Synthetic sequences are also hit-or-miss.</p>
+      <p>All sequences and images are stored on your local device, and are not visible to us or any external party. If you find this web app useful, we'd appreciate a citation - or better yet, email us to share your experience!</p>
+      <p><b>Note that this web application only supports Chrome and Edge browsers.</b></p>
+      <p>Source code and checkpoints are available in <a href="https://github.com/microsoft/vermeer">the Vermeer repository</a>.</p>
+    </section>
+
+    <section aria-labelledby="setup-title">
+      <h3 id="setup-title">Step 1: Set up the model</h3>
+      <p>This will download all model components and 10 landmark stain images per cell line in the Human Protein Atlas to your local device. You will be asked to supply a local folder - since you'll need to download more than >3.00 GB of data to run this model, this will store persistent components you can re-use every visit.</p>
+      <div class="form model-choice"><label for="model-variant">Vermeer model</label><select id="model-variant" aria-describedby="model-tradeoff"><option value="B">B — fastest, lowest memory (112M parameters)</option><option value="L">L — middle ground (344M parameters)</option><option value="XL" selected>XL — largest, slowest, highest memory (777M parameters)</option></select>
+      <p id="model-tradeoff" class="small">We've done the most extensive testing with XL, but B is the quickest way to try the tool. Larger models offer more capacity, but cost more time and memory; they do not guarantee a better prediction for every protein. Note that these models are run locally on your device, so if it's running slow or you don't have enough memory, try using a smaller model. </p>
+      <table class="model-table"><thead><tr><th scope="col">Model</th><th scope="col">Vermeer weights</th><th scope="col">Total download</th></tr></thead><tbody><tr><th scope="row">B</th><td>0.45 GB</td><td>3.00 GB</td></tr><tr><th scope="row">L</th><td>1.38 GB</td><td>3.93 GB</td></tr><tr><th scope="row">XL</th><td>3.11 GB</td><td>5.66 GB</td></tr></tbody></table></div>
+      <p id="folder-status" class="small" role="status">Choose an empty folder for a new download, or your existing local data folder.</p></div>
+      <div class="form">
+      <div class="actions"><button id="download-models" class="secondary" type="button">Specify local path and download files</button><button id="choose-models" class="secondary" type="button">Choose existing local folder</button></div>
+      <label for="data-folder">Local data folder</label><input id="data-folder" class="folder-path" type="text" readonly placeholder="No local folder selected" aria-describedby="folder-path-help">
+      <label for="reference-folder">Landmark image folder</label><input id="reference-folder" class="folder-path" type="text" readonly placeholder="Selected folder\references" aria-describedby="folder-path-help">
+      <p class="small">Once local paths are specified, set up the model with the below button. This needs to be run both on initial download, and whenever you reload the page.</p>
+      <button id="setup" type="button">Set up model</button>
+      <p id="setup-status" class="status" role="status">Model setup has not started.</p>
+      <progress id="setup-progress" hidden aria-label="Local file preparation progress"></progress>
+      <details class="technical"><summary>Model and device details</summary><pre id="device-info">No device checked yet.</pre></details>
+    </section>
+
+    <section aria-labelledby="sequence-title">
+      <h3 id="sequence-title">Step 2: Enter a protein sequence</h3>
+      <p>Paste a single amino-acid sequence, or one FASTA record.</p>
+      <div class="form">
+        <div class="uniprot-lookup"><label for="uniprot-id">Look up a protein in UniProt (optional)</label><div class="lookup-row"><input id="uniprot-id" type="text" maxlength="25" placeholder="P04637 or P53_HUMAN" autocomplete="off" spellcheck="false"><button id="uniprot-lookup" class="secondary" type="button">Get sequence</button></div><p class="small">Sends the accession or entry name to rest.uniprot.org.</p><p id="uniprot-status" class="small" role="status"></p></div>
+        <div class="label-row"><label for="sequence">Protein sequence</label><button id="example" class="text-button" type="button">Load example sequence</button></div>
+        <textarea id="sequence" rows="6" spellcheck="false" autocapitalize="characters" aria-describedby="sequence-help sequence-count" placeholder=">my_protein&#10;M..."></textarea>
+        <div class="label-row small"><span id="sequence-help">Standard amino acids and X; we accept sequences of 3–1,022 residues in this web application.</span><span id="sequence-count">0 residues</span></div>
+        <label for="fasta" class="file-label">Or select a FASTA file <input id="fasta" type="file" accept=".fasta,.fa,.faa,.txt"></label>
+        <label for="cell-line">Reference cell line / cell type</label>
+        <div class="reference-selectors"><div><select id="cell-line" disabled><option value="">Choose a local folder first</option></select></div><div><label for="reference-field">Reference image</label><select id="reference-field" disabled><option value="">Choose a local folder first</option></select></div></div>
+        <p class="small">Choose a cell line, then which one of ten fields to generate protein localization for. Blue shows the nucleus, red shows the microtubules, and yellow shows the ER.</p>
+        <figure class="reference-preview"><div class="image-frame"><img id="reference-preview" width="256" height="256" hidden alt="Selected TIFF-derived landmark field"><span id="preview-placeholder">Choose a reference field</span></div><figcaption id="reference-description">No reference selected.</figcaption></figure>
+        <p class="small">Landmark image credit: <a href="https://www.proteinatlas.org/">Human Protein Atlas</a>, <a href="https://doi.org/10.1126/science.aal3321">Thul et al., Science (2017)</a>. Adapted under <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>.</p>
+        <details><summary>(Advanced) Sampling settings for reproducibility/variability testing</summary><div class="settings"><label for="seed">Random seed<input id="seed" type="number" value="42" min="0" max="4294967295" step="1"></label><label for="temperature">Temperature<input id="temperature" type="number" value="1" min="0.1" max="2" step="0.1"></label></div><p class="small">Use the same random seed if you want to reproduce your previous prediction, or different ones if you want to assess how variable the generation is over seeds. The temperature setting controls how stochastic the generation is, with higher temperatures increasing stochasticity.</p></details>
+      </div>
+      <div class="actions"><button id="generate" type="button" disabled>Predict protein localization</button><button id="cancel" class="secondary" type="button" hidden>Cancel</button></div>
+      <p id="run-status" class="status" role="status">Set up the model before making a prediction.</p>
+      <progress id="run-progress" max="259" value="0" hidden aria-label="Prediction progress"></progress>
+      <p id="error" class="error" role="alert" hidden></p>
+    </section>
+
+    <section id="results" aria-labelledby="results-title">
+      <h3 id="results-title">Results</h3>
+      <div class="image-grid">
+        <figure><div class="image-frame"><img id="reference" width="256" height="256" alt="Rh30 landmark stains, awaiting model preparation" hidden><span id="reference-placeholder">Landmark stains</span></div><figcaption>Landmark stains<span class="channel-key"><span class="nucleus-key">Blue: nucleus</span> · <span class="microtubules-key">Red: microtubules</span> · <span class="er-key">Yellow: ER</span></span></figcaption></figure>
+        <figure><div class="image-frame"><canvas id="prediction" width="256" height="256" aria-label="Predicted protein fluorescence displayed in green" hidden></canvas><span id="prediction-placeholder">No prediction yet</span></div><figcaption>Predicted protein channel<span id="prediction-caption">Green: model-generated protein signal</span></figcaption></figure>
+      </div>
+      <p id="result-meta" class="small"></p>
+      <div id="downloads" class="actions" hidden><button id="download-image" class="secondary" type="button">Download predicted PNG</button><button id="download-zip" class="secondary" type="button">Download landmark + prediction ZIP</button></div>
+      <p class="small">You can download a ZIP file that contains all three landmark channels, their color composite, and the predicted protein channel in green and grayscale. PNGs are 256 × 256 and contrast-normalized for visualization (intensity should not be taken as correlated with expression).</p>
+    </section>
+
+    <section id="faq" aria-labelledby="faq-title">
+      <h3 id="faq-title">Frequently asked questions</h3>
+      <details><summary>Who can I contact with questions?</summary>
+        <p>This tool is maintained by <a href="https://alexluresearch.com">Alex Lu</a>. Send any questions, feedback, rants,
+        praise, or requests to collaboration to lualex [at] microsoft.com.</p></details>
+      <details><summary>How can I cite the results of this web application?</summary>
+        <p>The best way is to cite our forthcoming NeurIPS paper, currently hosted on <a href="https://www.biorxiv.org/content/10.64898/2026.06.01.729395v1">bioRxiv</a>.</p></details>
+      <details><summary>How accurate is Vermeer with human proteins?</summary>
+        <p>Based upon benchmarks we ran in our paper, when scored with SubCell Portable, an oracle that predicts the localization of proteins inside of microscopy images,
+          Vermeer achieves a Spearman correlation of 0.921 for proteins seen during training (but in unseen cell lines) and of 0.870 for proteins unseen during training,
+          when compared to real ground-truth antibody stains of these proteins.
+        </p></details>
+      <details><summary>How accurate is Vermeer with variants of human proteins or synthetic proteins?</summary>
+        <p>We're still figuring all of this out ourselves - look forward to a forthcoming paper - but in our testing so far, Vermeer does a reasonable job with larger
+          mutations to proteins (e.g. deletions of >10 residues). It doesn't do well with point mutations, which barely alter its predictions in most cases. Synthetic proteins
+          are hit-and-miss - we tried on synthetic IDRs, and while it can sometimes capture general localization patterns (e.g. localization to the nucleus), it often misses more
+          specific hierarchies of localization (e.g. localization to the nucleolus). Look forward to fine-tuned models that may address these issues.
+        </p></details>
+      <details><summary>Can I get higher resolution images?</summary>
+        <p>Not with the current model! But we are working on a model that should have 4x higher resolution, and look forward to that in a current release.
+        </p></details>
+      <details><summary>Why is sequence length limited?</summary><p>
+        This prototype accepts 3–1,022 residues to reduce memory usage, since it's all processed locally. If you need longer sequences,
+        run using our codebase.</p></details>
+      <details><summary>Why is this application so slow?</summary><p>
+        All computation happens locally in your own browser, so run time is constrained by your hardware! If you need something you can run in bulk, we recommend downloading the Github
+      code to run on your own server. The intention of this web app is to give biologists without a lot of experience in neural networks to have an accessible interface, so it's necessarily
+      lightweight and low-throughput. We're also planning on releasing large databases of pre-computed results, so look forwad to that in future work.</p></details>
+      <details><summary>Why are you making me download >3 GBs of files?</summary><p>
+        That's just how big the model and its associated data are! We're making you store this locally because otherwise your browser would have to cache this, and that means you might have to
+      download it every single time you reload the web page. Having you store it locally means you can use the same download every time you visit.</p></details>
+    </section>
+  </main>
+  <footer>
+    <p class="small">This site uses <a href="https://policies.google.com/privacy">Google Analytics</a> to measure visits and usage. We do not send protein sequences, generated images, or local folder contents to Google Analytics.</p>
+  </footer>
+  <script type="module" src="app.js"></script>
+</body>
+</html>
