@@ -4489,8 +4489,15 @@
         "fov": "1",
         "sources": {
           "blue": "https://images.proteinatlas.org/4109/23_H11_1_blue.tif.gz",
-          "red": "https://images.proteinatlas.org/4109/1843_B2_17_red.tif.gz",
+          "red": "https://images.proteinatlas.org/4109/23_H11_1_red.tif.gz",
           "yellow": "https://images.proteinatlas.org/4109/23_H11_1_yellow.tif.gz"
+        },
+        "sourceCorrections": {
+          "red": {
+            "metadataUrl": "https://images.proteinatlas.org/4109/1843_B2_17_cr5af971a263864red.tif.gz",
+            "usedUrl": "https://images.proteinatlas.org/4109/23_H11_1_red.tif.gz",
+            "reason": "The pinned metadata pairs a different field's microtubules with nucleus/ER from 23_H11_1; use the original TIFF from the matching field."
+          }
         }
       },
       {
