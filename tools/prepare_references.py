@@ -61,14 +61,31 @@ def select_fields(records):
         if len(fields) == FIELDS_PER_LINE:
             continue
         urls = {color: tiff_url(row[f"{color}_imageUrl"]) for color, _ in CHANNELS}
+        corrections = {}
+        if urls == {
+            "blue": "https://images.proteinatlas.org/4109/23_H11_1_blue.tif.gz",
+            "red": "https://images.proteinatlas.org/4109/1843_B2_17_red.tif.gz",
+            "yellow": "https://images.proteinatlas.org/4109/23_H11_1_yellow.tif.gz",
+        }:
+            urls["red"] = "https://images.proteinatlas.org/4109/23_H11_1_red.tif.gz"
+            corrections["red"] = {
+                "metadataUrl": row["red_imageUrl"], "usedUrl": urls["red"],
+                "reason": "The pinned metadata pairs a different field's microtubules with nucleus/ER from 23_H11_1; use the original TIFF from the matching field.",
+            }
+        stems = {re.sub(r"_(?:blue|red|yellow)\.tif\.gz$", "", url) for url in urls.values()}
+        if len(stems) != 1:
+            raise ValueError(f"Landmark channels refer to different fields for {name}: {urls}")
         unique = seen.setdefault(name, set())
         if urls["blue"] in unique:
             continue
         unique.add(urls["blue"])
-        fields.append({
+        field = {
             "cellLine": name, "antibody": row["antibody"],
             "uniprot": row["uniprot"], "fov": row["fov"], "sources": urls,
-        })
+        }
+        if corrections:
+            field["sourceCorrections"] = corrections
+        fields.append(field)
     short = {name: len(fields) for name, fields in selected.items() if len(fields) != FIELDS_PER_LINE}
     if short:
         raise ValueError(f"Not enough distinct TIFF fields for every cell type: {short}")

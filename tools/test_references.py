@@ -2,6 +2,7 @@ import gzip
 import hashlib
 import io
 import json
+import re
 import unittest
 from unittest.mock import patch
 
@@ -11,7 +12,7 @@ import torch
 from PIL import Image
 from skimage.exposure import rescale_intensity
 
-from prepare_references import OUTPUT, TOOLS, VQ_models, cell_slug, read_channel, select_rows, tiff_url
+from prepare_references import OUTPUT, TOOLS, VQ_models, cell_slug, read_channel, select_fields, select_rows, tiff_url
 
 
 class ReferenceTests(unittest.TestCase):
@@ -32,6 +33,8 @@ class ReferenceTests(unittest.TestCase):
                 self.assertNotIn(reference["sources"]["blue"], seen)
                 seen.add(reference["sources"]["blue"])
                 self.assertEqual(len(reference["prefix"]), 774)
+                stems = {re.sub(r"_(?:blue|red|yellow)\.tif\.gz$", "", url) for url in reference["sources"].values()}
+                self.assertEqual(len(stems), 1, f"Mixed landmark fields: {cell_line} / {item['index']}")
                 blue_hash = reference["provenance"]["nucleus"]["sha256"]
                 self.assertNotIn(blue_hash, seen_hashes)
                 seen_hashes.add(blue_hash)
@@ -76,7 +79,7 @@ class ReferenceTests(unittest.TestCase):
     def test_saved_tokens_match_official_tokenizer_inputs(self):
         vq = VQ_models["VQ-16"]().eval()
         vq.load_state_dict(torch.load(TOOLS / "checkpoints" / "vq_ds16_c2i.pt", map_location="cpu", weights_only=True)["model"], strict=True)
-        for cell_line, index in [("Rh30", 1), ("A-431", 3), ("HUVEC/TERT2", 10)]:
+        for cell_line, index in [("Rh30", 1), ("A-431", 3), ("HUVEC/TERT2", 10), ("U2OS", 1)]:
             reference = json.loads((OUTPUT / "references" / cell_slug(cell_line) / f"{index:02}.json").read_text())
             pixels = np.stack([np.array(Image.open(OUTPUT / name)) for name in reference["images"][1:]])
             inputs = torch.from_numpy(pixels.copy()).unsqueeze(1).repeat(1, 3, 1, 1).to(torch.float32).div(255).sub(0.5).div(0.5)
@@ -87,6 +90,34 @@ class ReferenceTests(unittest.TestCase):
     def test_jpeg_sources_are_never_accepted(self):
         with self.assertRaises(ValueError):
             tiff_url("https://images.proteinatlas.org/example.jpg")
+
+    def test_u2os_first_field_uses_matching_microtubules_with_auditable_correction(self):
+        selected = select_rows()["U2OS"][0]
+        self.assertEqual(selected["sources"]["red"], "https://images.proteinatlas.org/4109/23_H11_1_red.tif.gz")
+        correction = selected["sourceCorrections"]["red"]
+        self.assertIn("1843_B2_17", correction["metadataUrl"])
+        self.assertEqual(correction["usedUrl"], selected["sources"]["red"])
+        reference = json.loads((OUTPUT / "references" / "U2OS" / "01.json").read_text())
+        self.assertEqual(reference["sourceCorrections"], selected["sourceCorrections"])
+        self.assertEqual(reference["sources"], selected["sources"])
+        self.assertEqual(reference["provenance"]["microtubules"]["url"], selected["sources"]["red"])
+        self.assertEqual(reference["provenance"]["microtubules"]["sha256"], "a82a78ff72214ab3f223ce3ae93060d4d0ccc647ba96f6327bb90be8a4bc233e")
+
+    def test_unknown_mixed_fields_fail_instead_of_silently_substituting_a_channel(self):
+        row = {
+            "cell_line": "U2OS", "antibody": "HPA004109", "uniprot": "O43657", "fov": "1",
+            "blue_imageUrl": "https://images.proteinatlas.org/4109/unknown_1_blue.tif.gz",
+            "red_imageUrl": "https://images.proteinatlas.org/4109/1843_B2_17_red.tif.gz",
+            "yellow_imageUrl": "https://images.proteinatlas.org/4109/unknown_1_yellow.tif.gz",
+        }
+        with patch("prepare_references.FIELDS_PER_LINE", 1):
+            with self.assertRaisesRegex(ValueError, "different fields"):
+                select_fields([row])
+            row["blue_imageUrl"] = "https://images.proteinatlas.org/4109/1843_B2_17_blue.tif.gz"
+            row["yellow_imageUrl"] = "https://images.proteinatlas.org/4109/1843_B2_17_yellow.tif.gz"
+            selected = select_fields([row])["U2OS"][0]
+            self.assertEqual(selected["sources"]["red"], row["red_imageUrl"])
+            self.assertNotIn("sourceCorrections", selected)
 
 
 class PreprocessingTests(unittest.TestCase):

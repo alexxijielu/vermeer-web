@@ -8005,20 +8005,20 @@
       "sha256": "ab576b2a2a13ab1ac62661cb1ccd587224b520f2ffedf12b60c87f32b9476e74"
     },
     "references/U2OS/01.json": {
-      "bytes": 11825,
-      "sha256": "e3f557ec164b8a4cb437a8ac02350eb4d68258258efae07b7dc60e3918d89c07"
+      "bytes": 12183,
+      "sha256": "d620e7a145f1dad87204ed47ecccb8482b7b9a5843f7a245e2c78098e986ee03"
     },
     "references/U2OS/01/reference.png": {
-      "bytes": 139080,
-      "sha256": "a66dc90ef8c85b41e219c8d302ba5aa37c2f8316ebc5ec1ae9fc456b3808fc02"
+      "bytes": 124515,
+      "sha256": "0d116b8a8cc626433e87f2bce0433220983b3e19e8336cc74a078bfe0063a0ed"
     },
     "references/U2OS/01/landmark-nucleus.png": {
       "bytes": 28667,
       "sha256": "6311148300357672c3368906b58a287fb6bc4ee28952382802892c3858972a02"
     },
     "references/U2OS/01/landmark-microtubules.png": {
-      "bytes": 57312,
-      "sha256": "111a4792a41ecbf2724c7bd8504a1f5c54eeb3bbbc90fb4a3d2618d7aec984e4"
+      "bytes": 47665,
+      "sha256": "72c9cf0f3336b2441422a021d09b4f51e3124bdbdc2b7feb0042de6dcc034ffa"
     },
     "references/U2OS/01/landmark-er.png": {
       "bytes": 39744,
@@ -10262,7 +10262,7 @@
     "references/U2OS/10/landmark-microtubules.png",
     "references/U2OS/10/landmark-er.png"
   ],
-  "browserBytes": 91174738,
+  "browserBytes": 91150884,
   "tokenizer": {
     "name": "LlamaGen VQ-16",
     "checkpointSha256": "109aa8afb2cf3761eec23cdc8644154cb498f5ab7eef2a35264d25e5e0499f7d"
